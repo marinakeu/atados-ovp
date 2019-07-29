@@ -20,7 +20,7 @@ class RRPContentFlow(BaseContentFlow):
     if model_class == Project:
       return SQ(organization__in=self.organizations_id)
     elif model_class == Organization:
-      return SQ(id__in=self.organizations_id)
+      return SQ(org_id__in=self.organizations_id)
 
     raise NoContentFlow
 

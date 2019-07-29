@@ -14,33 +14,24 @@ class RRPContentFlow(BaseContentFlow):
   destination = "default"
 
   def __init__(self):
-    try:
-      self.category_id = Category.objects.get(slug="export-to-boehringer").pk
-    except:
-      self.category_id = None
+    self.organizations_id = [45, 1780, 2120]
 
   def get_filter_searchqueryset_q_obj(self, model_class):
-    if not self.category_id:
-      raise NoContentFlow
-
     if model_class == Project:
-      return SQ(categories=self.category_id)
+      return SQ(organization__in=self.organizations_id)
     elif model_class == Organization:
-      return SQ(projects_categories=self.category_id)
+      return SQ(id__in=self.organizations_id)
 
     raise NoContentFlow
 
   def get_filter_queryset_q_obj(self, model_class):
-    if not self.category_id:
-      raise NoContentFlow
-
     if model_class == Project:
-      return Q(categories=self.category_id)
+      return Q(organization__in=self.organizations_id)
     elif model_class == Organization:
-      return Q(project__categories=self.category_id)
+      return Q(pk__in=self.organizations_id)
     elif model_class == Apply:
-      return Q(project__categories=self.category_id)
+      return Q(project__organization_id__in=self.organizations_id)
 
     raise NoContentFlow
 
-#CFM.add_flow(RRPContentFlow())
+CFM.add_flow(RRPContentFlow())

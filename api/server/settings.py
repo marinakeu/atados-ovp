@@ -60,6 +60,7 @@ INSTALLED_APPS = get_core_apps() + [
     'channels.default',
     'channels.boehringer',
     'channels.rrp',
+    'channels.icn',
     'ckeditor',
     'oauth2_provider',
     'social_django',

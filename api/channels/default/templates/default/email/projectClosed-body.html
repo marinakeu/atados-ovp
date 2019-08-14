@@ -7,6 +7,12 @@
   <p>
     Informamos que, para manter o site sempre atualizado, nós arquivamos a ação <b>{{ project.name }}</b> e ela não está mais disponível para inscrições.
   </p>
+  <p>
+    Aproveite este momento para publicar depoimentos e fotos sobre como foi sua ação em nosso site!
+  </p>
+  <p>
+    <a href="https://atados.com.br/{% if project.organization %}ong/{{project.organization.slug}}/{% else %}minhas-vagas/{% endif %}vaga/{{ project.slug }}" class="button">PUBLICAR</a>
+  </p>
 
   <p>Abraço, equipe Atados</p>
 {% endblock %}

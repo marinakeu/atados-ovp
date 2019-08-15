@@ -33,6 +33,8 @@ CORS_ORIGIN_WHITELIST = [
   'https://voluntariadotransforma.com.br',
   'http://voluntariadotransforma.com.br',
   'https://rederealpanorama.com.br',
+  'https://transformazn.com.br',
+  'https://www.transformazn.com.br',
 ]
 
 # Secret key

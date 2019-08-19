@@ -35,6 +35,7 @@ CORS_ORIGIN_WHITELIST = [
   'https://rederealpanorama.com.br',
   'https://transformazn.com.br',
   'https://www.transformazn.com.br',
+  'https://channel-client-base.pacheco.now.sh',
 ]
 
 # Secret key

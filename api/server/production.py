@@ -23,20 +23,34 @@ ALLOWED_HOSTS = ['api.beta.atados.com.br', '.admin.beta.atados.com.br', 'v2.api.
 # Cors
 CORS_ORIGIN_WHITELIST = [
   'http://localhost:8080',
-  'http://integrinodejs.mybluemix.net',
-  'https://integrinodejs.mybluemix.net',
+  'http://localhost:3000',
   'https://atados.com.br',
-  'https://integri.org',
   'https://www.atados.com.br',
   'https://beta.atados.com.br',
-  'http://localhost:3000',
+
+  #
+  'https://integri.org',
+  'http://integrinodejs.mybluemix.net',
+  'https://integrinodejs.mybluemix.net',
+
+  #
   'https://voluntariadotransforma.com.br',
   'http://voluntariadotransforma.com.br',
+
+  #
   'https://rederealpanorama.com.br',
+
+  #
   'https://transformazn.com.br',
   'https://www.transformazn.com.br',
   'http://35.199.70.179', #transformazn
   'https://channel-client-base.pacheco.now.sh',
+
+  #
+  'https://www.ambev.com.br',
+  'https://novahaus-ambev-novo.adttemp.com.br',
+  'https://ambev-institucional.hmlg.novahaus.com.br',
+  'https://ambev.working',
 ]
 
 # Secret key

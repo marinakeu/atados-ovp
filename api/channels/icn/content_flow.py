@@ -10,28 +10,32 @@ from ovp.apps.channels.content_flow import NoContentFlow
 from ovp.apps.channels.content_flow import CFM
 
 class ICNContentFlow(BaseContentFlow):
-  source = "rrp"
-  destination = "default"
+  source = "default"
+  destination = "icn"
 
   def __init__(self):
-    self.organizations_id = [45, 1780, 2120]
+    try:
+      self.category_id = Category.objects.get(slug="instituto-center-norte").pk
+    except:
+      self.category_id = None
 
   def get_filter_searchqueryset_q_obj(self, model_class):
     if model_class == Project:
-      return SQ(organization__in=self.organizations_id)
+      return SQ(organization_categories=self.category_id)
+
     elif model_class == Organization:
-      return SQ(org_id__in=self.organizations_id)
+      return SQ(categories=self.category_id)
 
     raise NoContentFlow
 
   def get_filter_queryset_q_obj(self, model_class):
     if model_class == Project:
-      return Q(organization__in=self.organizations_id)
+      return Q(organization__categories=self.organizations_id)
     elif model_class == Organization:
-      return Q(pk__in=self.organizations_id)
+      return Q(categories=self.organizations_id)
     elif model_class == Apply:
-      return Q(project__organization_id__in=self.organizations_id)
+      return Q(project__organization__categories=self.organizations_id)
 
     raise NoContentFlow
 
-#CFM.add_flow(RRPContentFlow())
+CFM.add_flow(ICNContentFlow())

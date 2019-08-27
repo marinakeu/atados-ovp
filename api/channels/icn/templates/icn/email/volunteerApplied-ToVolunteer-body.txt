@@ -19,5 +19,5 @@
   RECADO IMPORTANTÍSSIMO!
   Não precisamos nem te lembrar da importância do seu comprometimento daqui pra frente, né? Voluntariado é muito legal, mas não é bagunça. Responda o pessoal direitinho e não esqueça de avisar caso não possa comparecer.
 
-  Equipe Rede Real Panorama
+  Equipe Transforma ZN
 {% endblock content %}

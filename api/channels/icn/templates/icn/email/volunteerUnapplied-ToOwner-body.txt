@@ -9,5 +9,5 @@
   Lembre-se de manter contato com seus voluntários, ok?
   Bom trabalho lá!
 
-  Abraço, equipe Rede Real Panorama
+  Abraço, equipe Transforma ZN
 {% endblock content %}

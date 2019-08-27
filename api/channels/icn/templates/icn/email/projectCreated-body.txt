@@ -5,5 +5,5 @@
 
   Estamos analisando o conteúdo e detalhes da vaga e em até 48 horas aprovaremos a publicação na plataforma ou entraremos em contato com você.
 
-  Equipe Rede Real Panorama
+  Equipe Transforma ZN
 {% endblock content %}

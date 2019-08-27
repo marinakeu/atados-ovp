@@ -4,5 +4,5 @@
   Novo membro na organização
   O usuário {{user.name}}({{user.email}}) agora faz parte da organização {{organization.name}}.
 
-  Equipe Rede Real Panorama
+  Equipe Transforma ZN
 {% endblock content %}

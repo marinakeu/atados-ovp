@@ -7,5 +7,5 @@
 
  	Esperamos que você ache outra vaga em outro site para se voluntariar =)
 
-  Equipe Rede Real Panorama.
+  Equipe Transforma ZN.
 {% endblock content %}

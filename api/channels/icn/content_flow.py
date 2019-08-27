@@ -30,11 +30,11 @@ class ICNContentFlow(BaseContentFlow):
 
   def get_filter_queryset_q_obj(self, model_class):
     if model_class == Project:
-      return Q(organization__categories=self.organizations_id)
+      return Q(organization__categories=self.category_id)
     elif model_class == Organization:
-      return Q(categories=self.organizations_id)
+      return Q(categories=self.category_id)
     elif model_class == Apply:
-      return Q(project__organization__categories=self.organizations_id)
+      return Q(project__organization__categories=self.category_id)
 
     raise NoContentFlow
 

@@ -1,5 +1,7 @@
 from haystack.query import SQ
 from django.db.models import Q
+from ovp.apps.core.models import Cause
+from ovp.apps.core.models import Skill
 from ovp.apps.projects.models import Category
 from ovp.apps.projects.models import Project
 from ovp.apps.projects.models import Apply
@@ -29,7 +31,9 @@ class ICNContentFlow(BaseContentFlow):
     raise NoContentFlow
 
   def get_filter_queryset_q_obj(self, model_class):
-    if model_class == Project:
+    if model_class in [Cause, Skill]:
+      return Q()
+    elif model_class == Project:
       return Q(organization__categories=self.category_id)
     elif model_class == Organization:
       return Q(categories=self.category_id)

@@ -214,3 +214,31 @@ ul.checklist > li > p {
 }
 
 .text-orange {  color: #FE8A00;  }
+
+.digest .item {
+  clear: both;
+  margin-bottom: 20px;
+}
+
+.digest a {
+  text-decoration: none;
+}
+
+.digest .item img {
+  width: 120px;
+  height: 89px;
+  background: #ccc;
+  border: 0px solid;
+  float: left;
+  margin-right: 10px;
+}
+
+.digest .item h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.digest .item h4 {
+  font-size: 14px;
+  font-weight: normal;
+}

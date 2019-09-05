@@ -54,7 +54,7 @@ CORS_ORIGIN_WHITELIST = [
 
   #
   'https://demo.atados.now.sh',
-  'https://channel.atados.now.sh',
+  'https://channel.atados.now.sh'
 ]
 
 # Secret key

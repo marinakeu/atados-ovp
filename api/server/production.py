@@ -51,6 +51,10 @@ CORS_ORIGIN_WHITELIST = [
   'https://novahaus-ambev-novo.adttemp.com.br',
   'https://ambev-institucional.hmlg.novahaus.com.br',
   'https://ambev.working',
+
+  #
+  'https://demo.atados.now.sh',
+  'https://channel.atados.now.sh',
 ]
 
 # Secret key

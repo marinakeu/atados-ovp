@@ -1,0 +1,9 @@
+{% extends extend.txt %}
+
+{% block content %}
+  Você foi convidado para gerenciar a organização {{invite.organization.name}} no site do Transforma ZN.
+  Aceitar convite: https://transformazn.com.br/ong/{{ invite.organization.slug }}/participar?user_slug={{ invite.invited.slug }}
+
+
+  Equipe Transforma ZN
+{% endblock content %}

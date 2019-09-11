@@ -12,7 +12,10 @@ migrate:
 	@python api/manage.py migrate
 
 run:
-	@python api/manage.py runserver 0.0.0.0:8000 
+	@python api/manage.py runserver 0.0.0.0:8000
+
+test:
+	@python api/manage.py test
 
 setup: deps migrate run
 

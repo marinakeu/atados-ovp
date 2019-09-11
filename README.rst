@@ -36,17 +36,9 @@ Installing
     git clone https://github.com/atados/atados-ovp.git
     cd atados-ovp
 
-3. Install project dependencies::
+3. Install project dependencies, run migrations and run the project:
 
-    pip install requirements.txt
-
-4. Run migrations::
-
-    ./manage.py migrate
-
-4. Now you should be able to run the project::
-
-    ./manage.py runserver
+    make setup
 
 Your server should be now running on localhost:8000.
 
@@ -56,7 +48,7 @@ To test all modules
 
 ::
 
-./manage.py test
+make test
 
 Built with
 ---------------

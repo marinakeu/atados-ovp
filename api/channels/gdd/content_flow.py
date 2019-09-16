@@ -31,7 +31,7 @@ class GDDContentFlow(BaseContentFlow):
     raise NoContentFlow
 
   def get_filter_queryset_q_obj(self, model_class):
-    elif model_class == Project:
+    if model_class == Project:
       return Q(organization__categories=self.category_id)
     elif model_class == Organization:
       return Q(categories=self.category_id)

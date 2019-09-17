@@ -18,4 +18,9 @@ pytest-django
 pytest-pythonpath
 sentry-sdk==0.10.2
 -e git://github.com/leonardoarroyo/django-gcloud-storage.git@b9c4b225d95b5c380df11d10d94e5cd076f4f4d6#egg=django_gcloud_storage
+<<<<<<< HEAD
 python-dotenv==0.10.3
+=======
+python-dotenv==0.10.3
+psycopg2==2.8.3
+>>>>>>> adicionado python-dotenv ao projeto visando facilitar o uso de variaveis de ambientes; adicionado psycopg2 ao projeto como biblioteca de uso do postgresql; criado .env.example e feito o settings utilizar algumas variaveis do .env; adicionado novas dependências ao requirements.txt; consertado falha ao rodar runtests.py

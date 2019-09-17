@@ -19,6 +19,8 @@ from ovp import get_core_apps
 from dotenv import load_dotenv
 from django.utils.translation import gettext_lazy as _
 
+from dotenv import load_dotenv
+
 try:
     with open('/env', 'r') as f:
         env = f.read().strip()

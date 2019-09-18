@@ -1,0 +1,8 @@
+{% extends extend.txt %}
+
+{% block content %}
+  Example newsletter message
+  {% for project in projects %}
+    {{ project.name }}
+  {% endfor %}
+{% endblock %}

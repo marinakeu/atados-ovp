@@ -20,8 +20,11 @@ def schedule_ask_project_interaction_to_volunteer(sender, *args, **kwargs):
   instance = kwargs["instance"]
 
   if instance.channel.slug == "default" and kwargs["created"] and not kwargs["raw"]:
+    eta = timezone.now() + timedelta(days=7)
+    if instance.user.email="arroyo@atados.com.br":
+      eta = timezone.now() + timedelta(minutes=2)
     tasks.send_ask_project_interaction_confirmation_to_volunteer.apply_async(
-      eta=timezone.now() + timedelta(days=7),
+      eta=eta,
       kwargs={"apply_pk": instance.pk},
     )
 post_save.connect(schedule_ask_project_interaction_to_volunteer, sender=Apply)

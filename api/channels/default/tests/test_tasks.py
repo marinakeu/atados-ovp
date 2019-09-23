@@ -13,7 +13,7 @@ from ovp.apps.projects.models import Apply
 from ovp.apps.projects.models import Job
 from ovp.apps.projects.models import Work
 
-from server.celery import app
+from server.celery_tasks import app
 
 @override_settings(DEFAULT_SEND_EMAIL="sync",
                     CELERY_TASK_EAGER_PROPAGATES_EXCEPTIONS=True,

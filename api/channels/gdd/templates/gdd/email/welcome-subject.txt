@@ -1,1 +1,1 @@
-Eba! Seu cadastro foi feito com sucesso
+{% load i18n %}{% blocktrans %}Congrats! Your registration was successful.{% endblocktrans %}

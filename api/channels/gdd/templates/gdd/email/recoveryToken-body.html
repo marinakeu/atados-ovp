@@ -1,16 +1,17 @@
 {% extends extend.html %}
+{% load i18n %}
 
 {% block content %}
-  <h1>Recuperação de senha</h1>
+  <h1>{% blocktrans %}Password Reset{% endblocktrans %}</h1>
   <p>
-    Olá! Você clicou em recuperar senha na plataforma Transforma ZN. Clique abaixo para redefinir sua senha:
+    {% blocktrans %}Hello! You clicked password reset on Good Deeds Day platform. Click below to reset your password:{% endblocktrans %}
   </p>
   <p>
-    <a href="https://transformazn.com.br/recuperar-senha?token={{ token.token }}" class="btn btn-pink btn-large">
-      Recuperar senha
+    <a href="https://www.atados.com.br/recuperar-senha?token={{ token.token }}" class="btn btn-pink btn-large">
+      {% blocktrans %}Reset Password{% endblocktrans %}
     </a>
   </p>
-  <p>Caso não tenha feito esta solicitação, ignore este e-mail.</p>
-  <p>Qualquer dúvida, crítica ou sugestão, fale com a gente. ;)</p>
-  <p><b>Equipe Transforma ZN</b></p>
+  <p>{% blocktrans %}If you did not make this request, please ignore this e-mail.{% endblocktrans %}</p>
+  <p>{% blocktrans %}Any enquiries, criticisms or suggestions, talk to us. ;){% endblocktrans %}</p>
+  <p><b>{% blocktrans %}Good Deeds Day Team{% endblocktrans %}</b></p>
 {% endblock %}

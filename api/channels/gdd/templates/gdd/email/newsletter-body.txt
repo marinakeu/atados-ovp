@@ -1,5 +1,0 @@
-{% extends extend.html %}
-
-{% block content %}
-  Example newsletter message
-{% endblock %}

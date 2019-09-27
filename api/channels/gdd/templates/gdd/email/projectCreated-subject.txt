@@ -1,1 +1,1 @@
-Cadastro de vaga recebido com sucesso!
+{% load i18n %}{% blocktrans %}Vacancy registration successfully received!{% endblocktrans %}

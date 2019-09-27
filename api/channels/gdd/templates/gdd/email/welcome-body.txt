@@ -1,16 +1,18 @@
 {% extends extend.txt %}
+{% load i18n %}
 
 {% block content %}
-  Boas vindas :)
+  {% blocktrans %}Welcome :){% endblocktrans %}
 
-  Seu cadastro foi um sucesso e agora você faz parte da Transforma ZN, uma rede viva de colaboradores e organizações sociais que se conectam e se mobilizam pelas causas sociais mais diversas para transformar.
+  {% blocktrans %}Your registration was successful and now you are part of Good Deeds Day, a lively network of people and social organizations that connects and mobilizes diverse causes (and in the most diverse ways too) to transform.{% endblocktrans %}
 
-  O próximo passo agora é seu... e é muito importante!
+  {% blocktrans %}The next step is yours... and it is so important!{% endblocktrans %}
 
-  Temos diversas vagas abertas no site, você só precisa encontar a que tem mais a sua cara ;)
+  {% blocktrans %}We have hundreds of volunteer vacancies on the site, and you need to find the right ones for you. ;){% endblocktrans %}
 
-  https://transformazn.com.br/vagas ENCONTRE VAGAS DE VOLUNTARIADO
+  https://global.good-deeds-day.org/vagas
+  {% blocktrans %}Find Volunteer Vacancies{% endblocktrans %}
 
-  Equipe Transforma ZN
+  {% blocktrans %}Good Deeds Day Team{% endblocktrans %}
 {% endblock %}
 

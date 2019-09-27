@@ -1,17 +1,18 @@
 {% extends extend.html %}
+{% load i18n %}
 
 {% block content %} 
-  <h1>Nova inscrição :)</h1>
+  <h1>{% blocktrans %}New application :){% endblocktrans %}</h1>
 
-  <p>Oi, uma nova pessoa se inscreveu na vaga <b>{{apply.project.name}}</b>!</p>
+  <p>{% blocktrans with apply.project.name as project_name %}Hi, a new person applied for the vacancy <b>{{ project_name }}</b>!{% endblocktrans %}</p>
 
-  <p><b>Nome:</b>{{ apply.user.name }}</p>
-  <p><b>Email:</b>{{ apply.user.email }}</p>
-  <p><b>Telefone:</b>{{ apply.user.phone }}</p> 
+  <p><b>{% blocktrans %}Name:{% endblocktrans %}</b> {{ apply.user.name }}</p>
+  <p><b>{% blocktrans %}Email:{% endblocktrans %}</b> {{ apply.user.email }}</p>
+  <p><b>{% blocktrans %}Phone:{% endblocktrans %}</b> {{ apply.user.phone }}</p> 
 
-  <p>Agora é com vocês! Clique no botão aqui em baixo pra entrar em contato com ela, o mais rápido possível, e combinar os próximos passos.</p>
+  <p>{% blocktrans %}Now, it's up to you! Click the button below to get in touch with the volunteer as soon as possible and arrange the next steps.{% endblocktrans %}</p>
 
-  <p><a href="mailto:{{ apply.user.email }}" class="button">RESPONDA O(A) VOLUNTÁRIO(A)</a></p>
+  <p><a href="mailto:{{ apply.user.email }}" class="button">{% blocktrans %}REPLY TO THE VOLUNTEER{% endblocktrans %}</a></p>
 
-  <p><b>Equipe Transforma ZN</b></p>
+  <p><b>{% blocktrans %}Good Deeds Day Team{% endblocktrans %}</b></p>
 {% endblock %}

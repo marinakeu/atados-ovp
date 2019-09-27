@@ -1,1 +1,1 @@
-Eba! Uma nova inscrição na vaga de vocês
+{% load i18n %}{% blocktrans %}Yay! A new application for your vacancy{% endblocktrans %}

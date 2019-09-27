@@ -1,1 +1,1 @@
-Publicamos a vaga de vocês
+{% load i18n %}{% blocktrans %}We published your vacancy{% endblocktrans %}

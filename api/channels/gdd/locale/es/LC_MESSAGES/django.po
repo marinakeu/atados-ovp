@@ -1,0 +1,583 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-27 14:31-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: templates/gdd/email/projectClosed-body.html:5
+#: templates/gdd/email/projectClosed-body.txt:5
+msgid "Hello,"
+msgstr "Hola,"
+
+#: templates/gdd/email/projectClosed-body.html:7
+#: templates/gdd/email/projectClosed-body.txt:7
+msgid "Thank you for using our platform for your volunteer action."
+msgstr ""
+"Gracias por utilizar nuestra plataforma para su vacante de voluntariado."
+
+#: templates/gdd/email/projectClosed-body.html:9
+#: templates/gdd/email/projectClosed-body.txt:9
+#, python-format
+msgid ""
+"Please be informed that in order to keep the site up-to-date we have filed "
+"the <b>%(project_name)s</b> action and it is no longer available for "
+"subscriptions."
+msgstr ""
+"Informamos que: para mantener el sitio web siempre actualizado, archivaremos "
+"la vacante <b>%(project_name)s</b> y ella no estará más disponible para "
+"inscripciones."
+
+#: templates/gdd/email/projectClosed-body.html:12
+#: templates/gdd/email/projectClosed-body.txt:12
+#: templates/gdd/email/projectCreated-body.html:13
+#: templates/gdd/email/projectCreated-body.txt:9
+#: templates/gdd/email/projectPublished-body.html:28
+#: templates/gdd/email/projectPublished-body.txt:22
+#: templates/gdd/email/recoveryToken-body.html:16
+#: templates/gdd/email/recoveryToken-body.txt:13
+#: templates/gdd/email/volunteerApplied-ToOwner-body.html:17
+#: templates/gdd/email/volunteerApplied-ToOwner-body.txt:16
+#: templates/gdd/email/volunteerApplied-ToVolunteer-body.html:22
+#: templates/gdd/email/volunteerApplied-ToVolunteer-body.txt:22
+#: templates/gdd/email/welcome-body.html:18
+#: templates/gdd/email/welcome-body.txt:16
+msgid "Good Deeds Day Team"
+msgstr "Equipo de Día de las Buenas Acciones"
+
+#: templates/gdd/email/projectClosed-subject.txt:1
+msgid "Your vacancy has been closed."
+msgstr "Su vacante fue cerrada"
+
+#: templates/gdd/email/projectCreated-body.html:5
+#: templates/gdd/email/projectCreated-body.txt:5
+#, python-format
+msgid ""
+"Hello, the vacancy registration <b>%(project_name)s</b> was successfully "
+"received!"
+msgstr ""
+"Hola, ¡el registro de la vacante <b>%(project_name)s</b> ha sido recibido "
+"con éxito!"
+
+#: templates/gdd/email/projectCreated-body.html:7
+#: templates/gdd/email/projectCreated-body.txt:6
+msgid ""
+"We are reviewing the vacancy content and details, and within 48 hours we "
+"will approve posting on the platform or contact you."
+msgstr ""
+"Estamos analizando el contenido y detalles de la vacante y en el pazo de 48 "
+"horas aprobaremos la publicación en la plataforma o entraremos en contacto "
+"con usted."
+
+#: templates/gdd/email/projectCreated-body.html:10
+#: templates/gdd/email/projectCreated-body.txt:7
+msgid "Any inquiries, send an email to contato@atados.com.br and talk to us."
+msgstr ""
+"Cualquier duda, envie un e-mail para contato@atados.com.br y hable con "
+"nosotros."
+
+#: templates/gdd/email/projectCreated-subject.txt:1
+msgid "Vacancy registration successfully received!"
+msgstr "¡Registro de la vacante recibida con éxito!"
+
+#: templates/gdd/email/projectPublished-body.html:5
+#: templates/gdd/email/projectPublished-body.txt:5
+msgid "Published Vacancy :)"
+msgstr "Vacante publicada :)"
+
+#: templates/gdd/email/projectPublished-body.html:7
+#: templates/gdd/email/projectPublished-body.txt:7
+#, python-format
+msgid ""
+"Hello, the vacancy <b>%(project_name)s</b> is online! You can now share it "
+"on your social media networks."
+msgstr ""
+"Hola, la vacante <b>%(project_name)s</b> ¡está en el aire! Usted ya puede "
+"divulgarla en sus redes sociales. Nosotros también vamos a intentar que "
+"lluevan  inscripciones."
+
+#: templates/gdd/email/projectPublished-body.html:9
+#: templates/gdd/email/projectPublished-body.txt:8
+msgid "You will receive a new email every time any volunteer signs up."
+msgstr ""
+"Ustedes recibirán un nuevo e-mail cada vez que algún(a) valuntario(a) se "
+"inscriba."
+
+#: templates/gdd/email/projectPublished-body.html:11
+#: templates/gdd/email/projectPublished-body.txt:9
+msgid ""
+"After that, there's no more, it's up to you! You need to contact the "
+"volunteers and arrange the next steps. Make sure to do that fast, for the "
+"people not to be discouraged!"
+msgstr ""
+"¡Después de aquí, ni modo, es con ustedes! Precisa entrar en contacto y "
+"combinar los próximos pasos. Garantizando que sea rápido, para que la "
+"persona no se desanime."
+
+#: templates/gdd/email/projectPublished-body.html:13
+#: templates/gdd/email/projectPublished-body.txt:11
+msgid "HOT TIPS"
+msgstr "PISTAS CALIENTES"
+
+#: templates/gdd/email/projectPublished-body.html:17
+#: templates/gdd/email/projectPublished-body.txt:13
+msgid "Before the action"
+msgstr "Antes de la vacante"
+
+#: templates/gdd/email/projectPublished-body.html:18
+#: templates/gdd/email/projectPublished-body.txt:14
+msgid ""
+"Set up a standard email, with all the important information, to make it "
+"easier for applicants to respond, prepare for training and respond quickly "
+"to subscribers."
+msgstr ""
+"Elaboren un patrón de e-mail, con todas las informaciones importantes, para "
+"facilitar a la hora de responderle a las personas que se inscriban en esta "
+"vacante, preparen una capacitación y respondan rápidamente a los(las) "
+"inscritos(as) ."
+
+#: templates/gdd/email/projectPublished-body.html:21
+#: templates/gdd/email/projectPublished-body.txt:16
+msgid "During the action"
+msgstr "En la vacante "
+
+#: templates/gdd/email/projectPublished-body.html:22
+#: templates/gdd/email/projectPublished-body.txt:17
+msgid ""
+"Put the expectations and responsibilities of both sides well aligned, make "
+"clear agreements, introduce the institution and always sign a volunteer "
+"agreement."
+msgstr ""
+"Dejen bien alineadas las expectativas y responsabilidades de ambos lados, "
+"establezcan acuerdos claros, presenten la institución y firmen siempre un "
+"término de voluntariado."
+
+#: templates/gdd/email/projectPublished-body.html:26
+#: templates/gdd/email/projectPublished-body.txt:20
+msgid "Check out how your vacancy looks like"
+msgstr "COMPRUEBE COMO ESTÁ SU VACANTE"
+
+#: templates/gdd/email/projectPublished-subject.txt:1
+msgid "We published your vacancy"
+msgstr "Publicamos su vacante"
+
+#: templates/gdd/email/recoveryToken-body.html:5
+#: templates/gdd/email/recoveryToken-body.txt:5
+#: templates/gdd/email/recoveryToken-subject.txt:1
+msgid "Password Reset"
+msgstr "Recuperar contraseña"
+
+#: templates/gdd/email/recoveryToken-body.html:7
+#: templates/gdd/email/recoveryToken-body.txt:6
+msgid ""
+"Hello! You clicked password reset on Good Deeds Day platform. Click below to "
+"reset your password:"
+msgstr ""
+"¡Hola! Usted clicó en recuperar contraseña en la plataforma de voluntariado "
+"de Día de las Buenas Acciones. Clique abajo para redefinir su contraseña:"
+
+#: templates/gdd/email/recoveryToken-body.html:11
+#: templates/gdd/email/recoveryToken-body.txt:9
+msgid "Reset Password"
+msgstr "Recuperar contraseña"
+
+#: templates/gdd/email/recoveryToken-body.html:14
+#: templates/gdd/email/recoveryToken-body.txt:11
+msgid "If you did not make this request, please ignore this e-mail."
+msgstr "Caso no la haya solicitado, por favor ignore este e-mail."
+
+#: templates/gdd/email/recoveryToken-body.html:15
+#: templates/gdd/email/recoveryToken-body.txt:12
+msgid "Any enquiries, criticisms or suggestions, talk to us. ;)"
+msgstr "Cualquier duda, crítica o sugerencia, hable con nosotros. ;)"
+
+#: templates/gdd/email/volunteerApplied-ToOwner-body.html:5
+#: templates/gdd/email/volunteerApplied-ToOwner-body.txt:5
+msgid "New application :)"
+msgstr "¡Enhorabuena! Una nueva inscripción en su vacante "
+
+#: templates/gdd/email/volunteerApplied-ToOwner-body.html:7
+#, python-format
+msgid "Hi, a new person applied for the vacancy <b>%(project_name)s</b>!"
+msgstr ""
+"Hola, una nueva persona se ha inscrito en una vacante <b>%(project_name)s</"
+"b>!"
+
+#: templates/gdd/email/volunteerApplied-ToOwner-body.html:9
+#: templates/gdd/email/volunteerApplied-ToOwner-body.txt:9
+#: templates/gdd/email/volunteerApplied-ToVolunteer-body.html:11
+#: templates/gdd/email/volunteerApplied-ToVolunteer-body.txt:11
+msgid "Name:"
+msgstr "Nombre:"
+
+#: templates/gdd/email/volunteerApplied-ToOwner-body.html:10
+#: templates/gdd/email/volunteerApplied-ToOwner-body.txt:10
+#: templates/gdd/email/volunteerApplied-ToVolunteer-body.html:12
+#: templates/gdd/email/volunteerApplied-ToVolunteer-body.txt:12
+msgid "Email:"
+msgstr "E-mail:"
+
+#: templates/gdd/email/volunteerApplied-ToOwner-body.html:11
+#: templates/gdd/email/volunteerApplied-ToOwner-body.txt:11
+msgid "Phone:"
+msgstr "Teléfono:"
+
+#: templates/gdd/email/volunteerApplied-ToOwner-body.html:13
+#: templates/gdd/email/volunteerApplied-ToOwner-body.txt:13
+msgid ""
+"Now, it's up to you! Click the button below to get in touch with the "
+"volunteer as soon as possible and arrange the next steps."
+msgstr ""
+"¡Ahora es con ustedes! Clique en el botón de abajo para entrar en contacto "
+"con ella, lo más rápido posible, y combinar los próximos pasos."
+
+#: templates/gdd/email/volunteerApplied-ToOwner-body.html:15
+msgid "REPLY TO THE VOLUNTEER"
+msgstr "RESPÓNDALE AL(A LA) VOLUNTARIO(A)"
+
+#: templates/gdd/email/volunteerApplied-ToOwner-body.txt:7
+#, python-format
+msgid "Hi, a new person applied for the vacancy %(project_name)s!"
+msgstr "Hola, una nueva persona se ha inscrito en una vacante %(project_name)s"
+
+#: templates/gdd/email/volunteerApplied-ToOwner-subject.txt:1
+msgid "Yay! A new application for your vacancy"
+msgstr "¡Enhorabuena! Una nueva inscripción en su vacante "
+
+#: templates/gdd/email/volunteerApplied-ToVolunteer-body.html:5
+#: templates/gdd/email/volunteerApplied-ToVolunteer-body.txt:5
+msgid "You have applied for a vacancy :)"
+msgstr "Usted se ha inscrito en una vacante :)"
+
+#: templates/gdd/email/volunteerApplied-ToVolunteer-body.html:7
+#: templates/gdd/email/volunteerApplied-ToVolunteer-body.txt:7
+#, python-format
+msgid ""
+"Congrats! It is registered here that you applied for the vacancy "
+"%(project_name)s :)"
+msgstr "¡Enhorabuena! Nos ha llegado aquí que usted se ha inscrito en una vacante %(project_name)s :)"
+
+#: templates/gdd/email/volunteerApplied-ToVolunteer-body.html:9
+#: templates/gdd/email/volunteerApplied-ToVolunteer-body.txt:9
+msgid ""
+"The responsible personnel have already received your message and now they "
+"should contact you. But if you want to get things done, follow their details "
+"below.:"
+msgstr "El personal responsable ya ha recibido su mensaje y ahora deben entrar en contacto con usted. Pero, si desea ir ya adelantando las cosas, rellene los datos abajo:"
+
+#: templates/gdd/email/volunteerApplied-ToVolunteer-body.html:14
+#: templates/gdd/email/volunteerApplied-ToVolunteer-body.html:16
+#: templates/gdd/email/volunteerApplied-ToVolunteer-body.txt:14
+#: templates/gdd/email/volunteerApplied-ToVolunteer-body.txt:16
+msgid "Contact's phone:"
+msgstr "Teléfono:"
+
+#: templates/gdd/email/volunteerApplied-ToVolunteer-body.html:19
+#: templates/gdd/email/volunteerApplied-ToVolunteer-body.txt:19
+msgid "Very important message!"
+msgstr "RECADO IMPORTANTÍSIMO!"
+
+#: templates/gdd/email/volunteerApplied-ToVolunteer-body.html:20
+#: templates/gdd/email/volunteerApplied-ToVolunteer-body.txt:20
+msgid ""
+"We don't even need to remind you of the importance of your commitment from "
+"now on, right? Volunteering is very cool, but it's not a mess. Answer the "
+"staff straight and don't forget to inform if you can't attend."
+msgstr "No necesitamos recordarle la importancia de su compromiso de aquí en lo adelante, ¿verdad? El trabajo voluntario es genial, pero no es desorden. Responda al personal de manera clara, sencilla y directa, y no se olvide de avisar caso no pueda comparecer"
+
+#: templates/gdd/email/volunteerApplied-ToVolunteer-subject.txt:1
+msgid "You have applied for a vacancy"
+msgstr "Usted se ha inscrito en una vacante"
+
+#: templates/gdd/email/welcome-body.html:5
+#: templates/gdd/email/welcome-body.txt:5
+msgid "Welcome :)"
+msgstr "Bienvenidos :)"
+
+#: templates/gdd/email/welcome-body.html:7
+#: templates/gdd/email/welcome-body.txt:7
+msgid ""
+"Your registration was successful and now you are part of Good Deeds Day, a "
+"lively network of people and social organizations that connects and "
+"mobilizes diverse causes (and in the most diverse ways too) to transform."
+msgstr ""
+"Su registro ha sido un éxito y ahora usted es parte de Día de las Buenas "
+"Acciones, una red viva de personas y organizaciones sociales, que se "
+"conectan y se mobilizan por las causas más diversas (y de las formas más "
+"diversas) para transformar."
+
+#: templates/gdd/email/welcome-body.html:9
+#: templates/gdd/email/welcome-body.txt:9
+msgid "The next step is yours... and it is so important!"
+msgstr "¡El próximo paso ahora es suyo... y es muy importante!"
+
+#: templates/gdd/email/welcome-body.html:11
+#: templates/gdd/email/welcome-body.txt:11
+msgid ""
+"We have hundreds of volunteer vacancies on the site, and you need to find "
+"the right ones for you. ;)"
+msgstr ""
+"Tenemos centenas de vacantes de voluntariado abiertas en nuestro sitio web, "
+"y usted necesita encontrar aquellas con las que más se identifica ;)"
+
+#: templates/gdd/email/welcome-body.html:14
+#: templates/gdd/email/welcome-body.txt:14
+msgid "Find Volunteer Vacancies"
+msgstr "ENCUENTRE VACANTES DE VOLUNTARIADO"
+
+#: templates/gdd/email/welcome-subject.txt:1
+msgid "Congrats! Your registration was successful."
+msgstr "¡Enhorabuena! Su registro ha sido finalizado con éxito"
+
+#: core.Cause/name:1
+msgid "Treinamento Profissional"
+msgstr ""
+
+#: core.Cause/name:2
+msgid "Combate à Pobreza"
+msgstr ""
+
+#: core.Cause/name:3
+msgid "Consumo Consciente"
+msgstr ""
+
+#: core.Cause/name:4
+msgid "Cultura e Arte"
+msgstr ""
+
+#: core.Cause/name:5
+msgid "Direitos Humanos"
+msgstr ""
+
+#: core.Cause/name:6 core.Skill/name:5
+msgid "Educação"
+msgstr ""
+
+#: core.Cause/name:7
+msgid "Crianças"
+msgstr ""
+
+#: core.Cause/name:8
+msgid "Idosos"
+msgstr ""
+
+#: core.Cause/name:9
+msgid "Meio Ambiente"
+msgstr ""
+
+#: core.Cause/name:10
+msgid "Cidadania"
+msgstr ""
+
+#: core.Cause/name:11
+msgid "Proteção Animal"
+msgstr ""
+
+#: core.Cause/name:12 core.Skill/name:11
+msgid "Saúde"
+msgstr ""
+
+#: core.Cause/name:13
+msgid "Pessoas com Deficiência"
+msgstr ""
+
+#: core.Cause/name:27
+msgid "Política"
+msgstr ""
+
+#: core.Cause/name:32
+msgid "Jovens"
+msgstr ""
+
+#: core.Cause/name:33
+msgid "Mulheres"
+msgstr ""
+
+#: core.Cause/name:34 core.Skill/name:6
+msgid "Esportes"
+msgstr ""
+
+#: core.Cause/name:35
+msgid "Refugiados"
+msgstr ""
+
+#: core.Cause/name:36
+msgid "LGBTQ+"
+msgstr ""
+
+#: core.Cause/name:50
+msgid "Combate às alterações climáticas"
+msgstr ""
+
+#: core.Cause/name:51
+msgid "Consumo e produção responsáveis"
+msgstr ""
+
+#: core.Cause/name:52
+msgid "Redução das desigualdades"
+msgstr ""
+
+#: core.Cause/name:53
+msgid "Educação de qualidade"
+msgstr ""
+
+#: core.Cause/name:54
+msgid "Boa saúde e bem-estar"
+msgstr ""
+
+#: core.Cause/name:55
+msgid "Fome Zero"
+msgstr ""
+
+#: core.Cause/name:56
+msgid "Professional Training"
+msgstr ""
+
+#: core.Cause/name:57
+msgid "Fight Poverty"
+msgstr ""
+
+#: core.Cause/name:58
+msgid "Conscious consumption"
+msgstr ""
+
+#: core.Cause/name:59
+msgid "Culture, Sport and Art"
+msgstr ""
+
+#: core.Cause/name:60
+msgid "Human Rights"
+msgstr ""
+
+#: core.Cause/name:61 core.Skill/name:31
+msgid "Education"
+msgstr ""
+
+#: core.Cause/name:62
+msgid "Youth"
+msgstr ""
+
+#: core.Cause/name:63
+msgid "Elders"
+msgstr ""
+
+#: core.Cause/name:64
+msgid "Environment"
+msgstr ""
+
+#: core.Cause/name:65
+msgid "Citizen Participation"
+msgstr ""
+
+#: core.Cause/name:66
+msgid "Animal Protection"
+msgstr ""
+
+#: core.Cause/name:67 core.Skill/name:37
+msgid "Health"
+msgstr ""
+
+#: core.Cause/name:68
+msgid "People with disabilities"
+msgstr ""
+
+#: core.Cause/name:82
+msgid "Sustentabilidade"
+msgstr ""
+
+#: core.Skill/name:1
+msgid "Artes/Trabalho manual"
+msgstr ""
+
+#: core.Skill/name:2
+msgid "Comunicação"
+msgstr ""
+
+#: core.Skill/name:3
+msgid "Dança/Música"
+msgstr ""
+
+#: core.Skill/name:4
+msgid "Direito"
+msgstr ""
+
+#: core.Skill/name:7
+msgid "Cozinha"
+msgstr ""
+
+#: core.Skill/name:8
+msgid "Gerenciamento"
+msgstr ""
+
+#: core.Skill/name:9
+msgid "Idiomas"
+msgstr ""
+
+#: core.Skill/name:10
+msgid "Computadores/Tecnologia"
+msgstr ""
+
+#: core.Skill/name:12
+msgid "Outros"
+msgstr ""
+
+#: core.Skill/name:27
+msgid "Arts/Handcrafting"
+msgstr ""
+
+#: core.Skill/name:28
+msgid "Communication"
+msgstr ""
+
+#: core.Skill/name:29
+msgid "Dance/Music"
+msgstr ""
+
+#: core.Skill/name:30
+msgid "Law"
+msgstr ""
+
+#: core.Skill/name:32
+msgid "Sports"
+msgstr ""
+
+#: core.Skill/name:33
+msgid "Cooking"
+msgstr ""
+
+#: core.Skill/name:34
+msgid "Management"
+msgstr ""
+
+#: core.Skill/name:35
+msgid "Idioms"
+msgstr ""
+
+#: core.Skill/name:36
+msgid "Computers/Technology"
+msgstr ""
+
+#: core.Skill/name:38
+msgid "Others"
+msgstr ""
+
+#: core.Skill/name:39
+msgid "Organização"
+msgstr ""
+
+#: core.Skill/name:40
+msgid "Agilidade"
+msgstr ""

@@ -1,30 +1,29 @@
 {% extends extend.html %}
+{% load i18n %}
 
 {% block content %}
-  
-<h1>Vaga publicada :)</h1>
+  <h1>{% blocktrans %}Published Vacancy :){% endblocktrans %}</h1>
 
-<p>Oi, a vaga <b>{{ project.name }}</b> tá no ar! Você já pode divulgar ela em suas redes sociais. Nós também vamos tentar fazer ela bombar de inscrições.</p>
+  <p>{% blocktrans with project.name as project_name %}Hello, the vacancy <b>{{ project_name }}</b> is online! You can now share it on your social media networks.{% endblocktrans %}</p>
 
-<p>Vocês receberão um novo email toda vez que algum(a) voluntário(a) se inscrever.</p>
+  <p>{% blocktrans %}You will receive a new email every time any volunteer signs up.{% endblocktrans %}</p>
 
-<p>Depois daí, não tem jeito, é com vocês! Precisa entrar em contato e combinar os próximos passos. Garantindo que seja rápido, pra pessoa não desanimar!</p>
+  <p>{% blocktrans %}After that, there's no more, it's up to you! You need to contact the volunteers and arrange the next steps. Make sure to do that fast, for the people not to be discouraged!{% endblocktrans %}</p>
 
-<h2>DICAS QUENTES</h2>
+  <h2>{% blocktrans %}HOT TIPS{% endblocktrans %}</h2>
 
-<ul class="checklist">
-    <li>
-        <p><b>Antes da ação</b></p>
-        <p>Montem um email padrão, com todas as informações importantes, para facilitar na hora de responder as pessoas que se inscreverem nesta vaga, preparem uma capacitação e respondam rapidamente os(as) inscritos(as).</p>
-    </li>
-    <li>
-        <p><b>Durante a ação</b></p>
-        <p>Deixem bem alinhadas as expectativas e responsabilidades dos dois lados, estabeleçam acordos claros, apresentem a instituição e assinem sempre um termo de voluntariado.</p>
-    </li>
-</ul>
+  <ul class="checklist">
+      <li>
+        <p><b>{% blocktrans %}Before the action{% endblocktrans %}</b></p>
+        <p>{% blocktrans %}Set up a standard email, with all the important information, to make it easier for applicants to respond, prepare for training and respond quickly to subscribers.{% endblocktrans %}</p>
+      </li>
+      <li>
+        <p><b>{% blocktrans %}During the action{% endblocktrans %}</b></p>
+        <p>{% blocktrans %}Put the expectations and responsibilities of both sides well aligned, make clear agreements, introduce the institution and always sign a volunteer agreement.{% endblocktrans %}</p>
+      </li>
+  </ul>
 
-<p><a href="https://transformazn.com.br/vaga/{{ project.slug }}" class="button">CONFIRA COMO ESTÁ SUA VAGA</a></p>
+  <p><a href="https://global.good-deeds-day.org/vaga/{{ project.slug }}" class="button">{% blocktrans %}Check out how your vacancy looks like{% endblocktrans %}</a></p>
 
-<p><b>Equipe Transforma ZN</b></p>
-
+  <p><b>{% blocktrans %}Good Deeds Day Team{% endblocktrans %}</b></p>
 {% endblock %}

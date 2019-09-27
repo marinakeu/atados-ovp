@@ -1,1 +1,1 @@
-Sua ação foi fechada
+{% load i18n %}{% blocktrans %}Your vacancy has been closed.{% endblocktrans %}

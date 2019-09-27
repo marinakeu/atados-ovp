@@ -1,1 +1,1 @@
-Você se inscreveu em uma vaga :)
+{% load i18n %}{% blocktrans %}You have applied for a vacancy{% endblocktrans %}

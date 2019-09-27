@@ -1,15 +1,14 @@
 {% extends extend.txt %}
+{% load i18n %}
 
 {% block content %}
-  Recuperação de senha
+  {% blocktrans %}Password Reset{% endblocktrans %}</h1>
+  {% blocktrans %}Hello! You clicked password reset on Good Deeds Day platform. Click below to reset your password:{% endblocktrans %}
 
-  Olá! Você clicou em recuperar senha na plataforma Transforma ZN. Clique abaixo para redefinir sua senha:
+  https://www.atados.com.br/recuperar-senha?token={{ token.token }}
+  {% blocktrans %}Reset Password{% endblocktrans %}
 
-  Recuperar senha (https://transformazn.com.br/recuperar-senha?token={{ token.token }})
-
-  Caso não tenha feito esta solicitação, ignore este e-mail.
-
-  Qualquer dúvida, crítica ou sugestão, fale com a gente. ;)
-
-  Equipe Transforma ZN
-{% endblock content %}
+  {% blocktrans %}If you did not make this request, please ignore this e-mail.{% endblocktrans %}
+  {% blocktrans %}Any enquiries, criticisms or suggestions, talk to us. ;){% endblocktrans %}
+  {% blocktrans %}Good Deeds Day Team{% endblocktrans %}
+{% endblock %}

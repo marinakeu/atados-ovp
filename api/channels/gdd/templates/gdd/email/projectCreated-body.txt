@@ -1,9 +1,10 @@
 {% extends extend.txt %}
+{% load i18n %}
 
 {% block content %}
-  Olá, o cadastro da vaga {{project.name}} foi recebido com sucesso!
+  {% blocktrans with project.name as project_name %}Hello, the vacancy registration <b>{{project_name}}</b> was successfully received!{% endblocktrans %}
+  {% blocktrans %}We are reviewing the vacancy content and details, and within 48 hours we will approve posting on the platform or contact you.{% endblocktrans %}
+  {% blocktrans %}Any inquiries, send an email to contato@atados.com.br and talk to us.{% endblocktrans %}
 
-  Estamos analisando o conteúdo e detalhes da vaga e em até 48 horas aprovaremos a publicação na plataforma ou entraremos em contato com você.
-
-  Equipe Transforma ZN
+  {% blocktrans %}Good Deeds Day Team{% endblocktrans %}
 {% endblock content %}

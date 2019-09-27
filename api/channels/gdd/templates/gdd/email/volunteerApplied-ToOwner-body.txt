@@ -1,16 +1,17 @@
 {% extends extend.txt %}
+{% load i18n %}
 
 {% block content %}
-  Nova inscrição :)
+  {% blocktrans %}New application :){% endblocktrans %}
 
-  Oi, uma nova pessoa se inscreveu na vaga {{apply.project.name}}!
+  {% blocktrans with apply.project.name as project_name %}Hi, a new person applied for the vacancy {{ project_name }}!{% endblocktrans %}
 
-  Nome:{{ apply.user.name }}
-  Email:{{ apply.user.email }}
-  Telefone:{{ apply.user.phone }}
+  {% blocktrans %}Name:{% endblocktrans %} {{ apply.user.name }}
+  {% blocktrans %}Email:{% endblocktrans %} {{ apply.user.email }}
+  {% blocktrans %}Phone:{% endblocktrans %} {{ apply.user.phone }}
 
-  Agora é com vocês! Entre em contato com o voluntário via email ou telefone para combinar os próximos passos.
+  {% blocktrans %}Now, it's up to you! Click the button below to get in touch with the volunteer as soon as possible and arrange the next steps.{% endblocktrans %}
+  {{ apply.user.email }}
 
-  Equipe Transforma ZN
-
+  {% blocktrans %}Good Deeds Day Team{% endblocktrans %}
 {% endblock content %}

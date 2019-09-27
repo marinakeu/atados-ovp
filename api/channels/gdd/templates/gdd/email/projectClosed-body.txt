@@ -1,10 +1,13 @@
 {% extends extend.txt %}
+{% load i18n %}
 
 {% block content %}
-  Olá,
+  <p>{% blocktrans %}Hello,{% endblocktrans %}</p>
 
-  Obrigado por utilizar nossa plataforma para sua ação de voluntariado.
-  Informamos que, para manter o site sempre atualizado, nós arquivamos a ação {{ project.name }} e ela não está mais disponível para inscrições.
+  <p>{% blocktrans %}Thank you for using our platform for your volunteer action.{% endblocktrans %}</p>
+  <p>
+    {% blocktrans with project.name as project_name %}Please be informed that in order to keep the site up-to-date we have filed the <b>{{project_name}}</b> action and it is no longer available for subscriptions.{% endblocktrans %}
+  </p>
 
-  Abraço, equipe Transforma ZN
-{% endblock content %}
+  <p>{% blocktrans %}Good Deeds Day Team{% endblocktrans %}</p>
+{% endblock %}

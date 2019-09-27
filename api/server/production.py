@@ -60,6 +60,7 @@ CORS_ORIGIN_WHITELIST = [
     'https://ambev.working',
 
     #
+    'https://beta.atados.now.sh',
     'https://demo.atados.now.sh',
     'https://channel.atados.now.sh',
     'https://global.good-deeds-day.org'

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-27 14:31-0300\n"
+"POT-Creation-Date: 2019-09-30 00:12-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,177 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: templates/gdd/email/organizationCreated-body.html:5
+#: templates/gdd/email/organizationCreated-body.txt:5
+msgid "Registration received :)"
+msgstr "Registro recibido :)"
+
+#: templates/gdd/email/organizationCreated-body.html:7
+msgid ""
+"Hi, that's it! The registration was successfully submitted and now you + us "
+"+ hundreds of other organizations,\n"
+"we have formed (what we like to call) a \"lively network of transformation\"."
+msgstr ""
+"Hola, ¡es eso! El registro ha sido enviado con éxito y ahora ustedes + "
+"nosotros + otras centenas de organizaciones, formamos (lo que nos gusta "
+"llamar) una \"red viva de transformación\"."
+
+#: templates/gdd/email/organizationCreated-body.html:10
+#: templates/gdd/email/organizationCreated-body.txt:9
+msgid ""
+"Let's take a look at the registration and, all \"in accordance\", it will be "
+"published on the site."
+msgstr ""
+"Vamos a mirar su registro, y estando “de acuerdo”, publicamos en el sitio "
+"web."
+
+#: templates/gdd/email/organizationCreated-body.html:12
+#: templates/gdd/email/organizationCreated-body.txt:11
+msgid "Checklist “In accordance”:"
+msgstr "Checklist “de acuerdo”:"
+
+#: templates/gdd/email/organizationCreated-body.html:16
+msgid "<b>Logo</b> with good resolution. (size: 200x200px)"
+msgstr "<b>Logo</b> con buena resolución. (tamanho: 200x200px)"
+
+#: templates/gdd/email/organizationCreated-body.html:19
+msgid "A beautiful <b>cover Image</b>! (size: 1440x340px)"
+msgstr "<b>Imagem de la portada</b> ¡guapa! (tamanho: 1440x340px)"
+
+#: templates/gdd/email/organizationCreated-body.html:22
+msgid ""
+"In the box <b>\"Details\"</b> make sure you have a good short text that "
+"briefly explaining who you are."
+msgstr ""
+"En el cuadro <b>\"Detalle\"</b> garantice un texto bien corto, explicando "
+"resumidamente quiénes son."
+
+#: templates/gdd/email/organizationCreated-body.html:25
+msgid ""
+"In the box <b>\"Description\"</b>, you can say more, such as: what is the "
+"served public, developed activities, objectives of the organization..."
+msgstr ""
+"Ya en el cuadro <b>\"Descripción\"</b> pueden hablar de otros aspectos, "
+"tales como: cuál es el público atendido, actividades desarrolladas, "
+"objetivos de la organización..."
+
+#: templates/gdd/email/organizationCreated-body.html:29
+#: templates/gdd/email/organizationCreated-body.txt:19
+msgid "LEAVE YOUR REGISTRATION “In accordance”"
+msgstr "DEJE SU REGISTRO “DE ACUERDO”"
+
+#: templates/gdd/email/organizationCreated-body.html:31
+#: templates/gdd/email/organizationCreated-body.txt:21
+#: templates/gdd/email/organizationPublished-body.html:15
+#: templates/gdd/email/organizationPublished-body.txt:16
+#: templates/gdd/email/projectClosed-body.html:12
+#: templates/gdd/email/projectClosed-body.txt:12
+#: templates/gdd/email/projectCreated-body.html:13
+#: templates/gdd/email/projectCreated-body.txt:9
+#: templates/gdd/email/projectPublished-body.html:28
+#: templates/gdd/email/projectPublished-body.txt:22
+#: templates/gdd/email/recoveryToken-body.html:16
+#: templates/gdd/email/recoveryToken-body.txt:13
+#: templates/gdd/email/userInvited-toUser-body.html:16
+#: templates/gdd/email/userInvited-toUser-body.txt:11
+#: templates/gdd/email/volunteerApplied-ToOwner-body.html:17
+#: templates/gdd/email/volunteerApplied-ToOwner-body.txt:16
+#: templates/gdd/email/volunteerApplied-ToVolunteer-body.html:22
+#: templates/gdd/email/volunteerApplied-ToVolunteer-body.txt:22
+#: templates/gdd/email/volunteerUnapplied-ToOwner-body.html:17
+#: templates/gdd/email/volunteerUnapplied-ToOwner-body.txt:13
+#: templates/gdd/email/volunteerUnapplied-ToVolunteer-body.html:10
+#: templates/gdd/email/volunteerUnapplied-ToVolunteer-body.txt:10
+#: templates/gdd/email/welcome-body.html:18
+#: templates/gdd/email/welcome-body.txt:16
+msgid "Good Deeds Day Team"
+msgstr "Equipo de Día de las Buenas Acciones"
+
+#: templates/gdd/email/organizationCreated-body.txt:7
+msgid ""
+"Hi, that's it! The registration was successfully submitted and now you + us "
+"+ hundreds of other organizations, we have formed (what we like to call) a "
+"\"lively network of transformation\"."
+msgstr ""
+"Hola, ¡es eso! El registro ha sido enviado con éxito y ahora ustedes + "
+"nosotros + otras centenas de organizaciones, formamos (lo que nos gusta "
+"llamar) una \"red viva de transformación\"."
+
+#: templates/gdd/email/organizationCreated-body.txt:13
+msgid "Logo with good resolution. (size: 200x200px)"
+msgstr "Logo con buena resolución. (tamanho: 200x200px)"
+
+#: templates/gdd/email/organizationCreated-body.txt:14
+msgid "A beautiful cover Image! (size: 1440x340px)"
+msgstr "Imagem de la portada ¡guapa! (tamanho: 1440x340px)"
+
+#: templates/gdd/email/organizationCreated-body.txt:15
+msgid ""
+"In the box \"Details\" make sure you have a good short text that briefly "
+"explaining who you are."
+msgstr ""
+"En el cuadro \"Detalle\" garantice un texto bien corto, explicando "
+"resumidamente quiénes son."
+
+#: templates/gdd/email/organizationCreated-body.txt:16
+msgid ""
+"In the box \"Description\", you can say more, such as: what is the served "
+"public, developed activities, objectives of the organization..."
+msgstr ""
+"Ya en el cuadro \"Descripción\" pueden hablar de otros aspectos, tales como: "
+"cuál es el público atendido, actividades desarrolladas, objetivos de la "
+"organización..."
+
+#: templates/gdd/email/organizationCreated-subject.txt:1
+msgid "We received your registration :)"
+msgstr "Recibimos sus registros :)"
+
+#: templates/gdd/email/organizationPublished-body.html:5
+#: templates/gdd/email/organizationPublished-body.txt:5
+msgid "The registration of your organization was approved :)"
+msgstr "El registro de su organización fue aprovadísimo :)"
+
+#: templates/gdd/email/organizationPublished-body.html:7
+#: templates/gdd/email/organizationPublished-body.txt:7
+msgid ""
+"Take the opportunity to double check your data and of course have a look at "
+"your profile images and texts. A well done profile brings the credibility "
+"that volunteers will look for."
+msgstr ""
+"Aproveche para comprobar nuevamente sus datos, y claro, dar aquellos "
+"retoques en las imágenes y textos en sus perfiles. Un perfil bien hecho "
+"proporciona la credibilidad que los(las) voluntarios(as) van a buscar."
+
+#: templates/gdd/email/organizationPublished-body.html:9
+#: templates/gdd/email/organizationPublished-body.txt:9
+msgid ""
+"The way now is simple. Ponder this: What are the roles, activities, or small "
+"needs of your organization that the volunteers could perform? Then pick one "
+"and create your first volunteer position."
+msgstr ""
+"El camino ahora es sencillo. Reflexionen: ¿Qué funciones, actividades, o "
+"pequeñas necesidades de su organización podrían ser desarrolladas por "
+"voluntarios(as)? De ahí, escoja una y cree su primera vacante de "
+"voluntariado."
+
+#: templates/gdd/email/organizationPublished-body.html:11
+#: templates/gdd/email/organizationPublished-body.txt:11
+msgid ""
+"It is done! If you do it with love, there are many chances to get lots of "
+"people who want to help ;)"
+msgstr ""
+"Esta listo! Si lo haces con cariño hay muchas chances de que llueva gente "
+"queriendo ayudar  ;)"
+
+#: templates/gdd/email/organizationPublished-body.html:13
+#: templates/gdd/email/organizationPublished-body.txt:14
+msgid "CREATE YOUR FIRST VOLUNTARY VACANCY"
+msgstr "CREE SU PRIMERA VACANTE DE VOLUNTARIADO"
+
+#: templates/gdd/email/organizationPublished-subject.txt:1
+msgid "Now, you have a profile on Good Deeds Day"
+msgstr "Ahora ustedes tienen un perfil en Día de las Buenas Acciones"
 
 #: templates/gdd/email/projectClosed-body.html:5
 #: templates/gdd/email/projectClosed-body.txt:5
@@ -40,23 +211,6 @@ msgstr ""
 "Informamos que: para mantener el sitio web siempre actualizado, archivaremos "
 "la vacante <b>%(project_name)s</b> y ella no estará más disponible para "
 "inscripciones."
-
-#: templates/gdd/email/projectClosed-body.html:12
-#: templates/gdd/email/projectClosed-body.txt:12
-#: templates/gdd/email/projectCreated-body.html:13
-#: templates/gdd/email/projectCreated-body.txt:9
-#: templates/gdd/email/projectPublished-body.html:28
-#: templates/gdd/email/projectPublished-body.txt:22
-#: templates/gdd/email/recoveryToken-body.html:16
-#: templates/gdd/email/recoveryToken-body.txt:13
-#: templates/gdd/email/volunteerApplied-ToOwner-body.html:17
-#: templates/gdd/email/volunteerApplied-ToOwner-body.txt:16
-#: templates/gdd/email/volunteerApplied-ToVolunteer-body.html:22
-#: templates/gdd/email/volunteerApplied-ToVolunteer-body.txt:22
-#: templates/gdd/email/welcome-body.html:18
-#: templates/gdd/email/welcome-body.txt:16
-msgid "Good Deeds Day Team"
-msgstr "Equipo de Día de las Buenas Acciones"
 
 #: templates/gdd/email/projectClosed-subject.txt:1
 msgid "Your vacancy has been closed."
@@ -204,6 +358,28 @@ msgstr "Caso no la haya solicitado, por favor ignore este e-mail."
 msgid "Any enquiries, criticisms or suggestions, talk to us. ;)"
 msgstr "Cualquier duda, crítica o sugerencia, hable con nosotros. ;)"
 
+#: templates/gdd/email/userInvited-toUser-body.html:6
+#: templates/gdd/email/userInvited-toUser-body.txt:5
+msgid "Management Invitation"
+msgstr "Invitación de administración"
+
+#: templates/gdd/email/userInvited-toUser-body.html:9
+#: templates/gdd/email/userInvited-toUser-body.txt:7
+#, python-format
+msgid ""
+"You have been invited to manage the organization %(organization_name)s on "
+"Good Deeds Day website."
+msgstr "Usted ha sido invitado para administrar la organización %(organization_name)s en el sitio web de Día de las Buenas Acciones."
+
+#: templates/gdd/email/userInvited-toUser-body.html:13
+#: templates/gdd/email/userInvited-toUser-body.txt:9
+msgid "Accept the invitation"
+msgstr "Aceptar invitación"
+
+#: templates/gdd/email/userInvited-toUser-subject.txt:1
+msgid "You have been invited to manage an organization in Good Deeds Day"
+msgstr "Usted ha sido invitado para administrar una organización en Día de las Buenas Acciones"
+
 #: templates/gdd/email/volunteerApplied-ToOwner-body.html:5
 #: templates/gdd/email/volunteerApplied-ToOwner-body.txt:5
 msgid "New application :)"
@@ -268,7 +444,9 @@ msgstr "Usted se ha inscrito en una vacante :)"
 msgid ""
 "Congrats! It is registered here that you applied for the vacancy "
 "%(project_name)s :)"
-msgstr "¡Enhorabuena! Nos ha llegado aquí que usted se ha inscrito en una vacante %(project_name)s :)"
+msgstr ""
+"¡Enhorabuena! Nos ha llegado aquí que usted se ha inscrito en una vacante "
+"%(project_name)s :)"
 
 #: templates/gdd/email/volunteerApplied-ToVolunteer-body.html:9
 #: templates/gdd/email/volunteerApplied-ToVolunteer-body.txt:9
@@ -276,7 +454,10 @@ msgid ""
 "The responsible personnel have already received your message and now they "
 "should contact you. But if you want to get things done, follow their details "
 "below.:"
-msgstr "El personal responsable ya ha recibido su mensaje y ahora deben entrar en contacto con usted. Pero, si desea ir ya adelantando las cosas, rellene los datos abajo:"
+msgstr ""
+"El personal responsable ya ha recibido su mensaje y ahora deben entrar en "
+"contacto con usted. Pero, si desea ir ya adelantando las cosas, rellene los "
+"datos abajo:"
 
 #: templates/gdd/email/volunteerApplied-ToVolunteer-body.html:14
 #: templates/gdd/email/volunteerApplied-ToVolunteer-body.html:16
@@ -296,11 +477,93 @@ msgid ""
 "We don't even need to remind you of the importance of your commitment from "
 "now on, right? Volunteering is very cool, but it's not a mess. Answer the "
 "staff straight and don't forget to inform if you can't attend."
-msgstr "No necesitamos recordarle la importancia de su compromiso de aquí en lo adelante, ¿verdad? El trabajo voluntario es genial, pero no es desorden. Responda al personal de manera clara, sencilla y directa, y no se olvide de avisar caso no pueda comparecer"
+msgstr ""
+"No necesitamos recordarle la importancia de su compromiso de aquí en lo "
+"adelante, ¿verdad? El trabajo voluntario es genial, pero no es desorden. "
+"Responda al personal de manera clara, sencilla y directa, y no se olvide de "
+"avisar caso no pueda comparecer"
 
 #: templates/gdd/email/volunteerApplied-ToVolunteer-subject.txt:1
 msgid "You have applied for a vacancy"
 msgstr "Usted se ha inscrito en una vacante"
+
+#: templates/gdd/email/volunteerUnapplied-ToOwner-body.html:5
+#: templates/gdd/email/volunteerUnapplied-ToOwner-body.txt:5
+msgid "Hello!"
+msgstr "¡Hola!"
+
+#: templates/gdd/email/volunteerUnapplied-ToOwner-body.html:7
+#, python-format
+msgid ""
+"Please be informed that volunteer <b>%(user_name)s</b> has opted to cancel "
+"his application from your vacancy.</p>"
+msgstr ""
+"Le informamos que el (la) voluntario(a) <b>%(user_name)s</b> optó por "
+"cancelar la inscripcion de su vacante."
+
+#: templates/gdd/email/volunteerUnapplied-ToOwner-body.html:9
+#: templates/gdd/email/volunteerUnapplied-ToOwner-body.txt:8
+msgid ""
+"Do not worry. This could be due to unavailability or change of plans. So, "
+"you know exactly on whom you can count on the action day."
+msgstr ""
+"No se preocupe. Eso pudo haber ocurrido por indisponibilidad o cambios de "
+"planes de él(ella). Y por otro lado usted sabrá exactamente con quien podrá "
+"contar."
+
+#: templates/gdd/email/volunteerUnapplied-ToOwner-body.html:12
+#: templates/gdd/email/volunteerUnapplied-ToOwner-body.txt:10
+msgid "Remember to keep in touch with your volunteers, okay?"
+msgstr "Recuerde mantener contacto con sus voluntarios, ¿vale?"
+
+#: templates/gdd/email/volunteerUnapplied-ToOwner-body.html:13
+#: templates/gdd/email/volunteerUnapplied-ToOwner-body.txt:11
+msgid "Good luck with your work!"
+msgstr "¡Buen trabajo!"
+
+#: templates/gdd/email/volunteerUnapplied-ToOwner-body.txt:6
+#, python-format
+msgid ""
+"Please be informed that volunteer %(user_name)s has opted to cancel his "
+"application from your vacancy."
+msgstr ""
+"Le informamos que el (la) voluntario(a) %(user_name)s optó por cancelar la "
+"inscripcion de su vacante."
+
+#: templates/gdd/email/volunteerUnapplied-ToOwner-subject.txt:1
+#: templates/gdd/email/volunteerUnapplied-ToVolunteer-subject.txt:1
+msgid "Application canceled"
+msgstr "Cancelamiento de inscripción"
+
+#: templates/gdd/email/volunteerUnapplied-ToVolunteer-body.html:5
+#: templates/gdd/email/volunteerUnapplied-ToVolunteer-body.txt:5
+msgid "Hi,"
+msgstr "Hola,"
+
+#: templates/gdd/email/volunteerUnapplied-ToVolunteer-body.html:7
+#, python-format
+msgid ""
+"We confirm that your application on <b>%(project_name)s</b> has been "
+"successfully canceled."
+msgstr ""
+"Confirmamos que su inscripción en la vacante <b>%(project_name)s</b> fue "
+"cancelada con éxito."
+
+#: templates/gdd/email/volunteerUnapplied-ToVolunteer-body.html:9
+#: templates/gdd/email/volunteerUnapplied-ToVolunteer-body.txt:8
+msgid "We hope you find another vacancy on our website site to volunteer =)"
+msgstr ""
+"Esperamos que usted encuentre otra vacante en nuestro sitio web para ser "
+"voluntario  =)"
+
+#: templates/gdd/email/volunteerUnapplied-ToVolunteer-body.txt:6
+#, python-format
+msgid ""
+"We confirm that your application on %(project_name)s has been successfully "
+"canceled."
+msgstr ""
+"Confirmamos que su inscripción en la vacante %(project_name)s fue cancelada "
+"con éxito."
 
 #: templates/gdd/email/welcome-body.html:5
 #: templates/gdd/email/welcome-body.txt:5

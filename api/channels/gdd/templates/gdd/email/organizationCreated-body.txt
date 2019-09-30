@@ -1,0 +1,22 @@
+{% extends extend.txt %}
+{% load i18n %}
+
+{% block content %}
+  {% blocktrans %}Registration received :){% endblocktrans %}
+
+  {% blocktrans %}Hi, that's it! The registration was successfully submitted and now you + us + hundreds of other organizations, we have formed (what we like to call) a "lively network of transformation".{% endblocktrans %}
+
+  {% blocktrans %}Let's take a look at the registration and, all "in accordance", it will be published on the site.{% endblocktrans %}
+
+  {% blocktrans %}Checklist “In accordance”:{% endblocktrans %}
+
+  {% blocktrans %}Logo with good resolution. (size: 200x200px){% endblocktrans %}
+  {% blocktrans %}A beautiful cover Image! (size: 1440x340px){% endblocktrans %}
+  {% blocktrans %}In the box "Details" make sure you have a good short text that briefly explaining who you are.{% endblocktrans %}
+  {% blocktrans %}In the box "Description", you can say more, such as: what is the served public, developed activities, objectives of the organization...{% endblocktrans %}
+
+  https://global.good-deeds-day.org/painel/ong/{{ organization.slug }}/editar
+  {% blocktrans %}LEAVE YOUR REGISTRATION “In accordance”{% endblocktrans %}
+
+  {% blocktrans %}Good Deeds Day Team{% endblocktrans %}
+{% endblock content %}

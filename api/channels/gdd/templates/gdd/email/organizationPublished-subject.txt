@@ -1,0 +1,1 @@
+{% load i18n %}{% blocktrans %}Now, you have a profile on Good Deeds Day{% endblocktrans %}

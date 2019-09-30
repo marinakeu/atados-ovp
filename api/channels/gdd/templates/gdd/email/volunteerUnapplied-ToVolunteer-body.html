@@ -1,0 +1,12 @@
+{% extends extend.html %}
+{% load i18n %}
+
+{% block content %}
+  <p>{% blocktrans %}Hi,{% endblocktrans %}</p>
+  <p>
+    {% blocktrans with apply.project.name as project_name %}We confirm that your application on <b>{{project_name}}</b> has been successfully canceled.{% endblocktrans %}
+  </p>
+  <p>{% blocktrans %}We hope you find another vacancy on our website site to volunteer =){% endblocktrans %}</p>
+  <p>{% blocktrans %}Good Deeds Day Team{% endblocktrans %}</p>
+{% endblock %}
+

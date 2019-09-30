@@ -1,0 +1,15 @@
+{% extends extend.txt %}
+{% load i18n %}
+
+{% block content %}
+  {% blocktrans %}Hello!{% endblocktrans %}
+  {% blocktrans with apply.user.name as user_name %}Please be informed that volunteer {{user_name}} has opted to cancel his application from your vacancy.{% endblocktrans %}
+
+  {% blocktrans %}Do not worry. This could be due to unavailability or change of plans. So, you know exactly on whom you can count on the action day.{% endblocktrans %}
+
+  {% blocktrans %}Remember to keep in touch with your volunteers, okay?{% endblocktrans %}
+  {% blocktrans %}Good luck with your work!{% endblocktrans %}
+
+  {% blocktrans %}Good Deeds Day Team{% endblocktrans %}
+{% endblock content %}
+

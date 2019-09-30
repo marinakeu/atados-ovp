@@ -1,0 +1,12 @@
+{% extends extend.txt %}
+{% load i18n %}
+
+{% block content %}
+  {% blocktrans %}Management Invitation{% endblocktrans %}
+
+  {% blocktrans with invite.organization.name as organization_name %}You have been invited to manage the organization {{organization_name}} on Good Deeds Day website.{% endblocktrans %}
+  Aceitar convite: https://global.good-deeds-day.org/ong/{{ invite.organization.slug }}/participar?user_slug={{ invite.invited.slug }}
+  {% blocktrans %}Accept the invitation{% endblocktrans %}: https://www.atados.com.br/ong/{{ invite.organization.slug }}/participar?user_slug={{ invite.invited.slug }}
+
+  {% blocktrans %}Good Deeds Day Team{% endblocktrans %}
+{% endblock content %}

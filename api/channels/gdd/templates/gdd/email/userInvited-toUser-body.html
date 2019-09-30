@@ -1,0 +1,17 @@
+{% extends extend.html %}
+{% load i18n %}
+
+{% block content %}
+  <h1>
+      {% blocktrans %}Management Invitation{% endblocktrans %}
+  </h1>
+  <p>
+    {% blocktrans with invite.organization.name as organization_name %}You have been invited to manage the organization {{organization_name}} on Good Deeds Day website.{% endblocktrans %}
+  </p>
+  <p>
+      <a href="https://global.good-deeds-day.org/ong/{{ invite.organization.slug }}/participar?user_slug={{ invite.invited.slug }}" class="btn btn-pink btn-large">
+          {% blocktrans %}Accept the invitation{% endblocktrans %}
+      </a>
+  </p>
+  <p><b>{% blocktrans %}Good Deeds Day Team{% endblocktrans %}</b></p>
+{% endblock %}

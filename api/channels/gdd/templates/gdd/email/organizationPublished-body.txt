@@ -1,0 +1,17 @@
+{% extends extend.txt %}
+{% load i18n %}
+
+{% block content %}
+  {% blocktrans %}The registration of your organization was approved :){% endblocktrans %}
+
+  {% blocktrans %}Take the opportunity to double check your data and of course have a look at your profile images and texts. A well done profile brings the credibility that volunteers will look for.{% endblocktrans %}
+
+  {% blocktrans %}The way now is simple. Ponder this: What are the roles, activities, or small needs of your organization that the volunteers could perform? Then pick one and create your first volunteer position.{% endblocktrans %}
+
+  {% blocktrans %}It is done! If you do it with love, there are many chances to get lots of people who want to help ;){% endblocktrans %}
+
+  https://global.good-deeds-day.org/painel/ong/{{ organization.slug }}/criar-vaga
+  {% blocktrans %}CREATE YOUR FIRST VOLUNTARY VACANCY{% endblocktrans %}
+
+  {% blocktrans %}Good Deeds Day Team{% endblocktrans %}
+{% endblock content %}

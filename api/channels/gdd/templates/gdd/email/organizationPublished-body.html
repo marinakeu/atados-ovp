@@ -1,0 +1,16 @@
+{% extends extend.html %}
+{% load i18n %}
+
+{% block content %}
+  <h1>{% blocktrans %}The registration of your organization was approved :){% endblocktrans %}</h1>
+
+  <p>{% blocktrans %}Take the opportunity to double check your data and of course have a look at your profile images and texts. A well done profile brings the credibility that volunteers will look for.{% endblocktrans %}</p>
+
+  <p>{% blocktrans %}The way now is simple. Ponder this: What are the roles, activities, or small needs of your organization that the volunteers could perform? Then pick one and create your first volunteer position.{% endblocktrans %}</p>
+
+  <p>{% blocktrans %}It is done! If you do it with love, there are many chances to get lots of people who want to help ;){% endblocktrans %}</p>
+
+  <p><a href="https://global.good-deeds-day.org/painel/ong/{{ organization.slug }}/criar-vaga" class="button">{% blocktrans %}CREATE YOUR FIRST VOLUNTARY VACANCY{% endblocktrans %}</a></p>
+
+  <p><b>{% blocktrans %}Good Deeds Day Team{% endblocktrans %}</b></p>
+{% endblock %}

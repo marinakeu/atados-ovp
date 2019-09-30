@@ -1,0 +1,32 @@
+{% extends extend.html %}
+{% load i18n %}
+
+{% block content %}
+<h1>{% blocktrans %}Registration received :){% endblocktrans %}</h1>
+
+<p>{% blocktrans %}Hi, that's it! The registration was successfully submitted and now you + us + hundreds of other organizations,
+we have formed (what we like to call) a "lively network of transformation".{% endblocktrans %}</p>
+
+<p>{% blocktrans %}Let's take a look at the registration and, all "in accordance", it will be published on the site.{% endblocktrans %}</p>
+
+<h2>{% blocktrans %}Checklist “In accordance”:{% endblocktrans %}</h2>
+
+<ul class="checklist">
+    <li>
+        <p>{% blocktrans %}<b>Logo</b> with good resolution. (size: 200x200px){% endblocktrans %}</p>
+    </li>
+    <li>
+        <p>{% blocktrans %}A beautiful <b>cover Image</b>! (size: 1440x340px){% endblocktrans %}</p>
+    </li>
+    <li>
+        <p>{% blocktrans %}In the box <b>"Details"</b> make sure you have a good short text that briefly explaining who you are.{% endblocktrans %}</p>
+    </li>
+    <li>
+        <p>{% blocktrans %}In the box <b>"Description"</b>, you can say more, such as: what is the served public, developed activities, objectives of the organization...{% endblocktrans %}</p>
+    </li>
+</ul>
+
+<p><a class="button" href="https://global.good-deeds-day.org/painel/ong/{{ organization.slug }}/editar">{% blocktrans %}LEAVE YOUR REGISTRATION “In accordance”{% endblocktrans %}</a></p>
+
+<p><b>{% blocktrans %}Good Deeds Day Team{% endblocktrans %}</b></p>
+{% endblock %}

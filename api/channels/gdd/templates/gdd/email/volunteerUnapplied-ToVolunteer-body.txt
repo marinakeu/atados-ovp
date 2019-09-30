@@ -1,0 +1,12 @@
+{% extends extend.txt %}
+{% load i18n %}
+
+{% block content %}
+  {% blocktrans %}Hi,{% endblocktrans %}
+  {% blocktrans with apply.project.name as project_name %}We confirm that your application on {{project_name}} has been successfully canceled.{% endblocktrans %}
+
+  {% blocktrans %}We hope you find another vacancy on our website site to volunteer =){% endblocktrans %}
+
+  {% blocktrans %}Good Deeds Day Team{% endblocktrans %}
+{% endblock content %}
+

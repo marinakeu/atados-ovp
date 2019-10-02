@@ -12,18 +12,18 @@ def foward_func(apps, schema_editor):
 
     # We freeze default channels skills and causes because
     # post_save signals are not sent from migrations
-    from ovp.apps.core.models.skill import skills
-    from ovp.apps.core.models.cause import causes
+    from ovp.apps.core.models.skill import SKILLS
+    from ovp.apps.core.models.cause import CAUSES
 
     Skill = apps.get_model("core", "Skill")
     Cause = apps.get_model("core", "Cause")
 
-    for skill in skills:
+    for skill in SKILLS:
       skill = Skill.objects.create(name=skill, channel=channel)
       skill.slug = generate_slug(Skill, skill.name, skill.channel.slug)
       skill.save()
 
-    for cause in causes:
+    for cause in CAUSES:
       cause = Cause.objects.create(name=cause, channel=channel)
       cause.slug = generate_slug(Cause, cause.name, cause.channel.slug)
       cause.save()

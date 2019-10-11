@@ -61,6 +61,7 @@ CORS_ORIGIN_WHITELIST = [
 
     #
     'https://beta.atados.now.sh',
+    'https://mrv.atados.now.sh',
     'https://demo.atados.now.sh',
     'https://channel.atados.now.sh',
     'https://global.good-deeds-day.org'

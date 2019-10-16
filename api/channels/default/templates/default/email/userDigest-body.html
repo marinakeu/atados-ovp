@@ -1,20 +1,114 @@
-{% extends extend.html %}
+{% extends 'default/email/base-digest.html' %}
 
 {% block content %}
-  <h1>Vagas fresquinhas para você!</h1>
-  <p>Selecionamos algumas vagas que podem te interessar.</p>
+  <table class="card mb-3" cellpadding="0" cellspacing="0">
+    <tbody>
+      <tr>
+        <td>
+          <table cellpadding="20" cellspacing="0">
+            <tbody>
+              <tr>
+                <td>
+                  <div class="newsletter-header">
 
-  <div class="digest">
-    {% for project in projects %}
-    <div class="item">
-      <a href="https://atados.com.br/vaga/{{ project.slug }}">
-        <img src="{% if not image_absolute %}https://atados-v3.storage.googleapis.com/{% endif %}{{ project.image }}" alt="">
-        <h3>{{ project.name }}</h3>
-        <h4>{{ project.description }}</h4>
-      </a>
-    </div>
-    {% endfor %}
-  </div>
+                    <div class="newsletter-title">Veja as melhores vagas da semana</div>
+                    <span class="newsletter-subtitle">Separamos as melhores vagas da semana baseadas no seu perfil</span>
+                  </div>
+                  {% for project in projects %}
+                  <table class="pb-3 w-full ta-left">
+                    <tbody>
+                      <tr>
+                        <td width="140">
+                          <a href="https://atados.com.br/vaga/{{ project.slug }}" target="__blank"
+                            style="background-image: url('{% if not image_absolute %}https://atados-v3.storage.googleapis.com/{% endif %}{{ project.image }}')" class="thumbnail-small">
+                          </a>
+                        </td>
+                        <td class="project-body vertical-align-top">
 
-  <i><a href="https://atados.com.br/cancelar/{{ uuid }}">Não quero mais receber mensagens como esta</a></i>
+                          <a href="https://atados.com.br/vaga/{{ project.slug }}" target="__blank" class="project-title">
+                            {{ project.name }}
+
+                            <div class="project-description">
+                              {{ project.description }}
+                            </div>
+                            <div class="project-disponibility">
+                              {% if project.disponibility_type == 'job' %}
+                                {{ project.disponibility.start_date|date:'d/m/y à\s h:i' }}
+                              {% elif project.disponibility_type == 'work' %}
+                                Recorrente
+                              {% endif %}
+                            </div>
+                          </a>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  {% endfor %}
+                  <table class="w-full">
+                    <tr>
+                      <td class="relative">
+                        <table class="pb-3 w-full">
+                          <tbody>
+                            <tr>
+                              <td width="140">
+                                <span style="background-color: #e2e8f0" class="thumbnail-small">
+                                </span>
+                              </td>
+                              <td class="project-body vertical-align-top">
+                                <span
+                                  style="background-color: #e2e8f0; height: 21px; display: block; width: 100%;"></span>
+                                <span
+                                  style="background-color: #edf2f7; height: 14px; display: block; width: 100%; margin-top: 10px;"></span>
+                                <span
+                                  style="background-color: #edf2f7; height: 14px; display: block; width: 50%; margin-top: 8px;"></span>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <table class="newsletter-projects-footer">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <a target="__blank" href="{{APP_URL}}/vagas" class="btn-primary">Ver mais vagas</a>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="footer w-full">
+    <tbody>
+      <tr>
+        <td>
+          <i>
+            Copyright © 2018 Atados Inc., Todos os direitos reservados.
+            <br>
+            R. dos Pinheiros, 706 - Casa 6 - Pinheiros, São Paulo - SP, 05422-001
+          </i>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Você está recebendo este e-mail porque se cadastrou na Newsletter
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="{{APP_URL}}/termos/privacidade">Política de Privacidade</a> |
+          <a href="{{APP_URL}}/eu/editar">Gerenciar conta</a>
+          | <a href="{{APP_URL}}/eu/newsletter">Cancele sua inscrição</a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 {% endblock %}

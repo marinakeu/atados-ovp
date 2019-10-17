@@ -10,22 +10,23 @@
               <tr>
                 <td>
                   <div class="newsletter-header">
-
-                    <div class="newsletter-title">Veja as melhores vagas da semana</div>
-                    <span class="newsletter-subtitle">Separamos as melhores vagas da semana baseadas no seu perfil</span>
+                    <div class="newsletter-title">Temos uma novidade fresquinha para você!</div>
+                    <span class="newsletter-subtitle">Queremos tornar o voluntariado uma ferramenta de troca cada vez mais
+                      comum. Por isso, a partir de hoje, todas as vagas que chegarão semanalmente na sua caixa de entrada
+                      serão mais personalizadas e baseadas no seu perfil e nas causas que você defende! ✊</span>
                   </div>
                   {% for project in projects %}
                   <table class="pb-3 w-full ta-left">
-                    <tbody>
+                    <tbody style="vertical-align: top;">
                       <tr>
                         <td width="140">
-                          <a href="https://atados.com.br/vaga/{{ project.slug }}" target="__blank"
+                          <a href="https://atados.com.br/vaga/{{ project.slug }}?utm_source=newsletter&utm_medium=email-mkt&utm_campaign={% now "d-m-Y" %}" target="__blank"
                             style="background-image: url('{% if not image_absolute %}https://atados-v3.storage.googleapis.com/{% endif %}{{ project.image }}')" class="thumbnail-small">
                           </a>
                         </td>
                         <td class="project-body vertical-align-top">
 
-                          <a href="https://atados.com.br/vaga/{{ project.slug }}" target="__blank" class="project-title">
+                          <a href="https://atados.com.br/vaga/{{ project.slug }}?utm_source=newsletter&utm_medium=email-mkt&utm_campaign={% now "d-m-Y" %}" target="__blank" class="project-title">
                             {{ project.name }}
 
                             <div class="project-description">
@@ -47,29 +48,11 @@
                   <table class="w-full">
                     <tr>
                       <td class="relative">
-                        <table class="pb-3 w-full">
-                          <tbody>
-                            <tr>
-                              <td width="140">
-                                <span style="background-color: #e2e8f0" class="thumbnail-small">
-                                </span>
-                              </td>
-                              <td class="project-body vertical-align-top">
-                                <span
-                                  style="background-color: #e2e8f0; height: 21px; display: block; width: 100%;"></span>
-                                <span
-                                  style="background-color: #edf2f7; height: 14px; display: block; width: 100%; margin-top: 10px;"></span>
-                                <span
-                                  style="background-color: #edf2f7; height: 14px; display: block; width: 50%; margin-top: 8px;"></span>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
                         <table class="newsletter-projects-footer">
                           <tbody>
                             <tr>
                               <td>
-                                <a target="__blank" href="{{APP_URL}}/vagas" class="btn-primary">Ver mais vagas</a>
+                                <a target="__blank" href="https://atados.com.br/vagas?utm_source=newsletter&utm_medium=email-mkt&utm_campaign={% now "d-m-Y" %}" class="btn-primary">Ver mais vagas</a>
                               </td>
                             </tr>
                           </tbody>
@@ -86,8 +69,101 @@
     </tbody>
   </table>
 
+  <table class="card mb-3" cellpadding="0" cellspacing="0">
+    <tbody>
+      <tr>
+        <td>
+          <table cellpadding="20" cellspacing="0" class="w-full">
+            <tbody>
+              <tr>
+                <td>
+                  <div class="newsletter-blog-header">
+                    <div class="newsletter-title">Se liga nas últimas publicações do nosso Blog</div>
+                  </div>
+
+                  <table class="w-full" cellpadding="10" cellspacing="0">
+                    <tbody style="vertical-align: top;">
+                      <tr>
+                        <td style="width: 50%">
+                          <div class="blog-post">
+                            <a href="https://blog.atados.com.br/2019/10/14/instituto-remo-meu-rumo-a-transformacao-de-desafio-em-liberdade/?utm_source=newsletter&utm_medium=email-mkt&utm_campaign={% now "d-m-Y" %}" class="blog-post-thumb-link">
+                              <img class="blog-image"
+                                src="https://blog.atados.com.br/wp-content/uploads/2019/10/Foto-de-bannerCapa-1024x562.jpeg"
+                                alt="">
+                              <span class="blog-post-title">
+                                Instituto Remo meu Rumo: a transformação de desafio em liberdade
+                              </span>
+                            </a>
+                            <span class="blog-post-description">
+                              Por meio do remo e da canoagem, o Instituto Remo meu Rumo visa melhorar a qualidade de vida
+                              de
+                              crianças e adolescentes com deficiência física. Promovendo o desenvolvimento físico, social
+                              e
+                              psíquico.
+                            </span>
+                            <a href="https://blog.atados.com.br/2019/10/14/instituto-remo-meu-rumo-a-transformacao-de-desafio-em-liberdade/?utm_source=newsletter&utm_medium=email-mkt&utm_campaign={% now "d-m-Y" %}" class="blog-post-link">Leia mais</a>
+                          </div>
+                        </td>
+                        <td style="width: 50%">
+                          <div class="blog-post">
+                            <a href="https://blog.atados.com.br/2019/10/08/afasia-o-reaprendizado-da-palavra/?utm_source=newsletter&utm_medium=email-mkt&utm_campaign={% now "d-m-Y" %}" class="blog-post-thumb-link">
+                              <img class="blog-image"
+                                src="https://blog.atados.com.br/wp-content/uploads/2019/10/REGISTRO-SEREMCENA-03-1024x683.jpg"
+                                alt="">
+                              <span class="blog-post-title">
+                                Afasia, o reaprendizado da palavra
+                              </span>
+                            </a>
+                            <span class="blog-post-description">
+                              Nicholas Wahba comemora o aniversário de nascimento três vezes ao ano, no dia que nasceu, no dia do acidente que o tornou afásico e no dia do palhaço. Ele assume a função de fundador, co-diretor e coordenador do grupo da ONG Ser em Cena, a qual ensina afásicos a reconquistarem a comunicação física, falada e escrita que perderam devido a um acidente que afetou o cérebro, ou um AVC.
+                            </span>
+                            <a href="https://blog.atados.com.br/2019/10/08/afasia-o-reaprendizado-da-palavra/?utm_source=newsletter&utm_medium=email-mkt&utm_campaign={% now "d-m-Y" %}" class="blog-post-link">Leia mais</a>
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
   <table class="footer w-full">
     <tbody>
+      <tr>
+        <td>
+          <center>
+            <a target="_blank" class="social-link"
+              href="https://www.facebook.com/atadosjuntandogenteboa/"
+             ><img
+                alt="" height="32" width="32" style="display: inline;"
+                src="https://atados-us.s3.amazonaws.com/images/newsletter-social/Facebook.png" />
+            </a>
+            &nbsp;&nbsp;
+            <a target="_blank" class="social-link"
+              href="https://twitter.com/atadosgenteboa">
+              <img alt="" height="32" width="32" style="display: inline;"
+                src="https://atados-us.s3.amazonaws.com/images/newsletter-social/Twitter.png" />
+            </a>
+            &nbsp;&nbsp;
+            <a class="social-link"
+              href="https://www.instagram.com/atados/?hl=pt-br">
+              <img alt="" height="32" width="32" style="display: inline;"
+                src="https://atados-us.s3.amazonaws.com/images/newsletter-social/Instagram.png" />
+            </a>
+            &nbsp;&nbsp;
+            <a class="social-link"
+              href="https://www.linkedin.com/company/atados/">
+              <img alt="" height="32" width="32" style="display: inline;"
+                src="https://atados-us.s3.amazonaws.com/images/newsletter-social/Linkedin.png" />
+            </a>
+          </center>
+        </td>
+      </tr>
       <tr>
         <td>
           <i>
@@ -104,9 +180,10 @@
       </tr>
       <tr>
         <td>
-          <a href="{{APP_URL}}/termos/privacidade">Política de Privacidade</a> |
-          <a href="{{APP_URL}}/eu/editar">Gerenciar conta</a>
-          | <a href="{{APP_URL}}/eu/newsletter">Cancele sua inscrição</a>
+          <a href="https://atados.com.br/termos/privacidade">Política de Privacidade</a> |
+          <a href="https://atados.com.br/eu/editar">Gerenciar conta</a>
+          | <a href="https://atados.com.br/eu/newsletter">Cancele sua inscrição</a>
+          | <a href="https://docs.google.com/forms/d/e/1FAIpQLSfykWhuaI6ujdv4A2fIwkps1_7xSCqkM0nP1S3F4kr6FE1nPQ/viewform">Feedback</a>
         </td>
       </tr>
     </tbody>

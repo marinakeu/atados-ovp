@@ -1,0 +1,14 @@
+{% extends extend.txt %}
+
+{% block content %}
+  Verifique seu email
+
+  Antes de começar a se inscrever em vagas, precisaremos verificar seu endereço email.
+  Clique no link abaixo para verificar seu email.
+
+  https://www.atados.com.br/verificar/{{ token.token }}/
+
+  Obrigado,
+  Equipe Atados
+{% endblock content %}
+

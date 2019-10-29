@@ -1,0 +1,18 @@
+{% extends extend.html %}
+
+{% block content %}
+  <h1>Verifique seu email</h1>
+
+  <p>Antes de começar a se inscrever em vagas, precisaremos verificar seu endereço email.<p>
+  <p>Clique no botão abaixo para verificar seu email.</p>
+
+  <p>
+    <a href="https://www.atados.com.br/verificar/{{ token.token }}/" class="button">Verificar meu email</a>
+  </p>
+
+  <p>
+    Obrigado,<br>
+    <b>Equipe Atados</b>
+  </p>
+
+{% endblock %}

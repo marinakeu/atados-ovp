@@ -76,3 +76,4 @@ media
 .vscode
 pytest.ini
 conftest.py
+.vim

@@ -72,6 +72,7 @@ SECRET_KEY = os.environ['DJANGO_SECRET_KEY']
 
 # Email
 EMAIL_BACKEND = 'email_log.backends.EmailBackend'
+DEFAULT_FROM_EMAIL="Atados <noreply@atados.email>"
 
 # Media and static files
 MEDIA_ROOT = '/tmp'

@@ -1,0 +1,12 @@
+{% extends extend.txt %}
+{% load i18n %}
+
+{% block content %}
+  {% blocktrans %}Hello, a new vacancy was successfully received!{% endblocktrans %}
+  {% blocktrans with project.name as project_name %}The vacancy {{project_name}} was received. As a country manager, we advise you to go into the admin to check out the vacancy and publish it to the website.{% endblocktrans %}
+
+  {% blocktrans %}Manage projects{% endblocktrans %}
+  https://gdd.admin.atados.com.br/admin/projects/project
+
+  {% blocktrans %}Good Deeds Day Team{% endblocktrans %}
+{% endblock %}

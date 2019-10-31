@@ -5,3 +5,4 @@ class GDDConfig(AppConfig):
 
   def ready(self):
     from . import content_flow
+    from . import signals

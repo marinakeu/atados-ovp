@@ -589,6 +589,22 @@ msgstr "ENCONTRE VAGAS DE VOLUNTARIADO"
 msgid "Congrats! Your registration was successful."
 msgstr "Eba! Seu cadastro foi feito com sucesso"
 
+#: templates/gdd/email/projectCreate-toCountryManager.html
+msgid "A new vacancy created in Good Deeds Day"
+msgstr "Olá, uma nova vaga foi criado no Dia das Boas Ações"
+
+msgid "Hello, a new vacancy was successfully received!"
+msgstr "Olá, uma nova vaga foi recebida com sucesso!"
+
+msgid "Manage projects"
+msgstr "Gerenciar vagas"
+
+msgid "The vacancy <b>%(project_name)s</b> was received. As a country manager, we advise you to go into the admin to check out the vacancy and publish it to the website."
+msgstr "A vaga <b>%(project_name)s</b> foi recebida. Como um gerente de país, recomendamos que entre no painel de administração da vaga para publicá-la no site."
+
+msgid "The vacancy %(project_name)s was received. As a country manager, we advise you to go into the admin to check out the vacancy and publish it to the website."
+msgstr "A vaga %(project_name)s foi recebida. Como um gerente de país, recomendamos que entre no painel de administração da vaga para publicá-la no site."
+
 #: core.Cause/name:1
 msgid "Treinamento Profissional"
 msgstr ""

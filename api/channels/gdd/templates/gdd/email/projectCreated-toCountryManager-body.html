@@ -1,0 +1,13 @@
+{% extends extend.html %}
+{% load i18n %}
+
+{% block content %}
+  <h1>{% blocktrans %}Hello, a new vacancy was successfully received!{% endblocktrans %}</h1>
+  <p>
+    {% blocktrans with project.name as project_name %}The vacancy <b>{{project_name}}</b> was received. As a country manager, we advise you to go into the admin to check out the vacancy and publish it to the website.{% endblocktrans %}
+  </p>
+  <p><a href="https://gdd.admin.atados.com.br/admin/projects/project/" class="button">{% blocktrans %}Manage projects{% endblocktrans %}</a></p>
+  <p>
+    <b>{% blocktrans %}Good Deeds Day Team{% endblocktrans %}</b>
+  </p>
+{% endblock %}

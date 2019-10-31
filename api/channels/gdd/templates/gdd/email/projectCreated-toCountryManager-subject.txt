@@ -1,0 +1,1 @@
+{% load i18n %}{% blocktrans %}A new vacancy created in Good Deeds Day{% endblocktrans %}

@@ -90,7 +90,11 @@ ROOT_URLCONF = 'server.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'channels', 'default', 'templates'), os.path.join(BASE_DIR, 'channels', 'boehringer', 'templates'), os.path.join(BASE_DIR, 'channels', 'rrp', 'templates')],
+        'DIRS': [os.path.join(BASE_DIR, 'channels', 'default', 'templates'),
+                 os.path.join(BASE_DIR, 'channels', 'boehringer', 'templates'),
+                 os.path.join(BASE_DIR, 'channels', 'icn', 'templates'),
+                 os.path.join(BASE_DIR, 'channels', 'gdd', 'templates'),
+                 os.path.join(BASE_DIR, 'channels', 'rrp', 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

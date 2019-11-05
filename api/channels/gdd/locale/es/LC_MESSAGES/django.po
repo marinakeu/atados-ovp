@@ -621,6 +621,9 @@ msgstr "Se ha recibido la vacante <b>%(project_name)s</b>. Como gerente de país
 msgid "The vacancy %(project_name)s was received. As a country manager, we advise you to go into the admin to check out the vacancy and publish it to the website."
 msgstr "Se ha recibido la vacante %(project_name)s. Como gerente de país, le recomendamos que inicie sesión en el panel de administración de vacantes y lo publique en el sitio."
 
+msgid "view dashboard in"
+msgstr "ver panel en"
+
 #: core.Cause/name:1
 msgid "Treinamento Profissional"
 msgstr ""

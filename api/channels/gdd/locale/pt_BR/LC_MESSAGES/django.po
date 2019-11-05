@@ -605,6 +605,9 @@ msgstr "A vaga <b>%(project_name)s</b> foi recebida. Como um gerente de país, r
 msgid "The vacancy %(project_name)s was received. As a country manager, we advise you to go into the admin to check out the vacancy and publish it to the website."
 msgstr "A vaga %(project_name)s foi recebida. Como um gerente de país, recomendamos que entre no painel de administração da vaga para publicá-la no site."
 
+msgid "view dashboard in"
+msgstr "ver painel em"
+
 #: core.Cause/name:1
 msgid "Treinamento Profissional"
 msgstr ""

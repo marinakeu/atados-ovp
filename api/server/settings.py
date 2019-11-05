@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/1.10/ref/settings/
 import os
 import datetime
 from dj_git_submodule import submodule
+from django.utils.translation import gettext_lazy as _
 
 try:
   with open('/env', 'r') as f:
@@ -177,6 +178,12 @@ OVP_USERS = {
 # https://docs.djangoproject.com/en/1.10/topics/i18n/
 
 LANGUAGE_CODE = 'en-us'
+
+LANGUAGES = [
+    ('en', _('English')),
+    ('pt-br', _('Portuguese')),
+    ('es', _('Spanish')),
+]
 
 TIME_ZONE = 'America/Sao_Paulo'
 

@@ -63,6 +63,7 @@
     </tbody>
   </table>
 
+  {% if posts %}
   <table class="card mb-3" cellpadding="0" cellspacing="0">
     <tbody>
       <tr>
@@ -78,38 +79,24 @@
                   <table class="w-full" cellpadding="10" cellspacing="0">
                     <tbody style="vertical-align: top;">
                       <tr>
+                        {% for post in posts %}
                         <td style="width: 50%">
                           <div class="blog-post">
-                            <a href="https://blog.atados.com.br/2019/11/04/edital-projeto-construindo-o-futuro-2020/?utm_source=newsletter&utm_medium=email-mkt&utm_campaign={% now "d-m-Y" %}" class="blog-post-thumb-link">
+                            <a href="{{post.url}}/?utm_source=newsletter&utm_medium=email-mkt&utm_campaign={% now "d-m-Y" %}" class="blog-post-thumb-link">
                               <img class="blog-image"
-                                src="https://blog.atados.com.br/wp-content/uploads/2019/11/DSC_0194-1.jpg"
+                               src="{{post.image}}"
                                 alt="">
                               <span class="blog-post-title">
-                                Edital Projeto Construindo o Futuro 2020
+                                {{ post.title }}
                               </span>
                             </a>
                             <span class="blog-post-description">
-                              O Construindo o Futuro é um projeto que capacita organizações da sociedade civil. Anualmente, seleciona 25 organizações que receberão um ano de formação e treinamento gratuitos, através de workshops, mentorias e muito mais. Tudo isso com profissionais especializados no terceiro setor.
+                              {{ post.excerpt }}
                             </span>
-                            <a href="https://blog.atados.com.br/2019/11/04/edital-projeto-construindo-o-futuro-2020/?utm_source=newsletter&utm_medium=email-mkt&utm_campaign={% now "d-m-Y" %}" class="blog-post-link">Leia mais</a>
+                            <a href="{{ post.url }}/?utm_source=newsletter&utm_medium=email-mkt&utm_campaign={% now "d-m-Y" %}" class="blog-post-link">Leia mais</a>
                           </div>
                         </td>
-                        <td style="width: 50%">
-                          <div class="blog-post">
-                            <a href="https://blog.atados.com.br/2019/11/04/ecotecendo-inspiracao/?utm_source=newsletter&utm_medium=email-mkt&utm_campaign={% now "d-m-Y" %}" class="blog-post-thumb-link">
-                              <img class="blog-image"
-                                src="https://blog.atados.com.br/wp-content/uploads/2019/11/Screen-Shot-2019-11-01-at-15.38.37.png"
-                                alt="">
-                              <span class="blog-post-title">
-                                Ecotecendo inspiração
-                              </span>
-                            </a>
-                            <span class="blog-post-description">
-                              Como contar a história de uma organização que mistura estilo e é ambientalmente engajada como a Ecotece? Esse é um daqueles desafios que nos colocam à prova e nos fazem superar certas barreiras, pois todo artista quer ver sua obra reconhecida, e a Ecotece é uma obra de arte, no mais literal dos termos.
-                            </span>
-                            <a href="https://blog.atados.com.br/2019/11/04/ecotecendo-inspiracao/?utm_source=newsletter&utm_medium=email-mkt&utm_campaign={% now "d-m-Y" %}" class="blog-post-link">Leia mais</a>
-                          </div>
-                        </td>
+                        {% endfor %}
                       </tr>
                     </tbody>
                   </table>
@@ -121,6 +108,7 @@
       </tr>
     </tbody>
   </table>
+  {% endif %}
 
   <table class="footer w-full">
     <tbody>

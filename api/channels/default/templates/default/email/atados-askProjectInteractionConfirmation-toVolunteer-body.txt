@@ -2,7 +2,7 @@
 {% block content %}
 Acompanhamento de rotina :)
 
-Oi, faz uma semana que você se inscreveu na vaga {{ apply.project.name }}, certo? E aí, já estão em contato?
+Oi, faz uma semana que você se inscreveu na vaga {{ apply.project.name }}, certo? E aí, já estão em contato? Lembre-se de olhar na caixa de spam!
 
 Se sim, acesse o seguinte link: {{ confirm_url }}
 Caso contrário, siga por esse link: {{ refute_url }}

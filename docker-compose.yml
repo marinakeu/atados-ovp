@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  db:
+    container_name: ovp-db
+    image: postgres
+    volumes:
+      - ./postgres-data:/var/lib/postgresql/data
+  api:
+    container_name: ovp-api
+    build: .
+    environment:
+      - 'DATABASE_URL=postgres://postgres:@db:5432/postgres'
+    command: make docker-entrypoint
+    volumes:
+      - ./api:/www/api
+    ports:
+      - '8000:8000'
+    depends_on:
+      - db

@@ -13,17 +13,24 @@ import os
 import datetime
 import dj_database_url
 from dj_git_submodule import submodule
+from corsheaders.defaults import default_headers
+from ovp import get_core_apps
+
+from dotenv import load_dotenv
 from django.utils.translation import gettext_lazy as _
 
+from dotenv import load_dotenv
+
 try:
-  with open('/env', 'r') as f:
-    env = f.read().strip()
-    f.close()
+    with open('/env', 'r') as f:
+        env = f.read().strip()
+        f.close()
 except FileNotFoundError:
-  env = 'dev'
+    env = 'dev'
 
 if env in ['production', 'homolog']:
-  submodule.prop = '__name__' # Gotta read __name__ instead of __file__ if running through gunicorn
+    # Gotta read __name__ instead of __file__ if running through gunicorn
+    submodule.prop = '__name__'
 
 # Submodules
 submodule.add(submodule.locate('django-*'))
@@ -31,20 +38,23 @@ submodule.add(submodule.locate('django-*'))
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+# Preparing variables in .env with dotenv
+load_dotenv(os.path.join(BASE_DIR, '.env'))
+
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.10/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '0o55a_%0s2t6)+j9+7wj5e^-z=t0ql#7-+ncrtnn8q(kl+em6v'
+SECRET_KEY = os.getenv('DJANGO_SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = bool(int(os.getenv('DEBUG', True)))
 
 ALLOWED_HOSTS = [".localhost", "api.beta.atados.com.br"]
 
 
 # Application definition
-from ovp import get_core_apps
+
 INSTALLED_APPS = get_core_apps() + [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -92,11 +102,13 @@ ROOT_URLCONF = 'server.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'channels', 'default', 'templates'),
-                 os.path.join(BASE_DIR, 'channels', 'boehringer', 'templates'),
-                 os.path.join(BASE_DIR, 'channels', 'icn', 'templates'),
-                 os.path.join(BASE_DIR, 'channels', 'gdd', 'templates'),
-                 os.path.join(BASE_DIR, 'channels', 'rrp', 'templates')],
+        'DIRS': [
+            os.path.join(BASE_DIR, 'channels', 'default', 'templates'),
+            os.path.join(BASE_DIR, 'channels', 'boehringer', 'templates'),
+            os.path.join(BASE_DIR, 'channels', 'icn', 'templates'),
+            os.path.join(BASE_DIR, 'channels', 'gdd', 'templates'),
+            os.path.join(BASE_DIR, 'channels', 'rrp', 'templates')
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -117,7 +129,7 @@ WSGI_APPLICATION = 'server.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.10/ref/settings/#databases
 DATABASES = {
-  'default': dj_database_url.parse(os.environ['DATABASE_URL'])
+    'default': dj_database_url.parse(os.getenv('DATABASE_URL'))
 }
 
 # Password validation
@@ -168,7 +180,9 @@ CKEDITOR_CONFIGS = {
 AUTH_USER_MODEL = 'users.User'
 SILENCED_SYSTEM_CHECKS = ["auth.E003", "auth.W004"]
 OVP_USERS = {
-    'USER_REGISTER_VALIDATION_FUNCTIONS': ['channels.boehringer.validators.boehringer_user_email_validator']
+    'USER_REGISTER_VALIDATION_FUNCTIONS': [
+        'channels.boehringer.validators.boehringer_user_email_validator'
+    ]
 }
 
 # Internationalization
@@ -199,20 +213,20 @@ STATIC_URL = '/static/'
 
 # Email
 
-EMAIL_HOST=os.environ.get('EMAIL_HOST', None)
-EMAIL_NAME=os.environ.get('EMAIL_FROM_NAME', None)
-EMAIL_PORT=465
-EMAIL_HOST_USER=os.environ.get('EMAIL_HOST_USER', None)
-EMAIL_HOST_PASSWORD=os.environ.get('EMAIL_HOST_PASSWORD', None)
-DEFAULT_FROM_EMAIL="{} <{}>".format(EMAIL_NAME, EMAIL_HOST_USER)
-EMAIL_USE_SSL=True
+EMAIL_HOST = os.environ.get('EMAIL_HOST', None)
+EMAIL_NAME = os.environ.get('EMAIL_FROM_NAME', None)
+EMAIL_PORT = 465
+EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER', None)
+EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD', None)
+DEFAULT_FROM_EMAIL = "{} <{}>".format(EMAIL_NAME, EMAIL_HOST_USER)
+EMAIL_USE_SSL = True
 EMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'
 EMAIL_FILE_PATH = '/tmp/atados-ovp-messages'
 
 
 # Media
 
-DEFAULT_FILE_STORAGE='django.core.files.storage.FileSystemStorage'
+DEFAULT_FILE_STORAGE = 'django.core.files.storage.FileSystemStorage'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 
@@ -238,8 +252,8 @@ ELASTICSEARCH_INDEX_SETTINGS = {
                 },
                 "snowball": {
                     "type": "custom",
-                    "tokenizer":"standard",
-                    "filter":[
+                    "tokenizer": "standard",
+                    "filter": [
                         "lowercase",
                         "asciifolding"
                     ]
@@ -275,31 +289,31 @@ ELASTICSEARCH_INDEX_SETTINGS = {
 }
 
 HAYSTACK_CONNECTIONS = {
-  'default': {
-    'ENGINE': 'haystack.backends.whoosh_backend.WhooshEngine',
-    'PATH': os.path.join('/tmp', 'atados_whoosh_index'),
-  },
+    'default': {
+        'ENGINE': 'haystack.backends.whoosh_backend.WhooshEngine',
+        'PATH': os.path.join('/tmp', 'atados_whoosh_index'),
+    },
 }
 
-HAYSTACK_SIGNAL_PROCESSOR='ovp.apps.search.signals.TiedModelRealtimeSignalProcessor'
+HAYSTACK_SIGNAL_PROCESSOR = 'ovp.apps.search.signals.TiedModelRealtimeSignalProcessor'
 
 # Authentication backends
 
 AUTHENTICATION_BACKENDS = [
-  # Facebook OAuth2
-  'ovp.apps.users.auth.oauth2.backends.facebook.FacebookOAuth2',
-  'ovp.apps.users.auth.oauth2.backends.google.GoogleOAuth2',
+    # Facebook OAuth2
+    'ovp.apps.users.auth.oauth2.backends.facebook.FacebookOAuth2',
+    'ovp.apps.users.auth.oauth2.backends.google.GoogleOAuth2',
 
-  # django-rest-framework-social-oauth2
-  'rest_framework_social_oauth2.backends.DjangoOAuth2',
+    # django-rest-framework-social-oauth2
+    'rest_framework_social_oauth2.backends.DjangoOAuth2',
 
-  'ovp.apps.users.auth.backends.ChannelBasedAuthentication'
+    'ovp.apps.users.auth.backends.ChannelBasedAuthentication'
 ]
 
 # JWT Auth
 
 JWT_AUTH = {
-  'JWT_EXPIRATION_DELTA': datetime.timedelta(hours=24),
+    'JWT_EXPIRATION_DELTA': datetime.timedelta(hours=24),
 }
 
 # Facebook configuration
@@ -317,24 +331,24 @@ SOCIAL_AUTH_FACEBOOK_PROFILE_EXTRA_PARAMS = {
 SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = os.environ.get('GOOGLE_ID', None)
 SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = os.environ.get('GOOGLE_SECRET', None)
 SOCIAL_AUTH_GOOGLE_OAUTH2_SCOPE = [
-  'https://www.googleapis.com/auth/userinfo.email',
-  'https://www.googleapis.com/auth/userinfo.profile'
+    'https://www.googleapis.com/auth/userinfo.email',
+    'https://www.googleapis.com/auth/userinfo.profile'
 ]
 
 # Social Auth
 
 SOCIAL_AUTH_STRATEGY = 'ovp.apps.users.auth.oauth2.strategy.OVPDjangoStrategy'
 SOCIAL_AUTH_PIPELINE = [
-  'social_core.pipeline.social_auth.social_details',
-  'ovp.apps.users.auth.oauth2.pipeline.social_uid',
-  'social_core.pipeline.social_auth.auth_allowed',
-  'social_core.pipeline.social_auth.social_user',
-  'social_core.pipeline.user.get_username',
-  'social_core.pipeline.user.create_user',
-  'social_core.pipeline.social_auth.associate_user',
-  'social_core.pipeline.social_auth.load_extra_data',
-  'social_core.pipeline.user.user_details',
-  'ovp.apps.users.auth.oauth2.pipeline.get_avatar',
+    'social_core.pipeline.social_auth.social_details',
+    'ovp.apps.users.auth.oauth2.pipeline.social_uid',
+    'social_core.pipeline.social_auth.auth_allowed',
+    'social_core.pipeline.social_auth.social_user',
+    'social_core.pipeline.user.get_username',
+    'social_core.pipeline.user.create_user',
+    'social_core.pipeline.social_auth.associate_user',
+    'social_core.pipeline.social_auth.load_extra_data',
+    'social_core.pipeline.user.user_details',
+    'ovp.apps.users.auth.oauth2.pipeline.get_avatar',
 ]
 SOCIAL_AUTH_PROTECTED_FIELDS = ('username', 'id', 'pk', 'email', 'channel')
 
@@ -353,10 +367,9 @@ PASSWORD_HASHERS = [
 
 # Cors headers
 
-from corsheaders.defaults import default_headers
 CORS_ALLOW_HEADERS = default_headers + (
-  'x-unauthenticated-upload',
-  'x-ovp-channel',
+    'x-unauthenticated-upload',
+    'x-ovp-channel',
 )
 
 # Jet
@@ -365,13 +378,13 @@ JET_INDEX_DASHBOARD = 'ovp.apps.admin.jet.dashboard.CustomIndexDashboard'
 
 # Docs
 SWAGGER_SETTINGS = {
-   'SECURITY_DEFINITIONS': {
-      'Bearer': {
+    'SECURITY_DEFINITIONS': {
+        'Bearer': {
             'type': 'apiKey',
             'name': 'Authorization',
             'in': 'header'
-      }
-   }
+        }
+    }
 }
 
 # Zoop
@@ -381,9 +394,9 @@ ZOOP_SELLER_ID=os.getenv('ZOOP_SELLER_ID')
 ZOOP_STATEMENT_DESCRIPTOR=os.getenv('ZOOP_STATEMENT_DESCRIPTOR')
 
 # OVP Test channels
-TEST_CHANNELS=["test-channel", "channel1"]
+TEST_CHANNELS = ["test-channel", "channel1"]
 
 if env == 'production':
-  from .production import *
+    from .production import *
 else:
-  from .dev import *
+    from .dev import *

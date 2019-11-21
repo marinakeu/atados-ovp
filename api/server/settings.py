@@ -385,6 +385,12 @@ SWAGGER_SETTINGS = {
     }
 }
 
+# Zoop
+ZOOP_MARKETPLACE_ID=os.getenv('ZOOP_MARKETPLACE_ID')
+ZOOP_PUB_KEY=os.getenv('ZOOP_PUB_KEY')
+ZOOP_SELLER_ID=os.getenv('ZOOP_SELLER_ID')
+ZOOP_STATEMENT_DESCRIPTOR=os.getenv('ZOOP_STATEMENT_DESCRIPTOR')
+
 # OVP Test channels
 TEST_CHANNELS = ["test-channel", "channel1"]
 

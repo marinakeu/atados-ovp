@@ -14,7 +14,6 @@ import datetime
 import dj_database_url
 from dj_git_submodule import submodule
 from corsheaders.defaults import default_headers
-from ovp import get_core_apps
 
 from dotenv import load_dotenv
 from django.utils.translation import gettext_lazy as _
@@ -54,7 +53,7 @@ ALLOWED_HOSTS = [".localhost", "api.beta.atados.com.br"]
 
 
 # Application definition
-
+from ovp import get_core_apps
 INSTALLED_APPS = get_core_apps() + [
     'django.contrib.admin',
     'django.contrib.auth',

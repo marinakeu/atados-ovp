@@ -48,7 +48,7 @@ load_dotenv(os.path.join(BASE_DIR, '.env'))
 SECRET_KEY = os.getenv('DJANGO_SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = bool(int(os.getenv('DEBUG')))
+DEBUG = bool(int(os.getenv('DEBUG', True)))
 
 ALLOWED_HOSTS = [".localhost", "api.beta.atados.com.br"]
 

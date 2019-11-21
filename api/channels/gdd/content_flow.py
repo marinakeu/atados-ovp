@@ -12,12 +12,12 @@ from ovp.apps.channels.content_flow import NoContentFlow
 from ovp.apps.channels.content_flow import CFM
 
 class GDDContentFlow(BaseContentFlow):
-  source = "gdd"
-  destination = "default"
+  source = "default"
+  destination = "gdd"
 
   def __init__(self):
     try:
-      self.category_id = Category.objects.get(slug="instituto-center-norte").pk
+      self.category_id = Category.objects.get(slug="export-to-gdd-2020").pk
     except:
       self.category_id = None
 
@@ -40,4 +40,4 @@ class GDDContentFlow(BaseContentFlow):
 
     raise NoContentFlow
 
-#CFM.add_flow(ICNContentFlow())
+CFM.add_flow(GDDContentFlow())

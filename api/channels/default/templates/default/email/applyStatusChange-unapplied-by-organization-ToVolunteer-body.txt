@@ -1,0 +1,5 @@
+{% extends extend.txt %}
+
+{% block content %}
+  Your aplication has been removed from {{apply.project.name}}.
+{% endblock content %}

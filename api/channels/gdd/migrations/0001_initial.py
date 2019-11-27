@@ -33,7 +33,7 @@ def foward_func(apps, schema_editor):
     ChannelSetting = apps.get_model("channels", "ChannelSetting")
     ChannelSetting.objects.create(key="MAPS_API_LANGUAGE", value="pt-br", channel=channel)
     ChannelSetting.objects.create(key="CAN_CREATE_PROJECTS_WITHOUT_ORGANIZATION", value="1", channel=channel)
-    ChannelSetting.objects.create(key="DISABLE_EMAIL", value="volunteerUnapplied-toOwner", channel=channel)
+    ChannelSetting.objects.create(key="DISABLE_EMAIL", value="applyStatusChange-unapplied-by-volunteer-toOwner", channel=channel)
     ChannelSetting.objects.create(key="DISABLE_EMAIL", value="userInvited-toMemberInviter", channel=channel)
     ChannelSetting.objects.create(key="DISABLE_EMAIL", value="userInvited-toOwner", channel=channel)
     ChannelSetting.objects.create(key="DISABLE_EMAIL", value="userInvited-toOwnerInviter", channel=channel)

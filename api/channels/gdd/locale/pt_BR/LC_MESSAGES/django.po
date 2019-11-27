@@ -89,14 +89,14 @@ msgstr "DEIXE SEU CADASTRO “NOS CONFORMES”"
 #: templates/gdd/email/recoveryToken-body.txt:13
 #: templates/gdd/email/userInvited-toUser-body.html:16
 #: templates/gdd/email/userInvited-toUser-body.txt:11
-#: templates/gdd/email/volunteerApplied-ToOwner-body.html:17
-#: templates/gdd/email/volunteerApplied-ToOwner-body.txt:16
-#: templates/gdd/email/volunteerApplied-ToVolunteer-body.html:22
-#: templates/gdd/email/volunteerApplied-ToVolunteer-body.txt:22
-#: templates/gdd/email/volunteerUnapplied-ToOwner-body.html:17
-#: templates/gdd/email/volunteerUnapplied-ToOwner-body.txt:13
-#: templates/gdd/email/volunteerUnapplied-ToVolunteer-body.html:10
-#: templates/gdd/email/volunteerUnapplied-ToVolunteer-body.txt:10
+#: templates/gdd/email/applyStatusChange-applied-ToOwner-body.html:17
+#: templates/gdd/email/applyStatusChange-applied-ToOwner-body.txt:16
+#: templates/gdd/email/applyStatusChange-applied-ToVolunteer-body.html:22
+#: templates/gdd/email/applyStatusChange-applied-ToVolunteer-body.txt:22
+#: templates/gdd/email/applyStatusChange-unapplied-by-volunteer-ToOwner-body.html:17
+#: templates/gdd/email/applyStatusChange-unapplied-by-volunteer-ToOwner-body.txt:13
+#: templates/gdd/email/applyStatusChange-unapplied-by-volunteer-ToVolunteer-body.html:10
+#: templates/gdd/email/applyStatusChange-unapplied-by-volunteer-ToVolunteer-body.txt:10
 #: templates/gdd/email/welcome-body.html:18
 #: templates/gdd/email/welcome-body.txt:16
 msgid "Good Deeds Day Team"
@@ -369,37 +369,37 @@ msgstr "Aceitar convite"
 msgid "You have been invited to manage an organization in Good Deeds Day"
 msgstr "Você foi convidado para gerenciar uma organização no Dia das Boas Ações"
 
-#: templates/gdd/email/volunteerApplied-ToOwner-body.html:5
-#: templates/gdd/email/volunteerApplied-ToOwner-body.txt:5
+#: templates/gdd/email/applyStatusChange-applied-ToOwner-body.html:5
+#: templates/gdd/email/applyStatusChange-applied-ToOwner-body.txt:5
 msgid "New application :)"
 msgstr "Nova inscrição :)"
 
-#: templates/gdd/email/volunteerApplied-ToOwner-body.html:7
+#: templates/gdd/email/applyStatusChange-applied-ToOwner-body.html:7
 #, python-format
 msgid "Hi, a new person applied for the vacancy <b>%(project_name)s</b>!"
 msgstr "Oi, uma nova pessoa se inscreveu na vaga <b>%(project_name)s</b>!"
 
-#: templates/gdd/email/volunteerApplied-ToOwner-body.html:9
-#: templates/gdd/email/volunteerApplied-ToOwner-body.txt:9
-#: templates/gdd/email/volunteerApplied-ToVolunteer-body.html:11
-#: templates/gdd/email/volunteerApplied-ToVolunteer-body.txt:11
+#: templates/gdd/email/applyStatusChange-applied-ToOwner-body.html:9
+#: templates/gdd/email/applyStatusChange-applied-ToOwner-body.txt:9
+#: templates/gdd/email/applyStatusChange-applied-ToVolunteer-body.html:11
+#: templates/gdd/email/applyStatusChange-applied-ToVolunteer-body.txt:11
 msgid "Name:"
 msgstr "Nome:"
 
-#: templates/gdd/email/volunteerApplied-ToOwner-body.html:10
-#: templates/gdd/email/volunteerApplied-ToOwner-body.txt:10
-#: templates/gdd/email/volunteerApplied-ToVolunteer-body.html:12
-#: templates/gdd/email/volunteerApplied-ToVolunteer-body.txt:12
+#: templates/gdd/email/applyStatusChange-applied-ToOwner-body.html:10
+#: templates/gdd/email/applyStatusChange-applied-ToOwner-body.txt:10
+#: templates/gdd/email/applyStatusChange-applied-ToVolunteer-body.html:12
+#: templates/gdd/email/applyStatusChange-applied-ToVolunteer-body.txt:12
 msgid "Email:"
 msgstr "Email:"
 
-#: templates/gdd/email/volunteerApplied-ToOwner-body.html:11
-#: templates/gdd/email/volunteerApplied-ToOwner-body.txt:11
+#: templates/gdd/email/applyStatusChange-applied-ToOwner-body.html:11
+#: templates/gdd/email/applyStatusChange-applied-ToOwner-body.txt:11
 msgid "Phone:"
 msgstr "Telefone:"
 
-#: templates/gdd/email/volunteerApplied-ToOwner-body.html:13
-#: templates/gdd/email/volunteerApplied-ToOwner-body.txt:13
+#: templates/gdd/email/applyStatusChange-applied-ToOwner-body.html:13
+#: templates/gdd/email/applyStatusChange-applied-ToOwner-body.txt:13
 msgid ""
 "Now, it's up to you! Click the button below to get in touch with the "
 "volunteer as soon as possible and arrange the next steps."
@@ -407,26 +407,26 @@ msgstr ""
 "Agora é com vocês! Clique no botão aqui em baixo pra entrar em contato com "
 "ela, o mais rápido possível, e combinar os próximos passos."
 
-#: templates/gdd/email/volunteerApplied-ToOwner-body.html:15
+#: templates/gdd/email/applyStatusChange-applied-ToOwner-body.html:15
 msgid "REPLY TO THE VOLUNTEER"
 msgstr "RESPONDA O(A) VOLUNTÁRIO(A)"
 
-#: templates/gdd/email/volunteerApplied-ToOwner-body.txt:7
+#: templates/gdd/email/applyStatusChange-applied-ToOwner-body.txt:7
 #, python-format
 msgid "Hi, a new person applied for the vacancy %(project_name)s!"
 msgstr "Oi, uma nova pessoa se inscreveu na vaga %(project_name)s!"
 
-#: templates/gdd/email/volunteerApplied-ToOwner-subject.txt:1
+#: templates/gdd/email/applyStatusChange-applied-ToOwner-subject.txt:1
 msgid "Yay! A new application for your vacancy"
 msgstr "Eba! Uma nova inscrição na vaga de vocês"
 
-#: templates/gdd/email/volunteerApplied-ToVolunteer-body.html:5
-#: templates/gdd/email/volunteerApplied-ToVolunteer-body.txt:5
+#: templates/gdd/email/applyStatusChange-applied-ToVolunteer-body.html:5
+#: templates/gdd/email/applyStatusChange-applied-ToVolunteer-body.txt:5
 msgid "You have applied for a vacancy :)"
 msgstr "Você se inscreveu em uma vaga :)"
 
-#: templates/gdd/email/volunteerApplied-ToVolunteer-body.html:7
-#: templates/gdd/email/volunteerApplied-ToVolunteer-body.txt:7
+#: templates/gdd/email/applyStatusChange-applied-ToVolunteer-body.html:7
+#: templates/gdd/email/applyStatusChange-applied-ToVolunteer-body.txt:7
 #, python-format
 msgid ""
 "Congrats! It is registered here that you applied for the vacancy "
@@ -434,8 +434,8 @@ msgid ""
 msgstr ""
 "Ebaaa! Caiu pra gente aqui que você se inscreveu na vaga %(project_name)s :)"
 
-#: templates/gdd/email/volunteerApplied-ToVolunteer-body.html:9
-#: templates/gdd/email/volunteerApplied-ToVolunteer-body.txt:9
+#: templates/gdd/email/applyStatusChange-applied-ToVolunteer-body.html:9
+#: templates/gdd/email/applyStatusChange-applied-ToVolunteer-body.txt:9
 msgid ""
 "The responsible personnel have already received your message and now they "
 "should contact you. But if you want to get things done, follow their details "
@@ -445,20 +445,20 @@ msgstr ""
 "contato com você. Mas, se tiver afim de já ir adiantando as coisas, seguem "
 "abaixo os dados deles:"
 
-#: templates/gdd/email/volunteerApplied-ToVolunteer-body.html:14
-#: templates/gdd/email/volunteerApplied-ToVolunteer-body.html:16
-#: templates/gdd/email/volunteerApplied-ToVolunteer-body.txt:14
-#: templates/gdd/email/volunteerApplied-ToVolunteer-body.txt:16
+#: templates/gdd/email/applyStatusChange-applied-ToVolunteer-body.html:14
+#: templates/gdd/email/applyStatusChange-applied-ToVolunteer-body.html:16
+#: templates/gdd/email/applyStatusChange-applied-ToVolunteer-body.txt:14
+#: templates/gdd/email/applyStatusChange-applied-ToVolunteer-body.txt:16
 msgid "Contact's phone:"
 msgstr "Telefone de contato:"
 
-#: templates/gdd/email/volunteerApplied-ToVolunteer-body.html:19
-#: templates/gdd/email/volunteerApplied-ToVolunteer-body.txt:19
+#: templates/gdd/email/applyStatusChange-applied-ToVolunteer-body.html:19
+#: templates/gdd/email/applyStatusChange-applied-ToVolunteer-body.txt:19
 msgid "Very important message!"
 msgstr "RECADO IMPORTANTÍSSIMO!"
 
-#: templates/gdd/email/volunteerApplied-ToVolunteer-body.html:20
-#: templates/gdd/email/volunteerApplied-ToVolunteer-body.txt:20
+#: templates/gdd/email/applyStatusChange-applied-ToVolunteer-body.html:20
+#: templates/gdd/email/applyStatusChange-applied-ToVolunteer-body.txt:20
 msgid ""
 "We don't even need to remind you of the importance of your commitment from "
 "now on, right? Volunteering is very cool, but it's not a mess. Answer the "
@@ -468,16 +468,16 @@ msgstr ""
 "pra frente, né? Voluntariado é muito legal, mas não é bagunça. Responda o "
 "pessoal direitinho e não esqueça de avisar caso não possa comparecer."
 
-#: templates/gdd/email/volunteerApplied-ToVolunteer-subject.txt:1
+#: templates/gdd/email/applyStatusChange-applied-ToVolunteer-subject.txt:1
 msgid "You have applied for a vacancy"
 msgstr "Você se inscreveu em uma vaga :)"
 
-#: templates/gdd/email/volunteerUnapplied-ToOwner-body.html:5
-#: templates/gdd/email/volunteerUnapplied-ToOwner-body.txt:5
+#: templates/gdd/email/applyStatusChange-unapplied-by-volunteer-ToOwner-body.html:5
+#: templates/gdd/email/applyStatusChange-unapplied-by-volunteer-ToOwner-body.txt:5
 msgid "Hello!"
 msgstr "Olá!"
 
-#: templates/gdd/email/volunteerUnapplied-ToOwner-body.html:7
+#: templates/gdd/email/applyStatusChange-unapplied-by-volunteer-ToOwner-body.html:7
 #, python-format
 msgid ""
 "Please be informed that volunteer <b>%(user_name)s</b> has opted to cancel "
@@ -486,8 +486,8 @@ msgstr ""
 "Informamos que o (a) voluntário(a) <b>%(user_name)s</b> optou por cancelar a "
 "inscrição na sua vaga."
 
-#: templates/gdd/email/volunteerUnapplied-ToOwner-body.html:9
-#: templates/gdd/email/volunteerUnapplied-ToOwner-body.txt:8
+#: templates/gdd/email/applyStatusChange-unapplied-by-volunteer-ToOwner-body.html:9
+#: templates/gdd/email/applyStatusChange-unapplied-by-volunteer-ToOwner-body.txt:8
 msgid ""
 "Do not worry. This could be due to unavailability or change of plans. So, "
 "you know exactly on whom you can count on the action day."
@@ -496,17 +496,17 @@ msgstr ""
 "de planos dele(a). E assim você sabe exatamente com que poderá contar no dia "
 "da ação."
 
-#: templates/gdd/email/volunteerUnapplied-ToOwner-body.html:12
-#: templates/gdd/email/volunteerUnapplied-ToOwner-body.txt:10
+#: templates/gdd/email/applyStatusChange-unapplied-by-volunteer-ToOwner-body.html:12
+#: templates/gdd/email/applyStatusChange-unapplied-by-volunteer-ToOwner-body.txt:10
 msgid "Remember to keep in touch with your volunteers, okay?"
 msgstr "Lembre-se de manter contato com seus voluntários, ok?"
 
-#: templates/gdd/email/volunteerUnapplied-ToOwner-body.html:13
-#: templates/gdd/email/volunteerUnapplied-ToOwner-body.txt:11
+#: templates/gdd/email/applyStatusChange-unapplied-by-volunteer-ToOwner-body.html:13
+#: templates/gdd/email/applyStatusChange-unapplied-by-volunteer-ToOwner-body.txt:11
 msgid "Good luck with your work!"
 msgstr "Bom trabalho lá!"
 
-#: templates/gdd/email/volunteerUnapplied-ToOwner-body.txt:6
+#: templates/gdd/email/applyStatusChange-unapplied-by-volunteer-ToOwner-body.txt:6
 #, python-format
 msgid ""
 "Please be informed that volunteer %(user_name)s has opted to cancel his "
@@ -515,17 +515,17 @@ msgstr ""
 "Informamos que o (a) voluntário(a) %(user_name)s optou por cancelar a "
 "inscrição na sua vaga."
 
-#: templates/gdd/email/volunteerUnapplied-ToOwner-subject.txt:1
-#: templates/gdd/email/volunteerUnapplied-ToVolunteer-subject.txt:1
+#: templates/gdd/email/applyStatusChange-unapplied-by-volunteer-ToOwner-subject.txt:1
+#: templates/gdd/email/applyStatusChange-unapplied-by-volunteer-ToVolunteer-subject.txt:1
 msgid "Application canceled"
 msgstr "Cancelamento de Inscrição"
 
-#: templates/gdd/email/volunteerUnapplied-ToVolunteer-body.html:5
-#: templates/gdd/email/volunteerUnapplied-ToVolunteer-body.txt:5
+#: templates/gdd/email/applyStatusChange-unapplied-by-volunteer-ToVolunteer-body.html:5
+#: templates/gdd/email/applyStatusChange-unapplied-by-volunteer-ToVolunteer-body.txt:5
 msgid "Hi,"
 msgstr "Olá,"
 
-#: templates/gdd/email/volunteerUnapplied-ToVolunteer-body.html:7
+#: templates/gdd/email/applyStatusChange-unapplied-by-volunteer-ToVolunteer-body.html:7
 #, python-format
 msgid ""
 "We confirm that your application on <b>%(project_name)s</b> has been "
@@ -534,13 +534,13 @@ msgstr ""
 "Confirmamos que sua inscrição na vaga <b>%(project_name)s</b> foi cancelada "
 "com sucesso."
 
-#: templates/gdd/email/volunteerUnapplied-ToVolunteer-body.html:9
-#: templates/gdd/email/volunteerUnapplied-ToVolunteer-body.txt:8
+#: templates/gdd/email/applyStatusChange-unapplied-by-volunteer-ToVolunteer-body.html:9
+#: templates/gdd/email/applyStatusChange-unapplied-by-volunteer-ToVolunteer-body.txt:8
 msgid "We hope you find another vacancy on our website site to volunteer =)"
 msgstr ""
 "Esperamos que você ache outra vaga em nosso site para se voluntariar =)"
 
-#: templates/gdd/email/volunteerUnapplied-ToVolunteer-body.txt:6
+#: templates/gdd/email/applyStatusChange-unapplied-by-volunteer-ToVolunteer-body.txt:6
 #, python-format
 msgid ""
 "We confirm that your application on %(project_name)s has been successfully "

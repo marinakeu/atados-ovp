@@ -1,0 +1,5 @@
+{% extends extend.txt %}
+
+{% block content %}
+  A volunteer was confirmed on {{apply.project.name}}.
+{% endblock content %}

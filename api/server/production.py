@@ -60,11 +60,14 @@ CORS_ORIGIN_WHITELIST = [
     'https://ambev.working',
 
     #
+    'https://global.good-deeds-day.org',
+    'https://diadasboasacoes.com.br',
+
+    #
     'https://beta.atados.now.sh',
     'https://mrv.atados.now.sh',
     'https://demo.atados.now.sh',
-    'https://channel.atados.now.sh',
-    'https://global.good-deeds-day.org'
+    'https://channel.atados.now.sh'
 ]
 
 # Secret key

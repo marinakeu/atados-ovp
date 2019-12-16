@@ -64,7 +64,12 @@ CORS_ORIGIN_WHITELIST = [
     'https://diadasboasacoes.com.br',
 
     #
-    'https://*.atados.now.sh'
+    'https://demo.atados.now.sh',
+    'https://atados.now.sh',
+    'https://beta.atados.now.sh',
+    'https://jbs.atados.now.sh',
+    'https://mrv.atados.now.sh',
+    'https://bnp.atados.now.sh'
 ]
 
 # Secret key

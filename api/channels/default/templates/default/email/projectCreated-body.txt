@@ -2,10 +2,13 @@
 
 {% block content %}
   Olá, o cadastro da vaga {{project.name}} foi recebido com sucesso!
-  
+
   Estamos analisando o conteúdo e detalhes da vaga e em até 48 horas aprovaremos a publicação na plataforma ou entraremos em contato com você.
-  
-  Qualquer dúvida, envie um e-mail para contato@atados.com.br e fale com a gente.
-  
+
+  Importante: as vagas criadas durante o recesso de final de ano (entre 20/12/19 e 06/01/20) serão aprovadas até o dia 07/01/2020.
+
+  Boas festas!! <3
+
+  Abraços,
   Equipe Atados
 {% endblock content %}

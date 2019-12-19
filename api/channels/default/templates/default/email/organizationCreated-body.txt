@@ -3,7 +3,7 @@
 {% block content %}
   Cadastro recebido :)
 
-  Oi, é isso ai! O cadastro foi enviado com sucesso e agora vocês + a gente + outras centenas de organizações, 
+  Oi, é isso ai! O cadastro foi enviado com sucesso e agora vocês + a gente + outras centenas de organizações,
   formamos (o que gostamos de chamar de) uma "rede viva de transformação".
 
   Vamos dar uma olhada no cadastro e, tudo estando “nos conformes”, já publicamos no site.
@@ -16,6 +16,10 @@
   Já no quadro "Descrição" podem falar mais, como: qual o público atendido, atividades desenvolvidas, objetivos da organização...
 
   {{ CLIENT_URL }}/painel/ong/{{ organization.slug }}/editar DEIXE SEU CADASTRO “NOS CONFORMES”
+
+  Importante: as vagas criadas durante o recesso de final de ano (entre 20/12/19 e 06/01/20) serão aprovadas até o dia 07/01/2020.
+
+  Boas festas!! <3
 
   Equipe Atados
 {% endblock content %}

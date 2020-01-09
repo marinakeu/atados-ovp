@@ -23,10 +23,15 @@
                           </a>
                         </td>
                         <td class="project-body vertical-align-top">
-
                           <a href="https://atados.com.br/vaga/{% templatetag openvariable %}slug{% templatetag closevariable %}?utm_source=newsletter&utm_medium=email-mkt&utm_campaign={% now "d-m-Y" %}" target="__blank" class="project-title">
                             {% templatetag openvariable %}name{% templatetag closevariable %}
-
+                          </a>
+                          
+                          <a href="https://atados.com.br/ong/{% templatetag openvariable %}organization_slug{% templatetag closevariable %}?utm_source=newsletter&utm_medium=email-mkt&utm_campaign={% now "d-m-Y" %}">
+                            <small><b>{% templatetag openvariable %}organization_name{% templatetag closevariable %}</b></small>
+                          </a>
+                          
+                          <a href="https://atados.com.br/vaga/{% templatetag openvariable %}slug{% templatetag closevariable %}?utm_source=newsletter&utm_medium=email-mkt&utm_campaign={% now "d-m-Y" %}" target="__blank" class="project-title">
                             <div class="project-description">
                               {% templatetag openvariable %}description{% templatetag closevariable %}
                             </div>

@@ -72,6 +72,12 @@ CORS_ORIGIN_WHITELIST = [
     'https://bnp.atados.now.sh'
 ]
 
+CORS_ORIGIN_REGEX_WHITELIST = [
+    r'^https://\w+\.atados\.now\.sh$', # Master
+    r'^https://\w+-\w+\.atados\.now\.sh$', # Other banches
+]
+
+
 # Secret key
 SECRET_KEY = os.environ['DJANGO_SECRET_KEY']
 

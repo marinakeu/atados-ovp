@@ -73,8 +73,7 @@ CORS_ORIGIN_WHITELIST = [
 ]
 
 CORS_ORIGIN_REGEX_WHITELIST = [
-    r'^https://\w+\.atados\.now\.sh$', # Master
-    r'^https://\w+-\w+\.atados\.now\.sh$', # Other banches
+    r'^https://[a-zA-Z0-9-]+\.atados\.now\.sh$'
 ]
 
 

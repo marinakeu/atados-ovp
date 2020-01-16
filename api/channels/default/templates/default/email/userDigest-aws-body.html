@@ -29,79 +29,61 @@
                   </div>
                   {% templatetag openvariable %}#each projects{% templatetag closevariable %}
                     <!-- Start Project -->
-                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="80%" class="templateContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;max-width: 600px !important;">
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse:collapse">
                       <tbody>
-                        <!-- Start <tr> main -->
-                        <tr>
-                          <td valign="top" class="bodyContainer" style="background:transparent none no-repeat center/cover;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: transparent;background-image: none;background-repeat: no-repeat;background-position: center;background-size: cover;border-top: 0;border-bottom: 0;padding-top: 0;padding-bottom: 0;">
-                            <table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnImageBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-                              <tbody class="mcnImageBlockOuter">
-                                <tr>
-                                  <td valign="top" style="padding: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" class="mcnImageBlockInner">
-                                    <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                          <tr>
+                              <td valign="top" style="padding:9px">
+                                  <table border="0" cellpadding="0" cellspacing="0" class="m_-8422421579453317301mcnCaptionRightContentOuter" width="100%" style="border-collapse:collapse">
                                       <tbody>
-                                        <tr>
-                                            <td class="mcnImageContent" valign="top" style="padding-right: 9px;padding-left: 9px;padding-top: 0;padding-bottom: 0;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-                                              <a href="https://atados.com.br/vaga/{% templatetag openvariable %}slug{% templatetag closevariable %}?utm_source=newsletter&utm_medium=email-mkt&utm_campaign={% now "d-m-Y" %}" target="__blank">
-                                                <img align="center" alt="" src="{% templatetag openvariable %}image{% templatetag closevariable %}" width="564" style="max-width: 564px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;border-radius: 10px !important;" class="mcnImage">
-                                              </a>
-                                            </td>
-                                        </tr>
+                                          <tr>
+                                              <td valign="top" style="padding:0 9px">
+                                                  <table align="left" border="0" cellpadding="0" cellspacing="0" class="m_-8422421579453317301mcnCaptionRightImageContentContainer" width="200" style="border-collapse:collapse">
+                                                      <tbody>
+                                                          <tr>
+                                                              <td align="center" valign="top">
+                                                                  <a href="https://atados.com.br/vaga/{% templatetag openvariable %}slug{% templatetag closevariable %}?utm_source=newsletter&utm_medium=email-mkt&utm_campaign={% now "d-m-Y" %}" target="__blank">
+                                                                      <img alt="" src="{% templatetag openvariable %}image{% templatetag closevariable %}" width="90%" style="max-width:416px;border:0;height:auto;outline:none;text-decoration:none;vertical-align:bottom;border-radius:10px;" class="m_-8422421579453317301mcnImage CToWUd a6T" tabindex="0"><div class="a6S" dir="ltr" style="opacity: 0.01; left: 358px; top: 1232px;"><div id=":105" class="T-I J-J5-Ji aQv T-I-ax7 L3 a5q" role="button" tabindex="0" aria-label="Fazer o download do anexo " data-tooltip-class="a1V" data-tooltip="Fazer o download"><div class="aSK J-J5-Ji aYr"></div></div></div>
+                                                                  </a>
+                                                                  <br />
+                                                              </td>
+                                                          </tr>
+                                                      </tbody>
+                                                  </table>
+                                                  <table class="m_-8422421579453317301mcnCaptionRightTextContentContainer" align="right" border="0" cellpadding="0" cellspacing="0" width="315" style="border-collapse:collapse">
+                                                      <tbody>
+                                                          <tr>
+                                                              <td valign="top" class="m_-8422421579453317301mcnTextContent" style="line-height:125%;word-break:break-word;color:#757575;font-family:Helvetica;font-size:16px;text-align:justify;">
+                                                                  <h3 style="display:block;margin:0;padding:0;color:#333;font-family:Helvetica;font-size:18px;font-style:normal;font-weight:bold;line-height:120%;letter-spacing:normal;text-align:justify;">
+                                                                      {% templatetag openvariable %}name{% templatetag closevariable %}
+                                                                  </h3>
+                                                                  <a href="https://atados.com.br/ong/{% templatetag openvariable %}organization_slug{% templatetag closevariable %}?utm_source=newsletter&utm_medium=email-mkt&utm_campaign={% now "d-m-Y" %}">
+                                                                      <span style="color:#185fbe">
+                                                                          <small>
+                                                                              <strong>
+                                                                                  {% templatetag openvariable %}organization_name{% templatetag closevariable %}
+                                                                              </strong>
+                                                                          </small>
+                                                                      </span>
+                                                                  </a>
+                  
+                                                                  <div style="text-align:justify">
+                                                                      <span style="color:#637087">
+                                                                          {% templatetag openvariable %}description{% templatetag closevariable %}
+                                                                      </span><br />
+                                                                      <span style="color:#637087">
+                                                                          {% templatetag openvariable %}disponibility{% templatetag closevariable %}
+                                                                      </span>
+                                                                  </div>
+                                                              </td>
+                                                          </tr>
+                                                      </tbody>
+                                                  </table>
+                                              </td>
+                                          </tr>
                                       </tbody>
-                                    </table>
-                                  </td>
-                                </tr>
-                              </tbody>
-                            </table>
-
-                            <table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-                            <tbody class="mcnTextBlockOuter">
-                            <tr>
-                            <td valign="top" class="mcnTextBlockInner" style="padding-top: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-                            <!--[if mso]>
-                            <table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
-                            <tr>
-                            <![endif]-->
-
-                            <!--[if mso]>
-                            <td valign="top" width="600" style="width:600px;">
-                            <![endif]-->
-                            <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%" class="mcnTextContentContainer">
-                              <tbody>
-                                <tr>
-                                  <td valign="top" class="mcnTextContent" style="padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #757575;font-family: Helvetica;font-size: 16px;line-height: 150%;text-align: left;">
-                                      <h3 style="display: block;margin: 0;padding: 0;color: #444444;font-family: Helvetica;font-size: 22px;font-style: normal;font-weight: bold;line-height: 150%;letter-spacing: normal;text-align: left;">
-                                        {% templatetag openvariable %}name{% templatetag closevariable %}
-                                      </h3>
-                                      <a href="https://atados.com.br/ong/{% templatetag openvariable %}organization_slug{% templatetag closevariable %}?utm_source=newsletter&utm_medium=email-mkt&utm_campaign={% now "d-m-Y" %}">
-                                        <small><b>{% templatetag openvariable %}organization_name{% templatetag closevariable %}</b></small>
-                                      </a>
-                                      <p style="margin: 10px 0;padding: 0;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #757575;font-family: Helvetica;font-size: 16px;line-height: 150%;text-align: left;">
-                                        {% templatetag openvariable %}description{% templatetag closevariable %}
-                                      </p>
-                                      <p style="margin: 10px 0;padding: 0;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #757575;font-family: Helvetica;font-size: 16px;line-height: 150%;text-align: left;">
-                                        {% templatetag openvariable %}disponibility{% templatetag closevariable %}
-                                      </p>
-                                  </td>
-                                </tr>
-                              </tbody>
-                            </table>
-                            <!--[if mso]>
-                            </td>
-                            <![endif]-->
-
-                            <!--[if mso]>
-                            </tr>
-                            </table>
-                            <![endif]-->
-                            </td>
-                            </tr>
-                            </tbody>
-                            </table>
-                            
-                          </td>
-                        </tr>
-                        <!-- End <tr> main -->
+                                  </table>
+                              </td>
+                          </tr>
                       </tbody>
                     </table>
                     <!-- End Project -->

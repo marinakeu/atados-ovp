@@ -79,9 +79,11 @@ INSTALLED_APPS = get_core_apps() + [
     'rest_framework_social_oauth2',
     'import_export',
     'drf_yasg',
+    'elasticapm.contrib.django',
 ]
 
 MIDDLEWARE = [
+    'elasticapm.contrib.django.middleware.TracingMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'ovp.apps.channels.middlewares.channel.ChannelRecognizerMiddleware',

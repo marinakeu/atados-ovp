@@ -1,0 +1,40 @@
+version: 2.1
+
+executors:
+  build-test-and-release:
+    docker:
+      - image: circleci/python:3.7
+        environment:
+          DATABASE_URL: postgres://root:@localhost:5432/circle-test
+
+      - image: circleci/postgres:9.6.2-alpine
+        environment:
+          POSTGRES_USER: root
+          POSTGRES_DB: circle-test
+
+    working_directory: ~/repo
+
+jobs:
+  build:
+    executor: build-test-and-release
+    steps:
+      - checkout
+
+      - run:
+          name: Install dependencies
+          command: pip install -r requirements/requirements-global.txt --user
+      
+      # Executando testes por Apps
+      - run:
+          name: Run core tests
+          command: python manage.py test ovp.apps.core
+
+      - persist_to_workspace:
+          root: .
+          paths:
+            - .
+workflows:
+  version: 2
+  build-test-and-release:
+    jobs:
+      - build

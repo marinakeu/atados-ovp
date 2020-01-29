@@ -26,7 +26,7 @@ jobs:
 
       - run:
           name: Install dependencies
-          command: pip install -r requirements/requirements-global.txt --user
+          command: pip install -r requirements.txt --user
       
       # Executando testes por Apps
       - run:

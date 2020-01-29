@@ -6,6 +6,7 @@ executors:
       - image: circleci/python:3.7
         environment:
           DATABASE_URL: postgres://root:@localhost:5432/circle-test
+          DJANGO_SECRET_KEY: '123'
 
       - image: circleci/postgres:9.6.2-alpine
         environment:

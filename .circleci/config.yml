@@ -31,7 +31,7 @@ jobs:
       # Executando testes por Apps
       - run:
           name: Run core tests
-          command: python manage.py test ovp.apps.core
+          command: python api/manage.py test ovp.apps.core
 
       - persist_to_workspace:
           root: .

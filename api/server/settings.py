@@ -79,11 +79,11 @@ INSTALLED_APPS = get_core_apps() + [
     'rest_framework_social_oauth2',
     'import_export',
     'drf_yasg',
-    'elasticapm.contrib.django',
+    #'elasticapm.contrib.django',
 ]
 
 MIDDLEWARE = [
-    'elasticapm.contrib.django.middleware.TracingMiddleware',
+    #'elasticapm.contrib.django.middleware.TracingMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'ovp.apps.channels.middlewares.channel.ChannelRecognizerMiddleware',
@@ -189,7 +189,7 @@ OVP_USERS = {
 # Internationalization
 # https://docs.djangoproject.com/en/1.10/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'en'
 
 LANGUAGES = [
     ('en', _('English')),

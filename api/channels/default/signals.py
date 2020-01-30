@@ -85,7 +85,10 @@ def create_rating_request(sender, *args, **kwargs):
 
   if instance.channel.slug == "default" and not kwargs["raw"]:
     try:
-      if instance.closed == True and Project.objects.get(pk=instance.pk).closed == False and instance.job:
+      if (instance.closed == True and
+         instance.pk and
+         instance.job and
+         Project.objects.get(pk=instance.pk).closed == False):
         for apply in instance.apply_set.all():
           req = RatingRequest.objects.create(requested_user=instance.owner, rated_object=apply.user, initiator_object=instance, object_channel=instance.channel.slug)
           req.rating_parameters.add(RatingParameter.objects.get(slug="volunteer-score"))

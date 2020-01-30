@@ -13,7 +13,7 @@ executors:
           POSTGRES_USER: root
           POSTGRES_DB: circle-test
 
-      - image: circleci/rabbitmq
+      - image: rabbitmq:3.7.8
 
     working_directory: ~/repo
 

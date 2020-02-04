@@ -69,7 +69,8 @@ CORS_ORIGIN_WHITELIST = [
     'https://beta.atados.now.sh',
     'https://jbs.atados.now.sh',
     'https://mrv.atados.now.sh',
-    'https://bnp.atados.now.sh'
+    'https://bnp.atados.now.sh',
+    'https://heineken.atados.now.sh'
 ]
 
 CORS_ORIGIN_REGEX_WHITELIST = [

@@ -14,7 +14,11 @@ def send_email_to_manager(sender, *args, **kwargs):
 
   if instance.channel.slug == "gdd" and kwargs["created"] and not kwargs["raw"]:
     address = GoogleAddress(pk=instance.address.pk)
-    country = address.address_components.filter(types__name='country').first().short_name
+    country = address.address_components.filter(types__name='country').first()
+    if country:
+        country = country.short_name
+    else:
+        return None
     managers = User.objects.filter(groups__name="mng-{}".format(country.lower()))
 
     for manager in managers:

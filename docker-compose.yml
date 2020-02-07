@@ -1,6 +1,9 @@
 version: '3'
 
 services:
+  rabbitmq:
+    container_name: ovp-rabbitmq
+    image: rabbitmq:3.7.8
   db:
     container_name: ovp-db
     image: postgres
@@ -11,6 +14,8 @@ services:
     build: .
     environment:
       - 'DATABASE_URL=postgres://postgres:@db:5432/postgres'
+      - 'DJANGO_SECRET_KEY=abc'
+      - 'RABBITMQ_URL=amqp://rabbitmq'
     command: make docker-entrypoint
     volumes:
       - ./api:/www/api

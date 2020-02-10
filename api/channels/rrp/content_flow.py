@@ -14,7 +14,7 @@ class RRPContentFlow(BaseContentFlow):
   destination = "default"
 
   def __init__(self):
-    self.organizations_id = [45, 1780, 2120]
+    self.organizations_id = [1780, 2120]
 
   def get_filter_searchqueryset_q_obj(self, model_class):
     if model_class == Project:
@@ -35,3 +35,30 @@ class RRPContentFlow(BaseContentFlow):
     raise NoContentFlow
 
 CFM.add_flow(RRPContentFlow())
+
+class DefaultToRRPContentFlow(BaseContentFlow):
+  source = "default"
+  destination = "rrp"
+
+  def __init__(self):
+    self.organizations_id = [45]
+
+  def get_filter_searchqueryset_q_obj(self, model_class):
+    if model_class == Project:
+      return SQ(organization__in=self.organizations_id)
+    elif model_class == Organization:
+      return SQ(org_id__in=self.organizations_id)
+
+    raise NoContentFlow
+
+  def get_filter_queryset_q_obj(self, model_class):
+    if model_class == Project:
+      return Q(organization__in=self.organizations_id)
+    elif model_class == Organization:
+      return Q(pk__in=self.organizations_id)
+    elif model_class == Apply:
+      return Q(project__organization_id__in=self.organizations_id)
+
+    raise NoContentFlow
+
+CFM.add_flow(DefaultToRRPContentFlow())

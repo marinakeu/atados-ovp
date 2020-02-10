@@ -73,6 +73,7 @@ INSTALLED_APPS = get_core_apps() + [
     'channels.rrp',
     'channels.icn',
     'channels.gdd',
+    'channels.roche',
     'ckeditor',
     'oauth2_provider',
     'social_django',

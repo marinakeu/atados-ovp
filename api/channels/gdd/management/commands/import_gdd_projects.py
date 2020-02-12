@@ -99,7 +99,8 @@ class Command(BaseCommand):
             'organization_id': organization.pk,
             'name': row['Project: Project Name'],
             'description': row['Project Description'],
-            'max_applies': row['Number of Participants Final']
+            'max_applies': row['Number of Participants Final'],
+            'published': True
         }
         role_data = self._get_role_data(row['Language'], row['Number of Participants Final'])
         causes = self._get_causes(row['Type'].split(';'))

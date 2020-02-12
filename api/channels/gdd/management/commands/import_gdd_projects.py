@@ -73,7 +73,8 @@ class Command(BaseCommand):
 
         # Organization address data
         address_data: dict = {
-            'typed_address': f"{row['O Street']}, {row['O city']}, {row['O_country']}'"
+            'typed_address': f"{row['O Street']}, {row['District ']}, {row['O city']}, {row['O_country']}'",
+            'typed_address2': row['Add-on']
         }
         address: GoogleAddress = self._create_address(address_data)
 

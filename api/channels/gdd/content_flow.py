@@ -17,7 +17,7 @@ class GDDContentFlow(BaseContentFlow):
 
   def __init__(self):
     try:
-      self.category_id = Category.objects.get(slug="export-to-gdd-2020").pk
+      self.category_id = Category.objects.get(slug="dba-2020").pk
     except:
       self.category_id = None
 

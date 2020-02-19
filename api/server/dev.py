@@ -7,4 +7,4 @@ CORS_ALLOW_HEADERS = default_headers + (
 INTERNAL_IPS = ('127.0.0.1', )
 ALLOWED_HOSTS = ['.localhost', '.local.atados.com.br']
 
-EMAIL_BACKEND = 'email_log.backends.EmailBackend'
+#EMAIL_BACKEND = 'email_log.backends.EmailBackend'

@@ -70,7 +70,7 @@ CORS_ORIGIN_WHITELIST = [
     'https://jbs.atados.now.sh',
     'https://mrv.atados.now.sh',
     'https://bnp.atados.now.sh',
-    'https://heineken.atados.now.sh'
+    'https://heineken.atados.now.sh',
 
     #
     'https://ligadobemroche.com.br'

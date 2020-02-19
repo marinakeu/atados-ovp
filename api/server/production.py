@@ -73,7 +73,8 @@ CORS_ORIGIN_WHITELIST = [
     'https://heineken.atados.now.sh',
 
     #
-    'https://ligadobemroche.com.br'
+    'https://ligadobemroche.com.br',
+    'https://www.ligadobemroche.com.br'
 ]
 
 CORS_ORIGIN_REGEX_WHITELIST = [

@@ -2,10 +2,10 @@
 
 {% block content %}
   Olá, o cadastro da vaga {{project.name}} foi recebido com sucesso!
-  
+
   Estamos analisando o conteúdo e detalhes da vaga e em até 48 horas aprovaremos a publicação na plataforma ou entraremos em contato com você.
-  
-  Qualquer dúvida, envie um e-mail para contato@atados.com.br e fale com a gente.
-  
+
+  Importante: as vagas criadas durante o carnaval (entre 21/02/20 e 29/02/20) serão aprovadas até o dia 02/03/2020.
+
   Equipe Atados
 {% endblock content %}

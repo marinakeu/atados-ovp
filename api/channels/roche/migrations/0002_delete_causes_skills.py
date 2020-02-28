@@ -8,7 +8,7 @@ from ovp.apps.core.helpers import generate_slug
 
 def foward_func(apps, schema_editor):
     Channel = apps.get_model("channels", "Channel")
-    channel = Channel.objects.create(name="Roche", slug="roche")
+    channel = Channel.objects.get(slug="roche")
     Skill = apps.get_model("core", "Skill")
     Cause = apps.get_model("core", "Cause")
 

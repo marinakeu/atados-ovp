@@ -5,3 +5,4 @@ class DefaultConfig(AppConfig):
 
   def ready(self):
     from . import signals
+    from . import content_flow

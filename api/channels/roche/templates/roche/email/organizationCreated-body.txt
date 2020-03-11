@@ -15,7 +15,7 @@
   No quadro "Detalhe" garantam um texto bom e curto, explicando resumidamente quem são vocês.
   Já no quadro "Descrição" podem falar mais, como: qual o público atendido, atividades desenvolvidas, objetivos da organização...
 
-  https://rederealpanorama.com.br/painel/ong/{{ organization.slug }}/editar DEIXE SEU CADASTRO “NOS CONFORMES”
+  https://ligadobemroche.com.br/painel/ong/{{ organization.slug }}/editar DEIXE SEU CADASTRO “NOS CONFORMES”
 
   Equipe Roche
 {% endblock content %}

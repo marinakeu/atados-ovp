@@ -9,7 +9,7 @@ Então resolvemos dar uma passada pra te lembrar que 9 em cada 10 vagas abertas 
 
 Bora criar uma nova vaga?
 
-https://rederealpanorama.com.br/painel/ong/{{ organization.slug }}/criar-vaga CRIE UMA NOVA VAGA
+https://ligadobemroche.com.br/painel/ong/{{ organization.slug }}/criar-vaga CRIE UMA NOVA VAGA
 
 Equipe Roche
 {% endblock content %}

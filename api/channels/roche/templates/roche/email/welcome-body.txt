@@ -9,7 +9,7 @@
 
   Temos diversas vagas abertas no site, você só precisa encontar a que tem mais a sua cara ;)
 
-  https://rederealpanorama.com.br/vagas ENCONTRE VAGAS DE VOLUNTARIADO
+  https://ligadobemroche.com.br/vagas ENCONTRE VAGAS DE VOLUNTARIADO
 
   Equipe Roche
 {% endblock %}

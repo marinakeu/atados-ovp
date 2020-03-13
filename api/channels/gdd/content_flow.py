@@ -11,10 +11,7 @@ from ovp.apps.channels.content_flow import BaseContentFlow
 from ovp.apps.channels.content_flow import NoContentFlow
 from ovp.apps.channels.content_flow import CFM
 
-class GDDContentFlow(BaseContentFlow):
-  source = "default"
-  destination = "gdd"
-
+class BaseGDDContentFlow(BaseContentFlow):
   def __init__(self):
     try:
       self.category_id = Category.objects.get(slug="dba-2020").pk
@@ -40,4 +37,13 @@ class GDDContentFlow(BaseContentFlow):
 
     raise NoContentFlow
 
-CFM.add_flow(GDDContentFlow())
+class DefaultToGDD(BaseGDDContentFlow):
+  source = "default"
+  destination = "gdd"
+
+class GDDToDefault(BaseGDDContentFlow):
+  source = "gdd"
+  destination = "default"
+
+CFM.add_flow(DefaultToGDD())
+CFM.add_flow(GDDToDefault())

@@ -1,26 +1,46 @@
-{% extends extend.html %}
+{% extends extend.html %} {% block content %} {% if vizinhoamigo %}
+<h1>Preencha o Formulário para continuar.</h1>
+<p>
+  <b>Formulário:</b>
+  <a href="https://forms.gle/jF7fRT6vsQmvUfCW7"
+    >https://forms.gle/jF7fRT6vsQmvUfCW7</a
+  >
+</p>
+<p>
+  <b>Conhece alguem que precisa de ajuda?</b> Envie este link para ele (a)
+  <a href="https://forms.gle/HVYnbe5ecApVWzpZ8"
+    >https://forms.gle/HVYnbe5ecApVWzpZ8</a
+  >
+</p>
+<hr />
+{% else %}
+<h1>Você se inscreveu em uma vaga :)</h1>
+<p>
+  Ebaaa! Caiu pra gente aqui que você se inscreveu na vaga
+  {{apply.project.name}} :)
+</p>
+<p>
+  O pessoal responsável já recebeu sua mensagem e agora eles devem entrar em
+  contato com você. Mas, se tiver afim de já ir adiantando as coisas, seguem
+  abaixo os dados deles:
+</p>
+{% endif %}
 
-{% block content %}
+<p><b>Nome:</b> {{apply.project.owner.name}}</p>
+<p><b>Email:</b> {{apply.project.owner.email}}</p>
+{% if apply.project.organization.contact_phone %}
+<p><b>Telefone:</b> {{apply.project.organization.contact_phone}}</p>
+{% else %}
+<p><b>Telefone:</b> {{apply.project.owner.phone}}</p>
+{% endif %}
 
-  <h1>Você se inscreveu em uma vaga :)</h1>
+<h2>RECADO IMPORTANTÍSSIMO!</h2>
+<p>
+  Devido a atual pandemia do vírus CODIV-19, não recomendamos a realização de
+  ações presenciais durante o mês de março! Vamos juntos nos apoiar para evitar
+  mais casos! Se você resolver manter sua ação, separamos algumas recomendações
+  de prevenção no nosso blog.
+</p>
 
-  <p>Ebaaa! Caiu pra gente aqui que você se inscreveu na vaga {{apply.project.name}} :)</p>
-
-  <p>O pessoal responsável já recebeu sua mensagem e agora eles devem entrar em contato com você. Mas, se tiver afim de já ir adiantando as coisas, seguem abaixo os dados deles:</p>
-
-  <p><b>Nome:</b> {{apply.project.owner.name}}</p>
-  <p><b>Email:</b> {{apply.project.owner.email}}</p>
-  {% if apply.project.organization.contact_phone %}
-  	<p><b>Telefone:</b> {{apply.project.organization.contact_phone}}</p>
-  {% else %}
-  	<p><b>Telefone:</b> {{apply.project.owner.phone}}</p>
-  {% endif %}
-
-  <h2>RECADO IMPORTANTÍSSIMO!</h2>
-  <p>
-    Devido a atual pandemia do vírus CODIV-19, não recomendamos a realização de ações presenciais durante o mês de março! Vamos juntos nos apoiar para evitar mais casos! Se você resolver manter sua ação, separamos algumas recomendações de prevenção no nosso blog.
-  </p>
-
-  
-  <p><b>Equipe Atados</b></p>
+<p><b>Equipe Atados</b></p>
 {% endblock %}

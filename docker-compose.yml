@@ -24,11 +24,14 @@ services:
       - 'DJANGO_SECRET_KEY=abc'
       - 'RABBITMQ_URL=amqp://rabbitmq'
       - 'HS_SEARCH_ENDPOINT=ovp-es2:9200'
+      - 'PUDB_RDB_HOST=0.0.0.0'
+      - 'PUDB_RDB_PORT=6900'
     command: make docker-entrypoint
     volumes:
       - ./api:/www/api
     ports:
       - '8000:8000'
+      - '6900:6900'
     depends_on:
       - db
 volumes:

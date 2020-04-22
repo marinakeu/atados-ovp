@@ -3,7 +3,7 @@ version: 2.1
 executors:
   build-test-and-release:
     docker:
-      - image: circleci/python:3.7
+      - image: circleci/python:3.6
         environment:
           DATABASE_URL: postgres://root:@localhost:5432/circle-test
           DJANGO_SECRET_KEY: '123'

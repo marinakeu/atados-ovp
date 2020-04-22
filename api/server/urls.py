@@ -48,9 +48,7 @@ urlpatterns = core_urls + [
     url(r'^jet/', include('jet.urls', 'jet')),
     url(r'^jet/dashboard/', include('jet.dashboard.urls', 'jet-dashboard')),
     url(r'^martor/', include('martor.urls')),
-]
-# TO-DO: VERIFICAR PATTERN CORRETO PARA SE COLOCAR
-# + i18n_patterns(url(r'^admin/', include("admin")))
+] + i18n_patterns(url(r'^admin/', admin_site.urls))
 
 if settings.DEBUG:
     import debug_toolbar

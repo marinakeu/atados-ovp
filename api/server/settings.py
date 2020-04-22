@@ -290,12 +290,25 @@ ELASTICSEARCH_INDEX_SETTINGS = {
     }
 }
 
-HAYSTACK_CONNECTIONS = {
-    'default': {
-        'ENGINE': 'haystack.backends.whoosh_backend.WhooshEngine',
-        'PATH': os.path.join('/tmp', 'atados_whoosh_index'),
-    },
-}
+HS_ENDPOINT = os.environ.get('HS_SEARCH_ENDPOINT', None)
+
+if HS_ENDPOINT:
+    HAYSTACK_CONNECTIONS = {
+        'default': {
+            'ENGINE': 'ovp.apps.search.backends.ConfigurableElasticSearchEngine',
+            'URL': 'http://%s/' % (
+                os.environ.get('HS_SEARCH_ENDPOINT', '127.0.0.1:9200')
+            ),
+            'INDEX_NAME': 'atadosovp'
+        },
+    }
+else:
+    HAYSTACK_CONNECTIONS = {
+        'default': {
+            'ENGINE': 'haystack.backends.whoosh_backend.WhooshEngine',
+            'PATH': os.path.join('/tmp', 'atados_whoosh_index'),
+        },
+    }
 
 HAYSTACK_SIGNAL_PROCESSOR = 'ovp.apps.search.signals.TiedModelRealtimeSignalProcessor'
 

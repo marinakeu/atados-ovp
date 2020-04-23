@@ -1,8 +1,5 @@
 {% extends 'default/email/base-digest.html' %}
 
-Abraços,
-Equipe Atados
-
 {% block content %}
   <table class="card mb-3" cellpadding="0" cellspacing="0">
     <tbody>
@@ -13,30 +10,55 @@ Equipe Atados
               <tr>
                 <td>
                   <div class="newsletter-header">
-                    <div class="newsletter-title">Conheça o Vizinho Amigo e faça parte da quarentena solidária!</div>
-                    <p>
-                      Como vocês já sabem, estamos passando por uma pandemia do coronavírus. Em um momento como este, acreditamos que nós devemos ser ainda mais solidários. Por isso, em parceria com o projeto Vizinho Amigo, criado em Portugal, e com o Razões para Acreditar, nós lançamos hoje a <a href="https://www.atados.com.br/vizinhoamigo?utm_source=newsletter&utm_medium=email-mkt&utm_campaign={% now "d-m-Y" %}">plataforma Vizinho Amigo</a>.
-                    </p>
-                    <p>
-                      A ideia é que os voluntários ajudem pessoas que não podem sair da quarentena (idosos, diabéticos, hipertensos, quem tem insuficiência cardíaca, renal ou doença respiratória crônica) com suas tarefas diárias - como ida ao mercado, farmácia e passeio com os pets.
-                    </p>
-                    <h3>Como funciona?</h3>
-                    <p>
-                      No Vizinho Amigo você pode se inscrever para ajudar nas tarefas diárias, você pode ser embaixador de divulgação do projeto no seu bairro ou, se você estiver no grupo de risco, você pode se cadastrar para receber ajuda. Para saber mais é só apertar no botão abaixo.
-                    </p>
-                    <p>
-                      Se você quiser ajudar a divulgar o projeto também, acesse o <a href="https://bit.ly/vizinhoamigo">kit oficial de divulgação</a> do Vizinho Amigo.
-                    </p>
-                    <p>
-                      <a target="__blank" href="https://www.atados.com.br/vizinhoamigo?utm_source=newsletter&utm_medium=email-mkt&utm_campaign={% now "d-m-Y" %}" class="btn-primary">
-                        Quero participar!
-                      </a>
-                    </p>
-                    <p>
-                    Até mais,<br>
-                    <b>Equipe Atados</b>
-                    </p>
+                    <div class="newsletter-title">Veja as melhores vagas da semana</div>
+                    <span class="newsletter-subtitle">Separamos as melhores vagas da semana baseadas no seu perfil</span>
                   </div>
+                  {% templatetag openvariable %}#each projects{% templatetag closevariable %}
+                  <table class="pb-3 w-full ta-left">
+                    <tbody style="vertical-align: top;">
+                      <tr>
+                        <td width="140">
+                          <a href="https://atados.com.br/vaga/{% templatetag openvariable %}slug{% templatetag closevariable %}?utm_source=newsletter&utm_medium=email-mkt&utm_campaign={% now "d-m-Y" %}" target="__blank"
+                            style="background-image: url('{% templatetag openvariable %}image{% templatetag closevariable %}')" class="thumbnail-small">
+                          </a>
+                        </td>
+                        <td class="project-body vertical-align-top">
+                          <a href="https://atados.com.br/vaga/{% templatetag openvariable %}slug{% templatetag closevariable %}?utm_source=newsletter&utm_medium=email-mkt&utm_campaign={% now "d-m-Y" %}" target="__blank" class="project-title">
+                            {% templatetag openvariable %}name{% templatetag closevariable %}
+                          </a>
+                          
+                          <a href="https://atados.com.br/ong/{% templatetag openvariable %}organization_slug{% templatetag closevariable %}?utm_source=newsletter&utm_medium=email-mkt&utm_campaign={% now "d-m-Y" %}">
+                            <small><b>{% templatetag openvariable %}organization_name{% templatetag closevariable %}</b></small>
+                          </a>
+                          
+                          <a href="https://atados.com.br/vaga/{% templatetag openvariable %}slug{% templatetag closevariable %}?utm_source=newsletter&utm_medium=email-mkt&utm_campaign={% now "d-m-Y" %}" target="__blank" class="project-title">
+                            <div class="project-description">
+                              {% templatetag openvariable %}description{% templatetag closevariable %}
+                            </div>
+                            <div class="project-disponibility">
+                              {% templatetag openvariable %}disponibility{% templatetag closevariable %}
+                            </div>
+                          </a>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  {% templatetag openvariable %}/each{% templatetag closevariable %}
+                  <table class="w-full">
+                    <tr>
+                      <td class="relative">
+                        <table class="newsletter-projects-footer">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <a target="__blank" href="https://atados.com.br/vagas?utm_source=newsletter&utm_medium=email-mkt&utm_campaign={% now "d-m-Y" %}" class="btn-primary">Ver mais vagas</a>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
                 </td>
               </tr>
             </tbody>
@@ -45,6 +67,53 @@ Equipe Atados
       </tr>
     </tbody>
   </table>
+
+  {% if posts %}
+  <table class="card mb-3" cellpadding="0" cellspacing="0">
+    <tbody>
+      <tr>
+        <td>
+          <table cellpadding="20" cellspacing="0" class="w-full">
+            <tbody>
+              <tr>
+                <td>
+                  <div class="newsletter-blog-header">
+                    <div class="newsletter-title">Se liga nas últimas publicações do nosso Blog</div>
+                  </div>
+
+                  <table class="w-full" cellpadding="10" cellspacing="0">
+                    <tbody style="vertical-align: top;">
+                      <tr>
+                        {% for post in posts %}
+                        <td style="width: 50%">
+                          <div class="blog-post">
+                            <a href="{{post.url}}/?utm_source=newsletter&utm_medium=email-mkt&utm_campaign={% now "d-m-Y" %}" class="blog-post-thumb-link">
+                              <img class="blog-image"
+                               src="{{post.image}}"
+                                alt="">
+                              <span class="blog-post-title">
+                                {{ post.title }}
+                              </span>
+                            </a>
+                            <span class="blog-post-description">
+                              {{ post.excerpt }}
+                            </span>
+                            <a href="{{ post.url }}/?utm_source=newsletter&utm_medium=email-mkt&utm_campaign={% now "d-m-Y" %}" class="blog-post-link">Leia mais</a>
+                          </div>
+                        </td>
+                        {% endfor %}
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  {% endif %}
 
   <table class="footer w-full">
     <tbody>

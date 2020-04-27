@@ -10,55 +10,26 @@
               <tr>
                 <td>
                   <div class="newsletter-header">
-                    <div class="newsletter-title">Veja as melhores vagas da semana</div>
-                    <span class="newsletter-subtitle">Separamos as melhores vagas da semana baseadas no seu perfil</span>
+                    <div class="newsletter-title">Tendências em Doação 
+                    </div>
+                    <span class="newsletter-subtitle">PESQUISA GLOBAL</span>
+                    <p>
+                      O Atados se juntou a uma organização internacional - <a href="https://www.nptechforgood.com/">Non Profit Tech For Good</a> - para que a nossa rede participe de uma pesquisa mundial que vai mapear as <b>tendências em doação</b> para o terceiro setor.
+                    </p>
+                    <p>
+                      <a href="http://bit.ly/PesquisaGlobalDoacoes">O formulário é bem rápido de preencher</a> e é muito importante que você faça parte para representar o Brasil nesse mapa! 👊
+                    </p>
+                    <p>
+                      O resultado será apresentado no 2º semestre em um webinar realizado pelo Atados.
+                    </p>
+                    <p>
+                      Vamos juntos!
+                    </p>
+                    <p>
+                    Abraços,<br>
+                    <b>Equipe Atados</b>
+                    </p>
                   </div>
-                  {% templatetag openvariable %}#each projects{% templatetag closevariable %}
-                  <table class="pb-3 w-full ta-left">
-                    <tbody style="vertical-align: top;">
-                      <tr>
-                        <td width="140">
-                          <a href="https://atados.com.br/vaga/{% templatetag openvariable %}slug{% templatetag closevariable %}?utm_source=newsletter&utm_medium=email-mkt&utm_campaign={% now "d-m-Y" %}" target="__blank"
-                            style="background-image: url('{% templatetag openvariable %}image{% templatetag closevariable %}')" class="thumbnail-small">
-                          </a>
-                        </td>
-                        <td class="project-body vertical-align-top">
-                          <a href="https://atados.com.br/vaga/{% templatetag openvariable %}slug{% templatetag closevariable %}?utm_source=newsletter&utm_medium=email-mkt&utm_campaign={% now "d-m-Y" %}" target="__blank" class="project-title">
-                            {% templatetag openvariable %}name{% templatetag closevariable %}
-                          </a>
-                          
-                          <a href="https://atados.com.br/ong/{% templatetag openvariable %}organization_slug{% templatetag closevariable %}?utm_source=newsletter&utm_medium=email-mkt&utm_campaign={% now "d-m-Y" %}">
-                            <small><b>{% templatetag openvariable %}organization_name{% templatetag closevariable %}</b></small>
-                          </a>
-                          
-                          <a href="https://atados.com.br/vaga/{% templatetag openvariable %}slug{% templatetag closevariable %}?utm_source=newsletter&utm_medium=email-mkt&utm_campaign={% now "d-m-Y" %}" target="__blank" class="project-title">
-                            <div class="project-description">
-                              {% templatetag openvariable %}description{% templatetag closevariable %}
-                            </div>
-                            <div class="project-disponibility">
-                              {% templatetag openvariable %}disponibility{% templatetag closevariable %}
-                            </div>
-                          </a>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                  {% templatetag openvariable %}/each{% templatetag closevariable %}
-                  <table class="w-full">
-                    <tr>
-                      <td class="relative">
-                        <table class="newsletter-projects-footer">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <a target="__blank" href="https://atados.com.br/vagas?utm_source=newsletter&utm_medium=email-mkt&utm_campaign={% now "d-m-Y" %}" class="btn-primary">Ver mais vagas</a>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </td>
-                    </tr>
-                  </table>
                 </td>
               </tr>
             </tbody>
@@ -67,53 +38,6 @@
       </tr>
     </tbody>
   </table>
-
-  {% if posts %}
-  <table class="card mb-3" cellpadding="0" cellspacing="0">
-    <tbody>
-      <tr>
-        <td>
-          <table cellpadding="20" cellspacing="0" class="w-full">
-            <tbody>
-              <tr>
-                <td>
-                  <div class="newsletter-blog-header">
-                    <div class="newsletter-title">Se liga nas últimas publicações do nosso Blog</div>
-                  </div>
-
-                  <table class="w-full" cellpadding="10" cellspacing="0">
-                    <tbody style="vertical-align: top;">
-                      <tr>
-                        {% for post in posts %}
-                        <td style="width: 50%">
-                          <div class="blog-post">
-                            <a href="{{post.url}}/?utm_source=newsletter&utm_medium=email-mkt&utm_campaign={% now "d-m-Y" %}" class="blog-post-thumb-link">
-                              <img class="blog-image"
-                               src="{{post.image}}"
-                                alt="">
-                              <span class="blog-post-title">
-                                {{ post.title }}
-                              </span>
-                            </a>
-                            <span class="blog-post-description">
-                              {{ post.excerpt }}
-                            </span>
-                            <a href="{{ post.url }}/?utm_source=newsletter&utm_medium=email-mkt&utm_campaign={% now "d-m-Y" %}" class="blog-post-link">Leia mais</a>
-                          </div>
-                        </td>
-                        {% endfor %}
-                      </tr>
-                    </tbody>
-                  </table>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-  {% endif %}
 
   <table class="footer w-full">
     <tbody>

@@ -1,0 +1,101 @@
+{% load image_url %}
+<?xml version="1.0" encoding="utf8"?>
+<FootprintFeed schemaVersion="0.1">
+  <FeedInfo>
+    <providerID>https://atados.com.br</providerID>
+    <providerName>Atados</providerName>
+    <createdDateTime olsonTZ="Etc/UTC">{% now "Y-m-d H:i:s" %}</createdDateTime>
+    <providerURL>https://atados.com.br</providerURL>
+  </FeedInfo>
+  <Organizations>
+    {% for organization in organizations %}
+    <Organization>
+      <organizationID>{{ organization.id }}</organizationID>
+      <name>{{ organization.name }}</name>
+      <missionStatement>{{ organization.description }}</missionStatement>
+      <location>
+        <country>{{ organization.address.address_dict.country.long_name }}</country>
+        <region>{{ organization.address.address_dict.administrative_area_level_1.long_name }}</region>
+        <city>{{ organization.address.address_dict.administrative_area_level_2.long_name }}</city>
+        {% if not organization.hide_address %}
+        <postalCode>{{ organization.address.address_dict.postal_code.long_name }}</postalCode>
+        <streetAddress1>{{ organization.address.address_line }}</streetAddress1>
+        <streetAddress2>{{ organization.address.typed_address2 }}</streetAddress2>
+        {% endif %}
+      </location>
+      {% if organization.website %}
+      <organizationURL>{{ organization.website }}</organizationURL>
+      {% endif %}
+      <donateURL/>
+      <logoURL>{{ organization.image|image_url:"https://storage.googleapis.com/atados-v3" }}</logoURL>
+      <detailURL>https://atados.com.br/ong/{{ organization.slug }}</detailURL>
+      <description>{{ organization.details }}</description>
+    </Organization>
+    {% endfor %}
+  </Organizations>
+  <VolunteerOpportunities>
+    {% for project in projects %}
+    <VolunteerOpportunity>
+      <volunteerOpportunityID>{{ project.id }}</volunteerOpportunityID>
+      <sponsoringOrganizationIDs>
+        <sponsoringOrganizationID>{{ project.organization.id }}</sponsoringOrganizationID>
+      </sponsoringOrganizationIDs>
+      <title>{{ project.name }}</title>
+      {% if project.minimum_age %}
+      <minimunAge>{{ project.minimum_age }}</minimunAge>
+      {% endif %}
+      <categoryTags>
+         {% for cause in project.causes.all %}
+         <categoryTag>{{ cause.name }}</categoryTag>
+         {% endfor %}
+      </categoryTags>
+      <locations>
+        <location>
+          {% if project.job and project.job.can_be_done_remotely or project.work and project.work.can_be_done_remotely %}
+            <virtual>Yes</virtual>
+          {% else %}
+            <virtual>No</virtual>
+            <country>{{ project.address.address_dict.country.long_name }}</country>
+            <region>{{ project.address.address_dict.administrative_area_level_1.long_name }}</region>
+            <city>{{ project.address.address_dict.administrative_area_level_2.long_name }}</city>
+            {% if not project.hide_address %}
+            <postalCode>{{ project.address.address_dict.postal_code.long_name }}</postalCode>
+            <streetAddress1>{{ project.address.address_line }}</streetAddress1>
+            <streetAddress2>{{ project.address.typed_address2 }}</streetAddress2>
+            {% endif %}
+          {% endif %}
+        </location>
+      </locations>
+      <abstract>{{ project.description }}</abstract>
+      <volunteersNeeded>{{ project.max_applies_from_roles }}</volunteersNeeded>
+      <rsvpCount>{{ project.applied_count }}</rsvpCount>
+      <dateTimeDurations>
+        {% if project.job %}
+          {% for date in project.job.dates.all %}
+        <dateTimeDuration>
+          <openEnded>No</openEnded>
+          <startDate>{{ date.start_date|date:"Y-m-d" }}</startDate>
+          <endDate>{{ date.end_date|date:"Y-m-d" }}</endDate>
+          <startTime olsonTZ="Etc/UTC">{{ date.start_date|date:"H:i:s" }}</startTime>
+          <endTime olsonTZ="Etc/UTC">{{ date.end_date|date:"H:i:s" }}</endTime>
+        </dateTimeDuration>
+          {% endfor %}
+        {% else %}
+        <dateTimeDuration>
+          <openEnded>Yes</openEnded>
+          <commitmentHoursPerWeek>{{ project.work.weekly_hours }}</commitmentHoursPerWeek>
+        </dateTimeDuration>
+        {% endif %}
+      </dateTimeDurations>
+      <contactName>{{ project.owner.name }}</contactName>
+      <contactPhone>{{ project.owner.phone }}</contactPhone>
+      <contactEmail>{{ project.owner.email }}</contactEmail>
+      <detailUrl>https://atados.com.br/vaga/{{ project.slug }}</detailUrl>
+      <description>{{ project.details }}</description>
+      {% for skill in project.skills.all %}
+      <skills>{{ skill.name }}</skills>
+      {% endfor %}
+    </VolunteerOpportunity>
+    {% endfor %}
+  </VolunteerOpportunities>
+</FootprintFeed>

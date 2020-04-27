@@ -17,5 +17,5 @@ RUN pip install -U pip setuptools
 COPY requirements.txt /www/requirements.txt
 COPY api/django-ovp/requirements /www/api/django-ovp/requirements
 RUN pip install -r /www/requirements.txt
-RUN pip install psycopg2-binary pudb
+RUN pip install psycopg2-binary pudb Werkzeug
 ADD . /www/

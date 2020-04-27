@@ -33,7 +33,7 @@ docker-db-shell:
 # docker-compose entrypoint for the api's container to run migrations and then run the server
 docker-entrypoint:
 	@python api/manage.py migrate
-	@python api/manage.py runserver 0.0.0.0:8000
+	@python api/manage.py runserver_plus 0.0.0.0:8000 --print-sql
 
 test:
 	@python api/manage.py test

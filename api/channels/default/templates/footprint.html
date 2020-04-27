@@ -92,9 +92,11 @@
       <contactEmail>{{ project.owner.email }}</contactEmail>
       <detailUrl>https://atados.com.br/vaga/{{ project.slug }}</detailUrl>
       <description>{{ project.details }}</description>
-      {% for skill in project.skills.all %}
-      <skills>{{ skill.name }}</skills>
-      {% endfor %}
+      <skills>
+        {% for skill in project.skills.all %}
+        <skill>{{ skill.name }}</skill>
+        {% endfor %}
+      </skills>
     </VolunteerOpportunity>
     {% endfor %}
   </VolunteerOpportunities>

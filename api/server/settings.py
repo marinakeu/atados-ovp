@@ -224,6 +224,7 @@ DEFAULT_FROM_EMAIL = "{} <{}>".format(EMAIL_NAME, EMAIL_HOST_USER)
 EMAIL_USE_SSL = True
 EMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'
 EMAIL_FILE_PATH = '/tmp/atados-ovp-messages'
+NOTIFYBOX_CHANNELS = [ 'default' ]
 
 
 # Media

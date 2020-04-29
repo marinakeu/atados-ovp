@@ -17,6 +17,7 @@ services:
       - 'POSTGRES_USER=atd'
       - 'POSTGRES_PASSWORD=atd'
   api:
+    restart: 'always'
     container_name: ovp-api
     build: .
     environment:

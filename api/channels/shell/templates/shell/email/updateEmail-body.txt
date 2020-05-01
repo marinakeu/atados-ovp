@@ -1,0 +1,9 @@
+{% extends extend.txt %}
+
+{% block content %}
+  Email Alterado
+
+  Olá, {{ name }}. Seu email de acesso na plataforma de voluntariado da Shell foi alterado com sucesso para {{ email }}.
+
+  Caso essa alteração não tenha sido feita por você, entre em contato conosco por esse link.
+{% endblock %}

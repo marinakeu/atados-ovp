@@ -1,0 +1,9 @@
+{% extends extend.txt %}
+
+{% block content %}
+  Você foi convidado para gerenciar a organização {{invite.organization.name}} na plataforma de voluntariado da Shell.
+  Aceitar convite: https://ovp-shell.atados.now.sh/ong/{{ invite.organization.slug }}/participar?user_slug={{ invite.invited.slug }}
+
+
+  Equipe Shell
+{% endblock content %}

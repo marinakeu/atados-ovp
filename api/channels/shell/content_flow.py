@@ -23,10 +23,10 @@ class ShellContentFlow(BaseContentFlow):
 
   def get_filter_searchqueryset_q_obj(self, model_class):
     if model_class == Project:
-      return SQ(organization_categories=self.category_id)
+      return SQ(categories=self.category_id)
 
     elif model_class == Organization:
-      return SQ(categories=self.category_id)
+      return SQ(projects_categories=self.category_id)
 
     raise NoContentFlow
 
@@ -34,11 +34,11 @@ class ShellContentFlow(BaseContentFlow):
     if model_class in [Cause, Skill]:
       return Q()
     elif model_class == Project:
-      return Q(organization__categories=self.category_id)
-    elif model_class == Organization:
       return Q(categories=self.category_id)
+    elif model_class == Organization:
+      return Q(project__categories=self.category_id)
     elif model_class == Apply:
-      return Q(project__organization__categories=self.category_id)
+      return Q(project__categories=self.category_id)
 
     raise NoContentFlow
 

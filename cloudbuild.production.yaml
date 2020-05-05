@@ -13,10 +13,9 @@ steps:
     - '-c'
     - |
       git init
-      git config -f .gitmodules submodule.django-ovp.url https://source.developers.google.com/p/atados/r/github_django-open-volunteering-platform
       echo "> git submodule init"
       git submodule init
-      echo "> git submodule init"
+      echo "> git submodule update"
       git submodule update
   # Build the pipeline container image.
   - name: 'gcr.io/cloud-builders/docker'

@@ -1,3 +1,0 @@
-[submodule "django-ovp"]
-	path = api/django-ovp
-	url = https://github.com/atados/django-open-volunteering-platform.git

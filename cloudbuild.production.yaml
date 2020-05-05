@@ -6,17 +6,6 @@
 #   _KMS_KEYRING
 
 steps:
-  - name: 'gcr.io/cloud-builders/git'
-    entrypoint: 'bash'
-    env: ['GIT_DISCOVERY_ACROSS_FILESYSTEM=1']
-    args:
-    - '-c'
-    - |
-      git init
-      echo "> git submodule init"
-      git submodule init
-      echo "> git submodule update"
-      git submodule update
   # Build the pipeline container image.
   - name: 'gcr.io/cloud-builders/docker'
     args:

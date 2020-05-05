@@ -82,7 +82,7 @@ steps:
         mv pipeline.yaml kubernetes/deployments/atados-ovp.yaml
         hub add kubernetes/deployments/atados-ovp.yaml
         hub commit -F- <<EOF
-        Update the atados-ovp
+        Update the atados-ovp.
         This commit updates the atados-ovp deployment container image to:
             gcr.io/${PROJECT_ID}/atados-ovp:${COMMIT_SHA}.
         Build ID: ${BUILD_ID}

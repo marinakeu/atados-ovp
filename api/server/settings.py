@@ -20,12 +20,7 @@ from django.utils.translation import gettext_lazy as _
 
 from dotenv import load_dotenv
 
-try:
-    with open('/env', 'r') as f:
-        env = f.read().strip()
-        f.close()
-except FileNotFoundError:
-    env = 'dev'
+env = os.getenv("DJANGO_ENV") or 'dev'
 
 if env in ['production', 'homolog']:
     # Gotta read __name__ instead of __file__ if running through gunicorn

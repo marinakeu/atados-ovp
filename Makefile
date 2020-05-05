@@ -35,6 +35,10 @@ docker-entrypoint:
 	@python api/manage.py migrate
 	@python api/manage.py runserver_plus 0.0.0.0:8000 --print-sql
 
+kube-entrypoint:
+	@python api/manage.py migrate
+	@python api/manage.py runserver 0.0.0.0:8000 --print-sql
+
 test:
 	@python api/manage.py test
 

@@ -19,12 +19,15 @@ DEBUG = False
 
 # Allowed hosts
 ALLOWED_HOSTS = [
+    env.list('DJANGO_ALLOWED_HOSTS', default=['localhost'], cast=str),
     'api.beta.atados.com.br',
+    'localhost:8000',
+    'localhost:8080',
     '.admin.beta.atados.com.br',
     'v2.api.atados.com.br',
     '.admin.atados.com.br',
     '.admin.voluntariadotransforma.com.br',
-    '.admin.rederealpanorama.com.br'
+    '.admin.rederealpanorama.com.br',
 ]
 
 # Cors
@@ -115,7 +118,7 @@ LOGGING = {
         'file': {
             'level': 'DEBUG',
             'class': 'logging.FileHandler',
-            'filename': '/home/ubuntu/api/logs/django.log',
+            'filename': os.getenv('DJANGO_LOG') or 'django.log',
         },
         'rollbar': {
             'filters': ['require_debug_false'],

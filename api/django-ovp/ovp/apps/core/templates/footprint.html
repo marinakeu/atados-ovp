@@ -1,0 +1,28 @@
+{% load image_url %}
+<?xml version="1.0" encoding="utf8"?>
+<FootprintFeed schemaVersion="0.1">
+  <FeedInfo>
+    <providerID>https://atados.com.br</providerID>
+    <providerName>Atados</providerName>
+    <createdDateTime olsonTZ="Etc/UTC">{% now "Y-m-d H:i:s" %}</createdDateTime>
+    <providerURL>https://atados.com.br</providerURL>
+  </FeedInfo>
+  <Organizations>
+    {% for organization in organizations %}
+    <Organization>
+      <organizationID>{{ organization.id }}</organizationID>
+      <name>{{ organization.name }}</name>
+      <missionStatement>{{ organization.description }}</missionStatement>
+      <location>
+        <city>{{ organization.address.address_dict.country }}</city>
+        <region />
+        <postalCode>19102</postalCode>
+      </location>
+      <organizationURL>{{ organization.website }}</organizationURL>
+      <logoURL>{{ organization.image|image_url }}</logoURL>
+      <detailURL>https://atados.com.br/ong/{{ organization.slug }}</detailURL>
+      <description>{{ organization.details }}</description>
+    </Organization>
+    {% endfor %}
+  </Organizations>
+</FootprintFeed>

@@ -1,0 +1,125 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-23 18:49+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: admin.py:25 admin.py:31
+msgid "No filter"
+msgstr "Sem filtro"
+
+#: apps.py:6
+msgid "Catalogue"
+msgstr "Catálogo"
+
+#: models/catalogue.py:7 models/section.py:21
+msgid "Name"
+msgstr "Nome"
+
+#: models/catalogue.py:8 models/section.py:22
+msgid "Slug"
+msgstr "Slug"
+
+#: models/catalogue.py:15
+msgid "catalogue"
+msgstr "catálogo"
+
+#: models/catalogue.py:16
+msgid "catalogues"
+msgstr "catálogos"
+
+#: models/filter.py:38
+msgid "Category Filter"
+msgstr "Filtro de categoria"
+
+#: models/filter.py:56
+msgid "Exact"
+msgstr "Exatamente"
+
+#: models/filter.py:57
+msgid "Greater than"
+msgstr "Maior que"
+
+#: models/filter.py:58
+msgid "Greater than or equal to"
+msgstr "Maior que ou igual a"
+
+#: models/filter.py:59
+msgid "Lesser than"
+msgstr "Menor que"
+
+#: models/filter.py:60
+msgid "Lesser than or equal to"
+msgstr "Menor que ou igual a"
+
+#: models/filter.py:64
+msgid "Days"
+msgstr "Dias"
+
+#: models/filter.py:65
+msgid "Weeks"
+msgstr "Semanas"
+
+#: models/filter.py:66
+msgid "Months"
+msgstr "Meses"
+
+#: models/filter.py:67
+msgid "Years"
+msgstr "Anos"
+
+#: models/filter.py:68
+msgid "Operator"
+msgstr "Operador"
+
+#: models/filter.py:71
+msgid "DateDelta Filter"
+msgstr "Filtro de diferença de data"
+
+#: models/section.py:15
+msgid "Category"
+msgstr "Categoria"
+
+#: models/section.py:16
+msgid "Date delta"
+msgstr "Diferença de data"
+
+#: models/section.py:23
+msgid "Amount"
+msgstr "Quantidade"
+
+#: models/section.py:30
+msgid "section"
+msgstr "seção"
+
+#: models/section.py:31
+msgid "sections"
+msgstr "seções"
+
+#: models/section.py:36
+msgid "Filter type"
+msgstr "Tipo de filtro"
+
+#: models/section.py:44
+msgid "section filter"
+msgstr "filtro de seção"
+
+#: models/section.py:45
+msgid "section filters"
+msgstr "filtros de seção"
+
+#: models/section.py:52
+msgid "Empty filter"
+msgstr "Filtro vazio"

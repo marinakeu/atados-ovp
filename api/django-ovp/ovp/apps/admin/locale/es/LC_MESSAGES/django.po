@@ -1,0 +1,111 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-01 13:10-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: jet/dashboard.py:20
+msgid "Quick links"
+msgstr "Enlaces rápidos"
+
+#: jet/dashboard.py:26
+msgid "Return to site"
+msgstr "Volver al sitio"
+
+#: jet/dashboard.py:27
+msgid "Change password"
+msgstr "Cambia la contraseña"
+
+#: jet/dashboard.py:29
+msgid "Log out"
+msgstr "Cerrar sesión"
+
+#: jet/dashboard.py:37
+msgid "Applications"
+msgstr "Aplicaciones"
+
+#: jet/dashboard.py:45
+msgid "Administration"
+msgstr "Administración"
+
+#: jet/dashboard.py:53
+msgid "Recent Actions"
+msgstr "Acciones recientes"
+
+#: jet/dashboard.py:61
+msgid "Indicators"
+msgstr "Indicadores"
+
+#: templates/admin/indicators.html:66
+msgid "Partial numbers"
+msgstr "Números parciales"
+
+#: templates/admin/indicators.html:66
+msgid "Total numbers"
+msgstr "Números totales"
+
+#: templates/admin/indicators.html:75
+msgid "Organizations registered"
+msgstr "Organizaciones registradas"
+
+#: templates/admin/indicators.html:79
+msgid "Organizations published"
+msgstr "Organizaciones publicadas"
+
+#: templates/admin/indicators.html:85
+msgid "Registered vacancies"
+msgstr "Vacantes registradas"
+
+#: templates/admin/indicators.html:89
+msgid "Published vacancies"
+msgstr "Vacantes publicadas"
+
+#: templates/admin/indicators.html:95
+msgid "User count"
+msgstr "Recuento de usuarios"
+
+#: templates/admin/indicators.html:99
+msgid "Applied volunteers"
+msgstr "Voluntarios aplicados"
+
+#: templates/admin/indicators.html:105
+msgid "Unique volunteers applied"
+msgstr "Voluntarios únicos aplicados"
+
+#: templates/admin/indicators.html:109
+msgid "Benefited people"
+msgstr "Personas beneficiadas"
+
+#: templates/admin/indicators.html:115
+msgid "Total vacancies"
+msgstr "Vacantes totales"
+
+#: templates/admin/textinput_filter.html:2
+#: templates/admin/textinput_filter.html:36
+#: templates/admin/textinput_filter.html:42
+#, python-format
+msgid " By %(filter_title)s "
+msgstr " Por %(filter_title)s "
+
+#: templates/admin/textinput_filter.html:50
+msgid "Search"
+msgstr "Buscar"
+
+#: templates/admin/textinput_filter.html:51
+msgid "Reset"
+msgstr "Reiniciar"
+

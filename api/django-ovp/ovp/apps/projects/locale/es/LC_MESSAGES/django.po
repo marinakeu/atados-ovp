@@ -1,0 +1,402 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-01 14:08-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: admin/apply.py:166
+msgid "Name"
+msgstr "Nombre"
+
+#: admin/apply.py:174
+msgid "E-mail"
+msgstr "Email"
+
+#: admin/apply.py:182
+msgid "Phone"
+msgstr "Teléfono"
+
+#: admin/apply.py:189 admin/apply.py:197 admin/apply.py:205
+#: admin/project.py:319
+msgid "None"
+msgstr "Ninguno"
+
+#: admin/apply.py:190 models/project.py:188
+msgid "Project"
+msgstr "Proyecto"
+
+#: admin/apply.py:198 admin/project.py:320
+msgid "Organization"
+msgstr "Organización"
+
+#: admin/apply.py:206
+msgid "Address"
+msgstr "Direcciones"
+
+#: admin/job.py:19 admin/job.py:20
+msgid "Job"
+msgstr "Trabajo"
+
+#: admin/jobdate.py:14
+msgid "Job Date"
+msgstr "Fecha de trabajo"
+
+#: admin/jobdate.py:15
+msgid "Job Dates"
+msgstr "Fechas de trabajo"
+
+#: admin/project.py:304
+msgid "Opportunities"
+msgstr "Oportunidades"
+
+#: admin/project.py:312
+msgid "Type not specified"
+msgstr "Tipo no especificado"
+
+#: admin/project.py:313
+msgid "Can be done remotely?"
+msgstr "¿Se puede hacer de forma remota?"
+
+#: admin/project.py:324 admin/project.py:329 admin/project.py:334
+msgid "Owner not assigned"
+msgstr "Propietario no asignado"
+
+#: admin/project.py:325
+msgid "Owner name"
+msgstr "Nombre del dueño"
+
+#: admin/project.py:330
+msgid "Owner email"
+msgstr "Email del dueño"
+
+#: admin/project.py:335
+msgid "Owner phone"
+msgstr "Teléfono del dueño"
+
+#: apps.py:6
+msgid "Projects"
+msgstr "Proyectos"
+
+#: models/apply.py:17
+msgid "user"
+msgstr "usuario"
+
+#: models/apply.py:18 models/project.py:176
+msgid "project"
+msgstr "proyecto"
+
+#: models/apply.py:19
+msgid "status"
+msgstr "estado"
+
+#: models/apply.py:20
+msgid "role"
+msgstr "papel"
+
+#: models/apply.py:21
+msgid "created date"
+msgstr "Fecha de creación"
+
+#: models/apply.py:22
+msgid "canceled date"
+msgstr "fecha cancelada"
+
+#: models/apply.py:24 models/category.py:9
+msgid "name"
+msgstr "nombre"
+
+#: models/apply.py:25
+msgid "email"
+msgstr "correo electrónico"
+
+#: models/apply.py:26
+msgid "phone"
+msgstr "teléfono"
+
+#: models/apply.py:27
+msgid "Documento"
+msgstr "Documento"
+
+#: models/apply.py:28
+msgid "message"
+msgstr "mensaje"
+
+#: models/apply.py:77
+msgid "apply"
+msgstr "aplicar"
+
+#: models/apply.py:78
+msgid "applies"
+msgstr "inscripciones"
+
+#: models/category.py:11
+msgid "description"
+msgstr "descripción"
+
+#: models/category.py:12 models/project.py:32
+msgid "image"
+msgstr "imagen"
+
+#: models/category.py:13 models/project.py:53
+msgid "Highlighted"
+msgstr "Resaltado"
+
+#: models/category.py:27
+msgid "category"
+msgstr "categoría"
+
+#: models/category.py:28 models/project.py:41
+msgid "categories"
+msgstr "categorías"
+
+#: models/job.py:7
+msgid "Label"
+msgstr "Etiqueta"
+
+#: models/job.py:8 models/job.py:31
+msgid "Start date"
+msgstr "Fecha de inicio"
+
+#: models/job.py:9 models/job.py:32
+msgid "End date"
+msgstr "Fecha final"
+
+#: models/job.py:10 models/job.py:59
+msgid "job"
+msgstr "trabajo"
+
+#: models/job.py:25
+msgid "job date"
+msgstr "fecha de trabajo"
+
+#: models/job.py:26
+msgid "job dates"
+msgstr "fechas de trabajo"
+
+#: models/job.py:33 models/work.py:10
+msgid "This job can be done remotely"
+msgstr "Este trabajo se puede hacer de forma remota."
+
+#: models/job.py:36
+msgid "Unbound Job"
+msgstr "Trabajo sin consolidar"
+
+#: models/job.py:60
+msgid "jobs"
+msgstr "trabajos"
+
+#: models/project.py:33
+msgid "address"
+msgstr "direcciones"
+
+#: models/project.py:34
+msgid "skills"
+msgstr "habilidades"
+
+#: models/project.py:35
+msgid "causes"
+msgstr "causas"
+
+#: models/project.py:36
+msgid "galleries"
+msgstr "galerías"
+
+#: models/project.py:37
+msgid "posts"
+msgstr "publicaciones"
+
+#: models/project.py:38
+msgid "documents"
+msgstr "documentos"
+
+#: models/project.py:42
+msgid "owner"
+msgstr "propietario"
+
+#: models/project.py:43
+msgid "organization"
+msgstr "organización"
+
+#: models/project.py:44
+msgid "item"
+msgstr "articulo"
+
+#: models/project.py:46
+msgid "flairs"
+msgstr "instintos"
+
+#: models/project.py:50
+msgid "Project name"
+msgstr "Nombre del proyecto"
+
+#: models/project.py:52
+msgid "Published"
+msgstr "Publicado"
+
+#: models/project.py:54 models/project.py:189
+msgid "Applied count"
+msgstr "Recuento aplicado"
+
+#: models/project.py:57
+msgid "Public"
+msgstr "Público"
+
+#: models/project.py:58
+msgid "Minimum Age"
+msgstr "Edad mínima"
+
+#: models/project.py:59
+msgid "Hidden address"
+msgstr "Dirección oculta"
+
+#: models/project.py:60
+msgid "Crowdfunding"
+msgstr "Financiamiento colectivo"
+
+#: models/project.py:61
+msgid "Skip address filter"
+msgstr "Saltar filtro de dirección"
+
+#: models/project.py:62
+msgid "Project Type"
+msgstr "Tipo de proyecto"
+
+#: models/project.py:65
+msgid "Partnership"
+msgstr "Camaradería"
+
+#: models/project.py:66
+msgid "Chat Enabled"
+msgstr "Chat habilitado"
+
+#: models/project.py:67
+msgid "Canceled"
+msgstr "Cancelado"
+
+#: models/project.py:68
+msgid "testimony"
+msgstr "testimonio"
+
+#: models/project.py:72
+msgid "Published date"
+msgstr "Fecha de Publicación"
+
+#: models/project.py:73
+msgid "Closed"
+msgstr "Cerrado"
+
+#: models/project.py:74
+msgid "Closed date"
+msgstr "Fecha de cierre"
+
+#: models/project.py:75
+msgid "Canceled date"
+msgstr "Fecha cancelada"
+
+#: models/project.py:76
+msgid "Deleted"
+msgstr "Eliminado"
+
+#: models/project.py:77
+msgid "Deleted date"
+msgstr "Fecha eliminada"
+
+#: models/project.py:78
+msgid "Created date"
+msgstr "Fecha de creación"
+
+#: models/project.py:79
+msgid "Modified date"
+msgstr "Fecha modificada"
+
+#: models/project.py:82 models/project.py:186
+msgid "Details"
+msgstr "Detalles"
+
+#: models/project.py:83
+msgid "Short description"
+msgstr "Breve descripción"
+
+#: models/project.py:177
+msgid "projects"
+msgstr "proyectos"
+
+#: models/project.py:184
+msgid "Role name"
+msgstr "Nombre de papel"
+
+#: models/project.py:185
+msgid "Prerequisites"
+msgstr "Prerrequisitos"
+
+#: models/project.py:187
+msgid "Vacancies"
+msgstr "Vacantes"
+
+#: models/project.py:194
+msgid "volunteer role"
+msgstr "papel del voluntario"
+
+#: models/project.py:195
+msgid "volunteer roles"
+msgstr "papeles de voluntarios"
+
+#: models/work.py:8
+msgid "Weekly hours"
+msgstr "Horas semanales"
+
+#: models/work.py:9
+msgid "Description"
+msgstr "Descripción"
+
+#: models/work.py:13
+#, python-format
+msgid "%d hours per week"
+msgstr "%d horas por semana"
+
+#: models/work.py:17
+msgid "work"
+msgstr "trabajo"
+
+#: models/work.py:18
+msgid "works"
+msgstr "trabajos"
+
+#: views/project.py:31
+msgid "User Name"
+msgstr "Nombre de usuario"
+
+#: views/project.py:31
+msgid "User Email"
+msgstr "Email del usuario"
+
+#: views/project.py:31
+msgid "User Phone"
+msgstr "Teléfono del usuario"
+
+#: views/project.py:31
+msgid "Applied At"
+msgstr "Aplicado a"
+
+#: views/project.py:31
+msgid "Role"
+msgstr "Papel"
+
+#: views/project.py:31
+msgid "Status"
+msgstr "Estado"
+

@@ -1,0 +1,6 @@
+{% extends extend.txt %}
+
+{% block content %}
+  Hello, you're receiving this email because you registered at OVP.
+  To verify your email, please go to {{token.token}}. This link is valid for 24 hours.
+{% endblock content %}

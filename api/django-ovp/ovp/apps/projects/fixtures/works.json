@@ -1,0 +1,244 @@
+[
+  {
+    "model": "projects.work",
+    "pk": 1,
+    "fields": {
+      "channel": 1,
+      "project": 1,
+      "weekly_hours": 5,
+      "description": "Idealmente, precisamos de pessoas com disponibilidade de uma vez por semana se encontrar e fazer atividades com estudantes.",
+      "can_be_done_remotely": false
+    }
+  },
+  {
+    "model": "projects.work",
+    "pk": 2,
+    "fields": {
+      "channel": 1,
+      "project": 2,
+      "weekly_hours": 5,
+      "description": "Idealmente, precisamos de pessoas com disponibilidade de uma vez por semana se encontrar e fazer atividades com estudantes.",
+      "can_be_done_remotely": true
+    }
+  },
+  {
+    "model": "projects.work",
+    "pk": 3,
+    "fields": {
+      "channel": 1,
+      "project": 3,
+      "weekly_hours": 5,
+      "description": "Idealmente, precisamos de pessoas com disponibilidade de uma vez por semana se encontrar e fazer atividades com estudantes.",
+      "can_be_done_remotely": true
+    }
+  },
+  {
+    "model": "projects.work",
+    "pk": 4,
+    "fields": {
+      "channel": 1,
+      "project": 4,
+      "weekly_hours": 5,
+      "description": "Idealmente, precisamos de pessoas com disponibilidade de uma vez por semana se encontrar e fazer atividades com estudantes.",
+      "can_be_done_remotely": false
+    }
+  },
+  {
+    "model": "projects.work",
+    "pk": 5,
+    "fields": {
+      "channel": 1,
+      "project": 5,
+      "weekly_hours": 5,
+      "description": "Idealmente, precisamos de pessoas com disponibilidade de uma vez por semana se encontrar e fazer atividades com estudantes.",
+      "can_be_done_remotely": false
+    }
+  },
+  {
+    "model": "projects.work",
+    "pk": 6,
+    "fields": {
+      "channel": 1,
+      "project": 6,
+      "weekly_hours": 5,
+      "description": "Idealmente, precisamos de pessoas com disponibilidade de uma vez por semana se encontrar e fazer atividades com estudantes.",
+      "can_be_done_remotely": false
+    }
+  },
+  {
+    "model": "projects.work",
+    "pk": 7,
+    "fields": {
+      "channel": 1,
+      "project": 7,
+      "weekly_hours": 5,
+      "description": "Idealmente, precisamos de pessoas com disponibilidade de uma vez por semana se encontrar e fazer atividades com estudantes.",
+      "can_be_done_remotely": true
+    }
+  },
+  {
+    "model": "projects.work",
+    "pk": 8,
+    "fields": {
+      "channel": 1,
+      "project": 8,
+      "weekly_hours": 5,
+      "description": "Idealmente, precisamos de pessoas com disponibilidade de uma vez por semana se encontrar e fazer atividades com estudantes.",
+      "can_be_done_remotely": false
+    }
+  },
+  {
+    "model": "projects.work",
+    "pk": 9,
+    "fields": {
+      "channel": 1,
+      "project": 9,
+      "weekly_hours": 5,
+      "description": "Idealmente, precisamos de pessoas com disponibilidade de uma vez por semana se encontrar e fazer atividades com estudantes.",
+      "can_be_done_remotely": true
+    }
+  },
+  {
+    "model": "projects.work",
+    "pk": 10,
+    "fields": {
+      "channel": 1,
+      "project": 10,
+      "weekly_hours": 5,
+      "description": "Idealmente, precisamos de pessoas com disponibilidade de uma vez por semana se encontrar e fazer atividades com estudantes.",
+      "can_be_done_remotely": false
+    }
+  },
+  {
+    "model": "projects.work",
+    "pk": 11,
+    "fields": {
+      "channel": 1,
+      "project": 11,
+      "weekly_hours": 5,
+      "description": "Idealmente, precisamos de pessoas com disponibilidade de uma vez por semana se encontrar e fazer atividades com estudantes.",
+      "can_be_done_remotely": true
+    }
+  },
+  {
+    "model": "projects.work",
+    "pk": 12,
+    "fields": {
+      "channel": 1,
+      "project": 12,
+      "weekly_hours": 5,
+      "description": "Idealmente, precisamos de pessoas com disponibilidade de uma vez por semana se encontrar e fazer atividades com estudantes.",
+      "can_be_done_remotely": true
+    }
+  },
+  {
+    "model": "projects.work",
+    "pk": 13,
+    "fields": {
+      "channel": 1,
+      "project": 13,
+      "weekly_hours": 5,
+      "description": "Idealmente, precisamos de pessoas com disponibilidade de uma vez por semana se encontrar e fazer atividades com estudantes.",
+      "can_be_done_remotely": true
+    }
+  },
+  {
+    "model": "projects.work",
+    "pk": 14,
+    "fields": {
+      "channel": 1,
+      "project": 14,
+      "weekly_hours": 5,
+      "description": "Idealmente, precisamos de pessoas com disponibilidade de uma vez por semana se encontrar e fazer atividades com estudantes.",
+      "can_be_done_remotely": false
+    }
+  },
+  {
+    "model": "projects.work",
+    "pk": 15,
+    "fields": {
+      "channel": 1,
+      "project": 15,
+      "weekly_hours": 5,
+      "description": "Idealmente, precisamos de pessoas com disponibilidade de uma vez por semana se encontrar e fazer atividades com estudantes.",
+      "can_be_done_remotely": true
+    }
+  },
+  {
+    "model": "projects.work",
+    "pk": 16,
+    "fields": {
+      "channel": 1,
+      "project": 16,
+      "weekly_hours": 5,
+      "description": "Idealmente, precisamos de pessoas com disponibilidade de uma vez por semana se encontrar e fazer atividades com estudantes.",
+      "can_be_done_remotely": true
+    }
+  },
+  {
+    "model": "projects.work",
+    "pk": 17,
+    "fields": {
+      "channel": 1,
+      "project": 17,
+      "weekly_hours": 5,
+      "description": "Idealmente, precisamos de pessoas com disponibilidade de uma vez por semana se encontrar e fazer atividades com estudantes.",
+      "can_be_done_remotely": false
+    }
+  },
+  {
+    "model": "projects.work",
+    "pk": 18,
+    "fields": {
+      "channel": 1,
+      "project": 18,
+      "weekly_hours": 5,
+      "description": "Idealmente, precisamos de pessoas com disponibilidade de uma vez por semana se encontrar e fazer atividades com estudantes.",
+      "can_be_done_remotely": true
+    }
+  },
+  {
+    "model": "projects.work",
+    "pk": 19,
+    "fields": {
+      "channel": 1,
+      "project": 19,
+      "weekly_hours": 5,
+      "description": "Idealmente, precisamos de pessoas com disponibilidade de uma vez por semana se encontrar e fazer atividades com estudantes.",
+      "can_be_done_remotely": false
+    }
+  },
+  {
+    "model": "projects.work",
+    "pk": 20,
+    "fields": {
+      "channel": 1,
+      "project": 20,
+      "weekly_hours": 5,
+      "description": "Idealmente, precisamos de pessoas com disponibilidade de uma vez por semana se encontrar e fazer atividades com estudantes.",
+      "can_be_done_remotely": false
+    }
+  },
+  {
+    "model": "projects.work",
+    "pk": 21,
+    "fields": {
+      "channel": 1,
+      "project": 21,
+      "weekly_hours": 5,
+      "description": "Idealmente, precisamos de pessoas com disponibilidade de uma vez por semana se encontrar e fazer atividades com estudantes.",
+      "can_be_done_remotely": false
+    }
+  },
+  {
+    "model": "projects.work",
+    "pk": 22,
+    "fields": {
+      "channel": 1,
+      "project": 22,
+      "weekly_hours": 5,
+      "description": "Idealmente, precisamos de pessoas com disponibilidade de uma vez por semana se encontrar e fazer atividades com estudantes.",
+      "can_be_done_remotely": true
+    }
+  }
+]

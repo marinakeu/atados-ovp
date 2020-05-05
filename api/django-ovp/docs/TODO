@@ -1,0 +1,1 @@
+Implement template cache reset without restarting server(for when a new channel modifies its templates)

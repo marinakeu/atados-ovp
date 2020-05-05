@@ -1,0 +1,186 @@
+{% load i18n %}
+<style>
+  .indicator-value {
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 0;
+  }
+
+  .indicator-label {
+    text-transform: uppercase;
+    color: #aab2bd;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .indicator-row {
+    display: flex;
+    border-bottom: 1px solid #eee;
+  }
+
+  .indicator-row:last-child {
+    border-bottom-width: 0;
+  }
+
+  .indicator-col {
+    width: 50%;
+    border-left: 1px solid #eee;
+    padding: 5px 10px;
+  }
+
+  .indicator-row .indicator-col:first-child {
+    border-left-width: 0
+  }
+
+  .indicator-header {
+    background: #59677e;
+    padding: 8px 10px 5px;
+    line-height: 1;
+  }
+
+  .indicator-header h4 {
+    margin: 2px 0;
+    color: #fff;
+    font-weight: normal;
+    font-size: 12px;
+    text-transform: uppercase;
+    display: block;
+  }
+
+  a.filter-indicators {
+    color: #fff !important;
+  }
+
+  .indicators-filter-popup {
+    position: absolute;
+    background: #fff;
+    display: none;
+    top: 0px;
+    left: 0px;
+    border-radius: 6px;
+    box-shadow: 0 0 0.28571rem 0 rgba(71,186,193,0.75);
+  }
+</style>
+<div>
+  <div class="indicator-header">
+    <h4>{% if module.date_min or module.date_max %}{% blocktrans %}Partial numbers{% endblocktrans %}{% else %}{% blocktrans %}Total numbers{% endblocktrans %}{% endif %}
+      <a href="#" class="filter-indicators">
+        <span class="icon-calendar float-right"></span>
+      </a>
+    </h4>
+  </div>
+  <div class="indicator-row">
+    <div class="indicator-col">
+      <h1 class="indicator-value">{{ module.organizations_count }}</h1>
+      <p class="indicator-label">{% blocktrans %}Organizations registered{% endblocktrans %}</p>
+    </div>
+    <div class="indicator-col">
+      <h1 class="indicator-value">{{ module.organizations_published_count }}</h1>
+      <p class="indicator-label">{% blocktrans %}Organizations published{% endblocktrans %}</p>
+    </div>
+  </div>
+  <div class="indicator-row">
+    <div class="indicator-col">
+      <h1 class="indicator-value">{{ module.projects_count }}</h1>
+      <p class="indicator-label">{% blocktrans %}Registered vacancies{% endblocktrans %}</p>
+    </div>
+    <div class="indicator-col">
+      <h1 class="indicator-value">{{ module.projects_published_count }}</h1>
+      <p class="indicator-label">{% blocktrans %}Published vacancies{% endblocktrans %}</p>
+    </div>
+  </div>
+  <div class="indicator-row">
+    <div class="indicator-col">
+      <h1 class="indicator-value">{{ module.users_count }}</h1>
+      <p class="indicator-label">{% blocktrans %}User count{% endblocktrans %}</p>
+    </div>
+    <div class="indicator-col">
+      <h1 class="indicator-value">{{ module.applies_count }}</h1>
+      <p class="indicator-label">{% blocktrans %}Applied volunteers{% endblocktrans %}</p>
+    </div>
+  </div>
+  <div class="indicator-row">
+    <div class="indicator-col">
+      <h1 class="indicator-value">{{ module.applies_count_distinct }}</h1>
+      <p class="indicator-label">{% blocktrans %}Unique volunteers applied{% endblocktrans %}</p>
+    </div>
+    <div class="indicator-col">
+      <h1 class="indicator-value">{{ module.benefited_people_count }}</h1>
+      <p class="indicator-label">{% blocktrans %}Benefited people{% endblocktrans %}</p>
+    </div>
+  </div>
+  <div class="indicator-row">
+    <div class="indicator-col">
+      <h1 class="indicator-value">{{ module.vacancies }}</h1>
+      <p class="indicator-label">{% blocktrans %}Total vacancies{% endblocktrans %}</p>
+    </div>
+    <div class="indicator-col">
+    </div>
+  </div>
+</div>
+
+<div class="indicators-filter-popup">
+  <form method="GET" action="." id="indicators-date-form">
+    <fieldset class="module aligned">
+      <div class="form-row ">
+        <div>
+          <input type="text" class="vDateField" name="indicator__gte" size="10" placeholder="From date" id="id_indicator__gte"></input>
+        </div>
+      </div>
+
+      <div class="form-row ">
+        <div>
+          <input type="text" class="vDateField" name="indicator__lte" size="10" placeholder="To date" id="id_indicator__lte"></input>
+        </div>
+      </div>
+      <div class="controls">
+        <input type="button" value="Buscar" onclick="datefilter_apply(event, 'indicators-date-query-string', 'indicators-date-form')">
+        <input type="reset" class="button" value="Reset" onclick="datefilter_reset('indicators-date-query-string')">
+      </div>
+    </fieldset>
+  </form>
+</div>
+
+<script>
+  function datefilter_apply(event, qs_name, form_name){
+    event.preventDefault();
+    var form_data = jQuery('#'+form_name).serialize();
+    window.location = window.location.pathname + '?' + form_data;
+  }
+  function datefilter_reset(qs_name){
+    window.location = window.location.pathname;
+  }
+</script>
+
+<script>
+  function defer(method) {
+    if (window.jQuery) {
+        method();
+    } else {
+        setTimeout(function() { defer(method) }, 50);
+    }
+  }
+
+  defer(function () {
+    var $ = jQuery;
+
+    function setPosition(popup, event) {
+      var offset = $(event.target).offset()
+      popup.css({left: offset.left - 10, top: offset.top + 20})
+    }
+
+    $(document).ready(function() {
+      var popup = $(".indicators-filter-popup");
+      $("#id_indicator__gte, #id_indicator__lte").datepicker('option', 'dateFormat', 'yy-mm-dd');
+
+      $(".filter-indicators").click(function(e) {
+        if (popup.is(":visible")) {
+          popup.hide();
+        } else {
+          popup.show();
+          setPosition(popup, e);
+        }
+      })
+    })
+  });
+</script>

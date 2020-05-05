@@ -1,0 +1,661 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-01 14:08-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: admin/apply.py:166
+msgid "Name"
+msgstr "Nome"
+
+#: admin/apply.py:174
+msgid "E-mail"
+msgstr "E-mail"
+
+#: admin/apply.py:182
+msgid "Phone"
+msgstr "Telefone"
+
+#: admin/apply.py:189 admin/apply.py:197 admin/apply.py:205
+#: admin/project.py:319
+msgid "None"
+msgstr "Nenhum"
+
+#: admin/apply.py:190 models/project.py:188
+msgid "Project"
+msgstr "Projeto"
+
+#: admin/apply.py:198 admin/project.py:320
+msgid "Organization"
+msgstr "Organização"
+
+#: admin/apply.py:206
+msgid "Address"
+msgstr "Endereço"
+
+#: admin/job.py:19 admin/job.py:20
+msgid "Job"
+msgstr "Ação Pontual"
+
+#: admin/jobdate.py:14
+msgid "Job Date"
+msgstr ""
+
+#: admin/jobdate.py:15
+#, fuzzy
+#| msgid "job dates"
+msgid "Job Dates"
+msgstr "datas de ações"
+
+#: admin/project.py:304
+msgid "Opportunities"
+msgstr "Oportunidades"
+
+#: admin/project.py:312
+msgid "Type not specified"
+msgstr "Tipo não especificado"
+
+#: admin/project.py:313
+msgid "Can be done remotely?"
+msgstr "Pode ser feita remotamente?"
+
+#: admin/project.py:324 admin/project.py:329 admin/project.py:334
+msgid "Owner not assigned"
+msgstr "Responsável não definido"
+
+#: admin/project.py:325
+msgid "Owner name"
+msgstr "Nome do responsável"
+
+#: admin/project.py:330
+msgid "Owner email"
+msgstr "E-mail de contato"
+
+#: admin/project.py:335
+msgid "Owner phone"
+msgstr "Telefone de contato"
+
+#: apps.py:6
+msgid "Projects"
+msgstr "Projetos"
+
+#: models/apply.py:17
+msgid "user"
+msgstr "usuário"
+
+#: models/apply.py:18 models/project.py:176
+msgid "project"
+msgstr "projeto"
+
+#: models/apply.py:19
+msgid "status"
+msgstr "status"
+
+#: models/apply.py:20
+msgid "role"
+msgstr ""
+
+#: models/apply.py:21
+msgid "created date"
+msgstr "criada em"
+
+#: models/apply.py:22
+msgid "canceled date"
+msgstr "cancelada em"
+
+#: models/apply.py:24 models/category.py:9
+msgid "name"
+msgstr "nome"
+
+#: models/apply.py:25
+msgid "email"
+msgstr "e-mail"
+
+#: models/apply.py:26
+msgid "phone"
+msgstr "telefone"
+
+#: models/apply.py:27
+msgid "Documento"
+msgstr ""
+
+#: models/apply.py:28
+msgid "message"
+msgstr "mensagem"
+
+#: models/apply.py:77
+msgid "apply"
+msgstr "inscrição"
+
+#: models/apply.py:78
+msgid "applies"
+msgstr "inscrições"
+
+#: models/category.py:11
+#, fuzzy
+#| msgid "Description"
+msgid "description"
+msgstr "Descrição"
+
+#: models/category.py:12 models/project.py:32
+msgid "image"
+msgstr "imagem"
+
+#: models/category.py:13 models/project.py:53
+msgid "Highlighted"
+msgstr "Em destaque"
+
+#: models/category.py:27
+msgid "category"
+msgstr "categoria"
+
+#: models/category.py:28 models/project.py:41
+msgid "categories"
+msgstr "categorias"
+
+#: models/job.py:7
+msgid "Label"
+msgstr "Título"
+
+#: models/job.py:8 models/job.py:31
+msgid "Start date"
+msgstr "Data de início"
+
+#: models/job.py:9 models/job.py:32
+msgid "End date"
+msgstr "Data de finalização"
+
+#: models/job.py:10 models/job.py:59
+msgid "job"
+msgstr "ação pontual"
+
+#: models/job.py:25
+msgid "job date"
+msgstr "data da ação"
+
+#: models/job.py:26
+msgid "job dates"
+msgstr "datas de ações"
+
+#: models/job.py:33 models/work.py:10
+msgid "This job can be done remotely"
+msgstr "Essa ação pode ser feita remotamente"
+
+#: models/job.py:36
+msgid "Unbound Job"
+msgstr "Ação sem projeo"
+
+#: models/job.py:60
+msgid "jobs"
+msgstr "ações pontuais"
+
+#: models/project.py:33
+msgid "address"
+msgstr "endereço"
+
+#: models/project.py:34
+msgid "skills"
+msgstr "habilidades"
+
+#: models/project.py:35
+msgid "causes"
+msgstr "causas"
+
+#: models/project.py:36
+msgid "galleries"
+msgstr "galleries"
+
+#: models/project.py:37
+msgid "posts"
+msgstr ""
+
+#: models/project.py:38
+msgid "documents"
+msgstr ""
+
+#: models/project.py:42
+msgid "owner"
+msgstr "responsável"
+
+#: models/project.py:43
+msgid "organization"
+msgstr "organização"
+
+#: models/project.py:44
+msgid "item"
+msgstr ""
+
+#: models/project.py:46
+msgid "flairs"
+msgstr ""
+
+#: models/project.py:50
+msgid "Project name"
+msgstr "Nome do projeto"
+
+#: models/project.py:52
+msgid "Published"
+msgstr "Publicado"
+
+#: models/project.py:54 models/project.py:189
+msgid "Applied count"
+msgstr "inscrições"
+
+#: models/project.py:57
+msgid "Public"
+msgstr "Público"
+
+#: models/project.py:58
+msgid "Minimum Age"
+msgstr "Idade mínima"
+
+#: models/project.py:59
+msgid "Hidden address"
+msgstr "Endereço oculto"
+
+#: models/project.py:60
+msgid "Crowdfunding"
+msgstr "Crowdfunding"
+
+#: models/project.py:61
+msgid "Skip address filter"
+msgstr ""
+
+#: models/project.py:62
+msgid "Project Type"
+msgstr "Tipo do projeto"
+
+#: models/project.py:65
+msgid "Partnership"
+msgstr "Parceria"
+
+#: models/project.py:66
+msgid "Chat Enabled"
+msgstr ""
+
+#: models/project.py:67
+msgid "Canceled"
+msgstr "cancelada"
+
+#: models/project.py:68
+msgid "testimony"
+msgstr ""
+
+#: models/project.py:72
+msgid "Published date"
+msgstr "Data de publicação"
+
+#: models/project.py:73
+msgid "Closed"
+msgstr "Fechado"
+
+#: models/project.py:74
+msgid "Closed date"
+msgstr "Data de fechamento"
+
+#: models/project.py:75
+msgid "Canceled date"
+msgstr "cancelada em"
+
+#: models/project.py:76
+msgid "Deleted"
+msgstr "Desligado"
+
+#: models/project.py:77
+msgid "Deleted date"
+msgstr "Data de desligamento"
+
+#: models/project.py:78
+msgid "Created date"
+msgstr "Criado em"
+
+#: models/project.py:79
+msgid "Modified date"
+msgstr "Modificado em"
+
+#: models/project.py:82 models/project.py:186
+msgid "Details"
+msgstr "Detalhes"
+
+#: models/project.py:83
+msgid "Short description"
+msgstr "Descrição curta"
+
+#: models/project.py:177
+msgid "projects"
+msgstr "projetos"
+
+#: models/project.py:184
+msgid "Role name"
+msgstr "Nome do cargo"
+
+#: models/project.py:185
+msgid "Prerequisites"
+msgstr "Pré-requisitos"
+
+#: models/project.py:187
+msgid "Vacancies"
+msgstr "Vagas"
+
+#: models/project.py:194
+msgid "volunteer role"
+msgstr "cargo do voluntário"
+
+#: models/project.py:195
+msgid "volunteer roles"
+msgstr "cargos do voluntário"
+
+#: models/work.py:8
+msgid "Weekly hours"
+msgstr "Horas semanais"
+
+#: models/work.py:9
+msgid "Description"
+msgstr "Descrição"
+
+#: models/work.py:13
+#, python-format
+msgid "%d hours per week"
+msgstr "%d horas por semana"
+
+#: models/work.py:17
+msgid "work"
+msgstr "ação recorrente"
+
+#: models/work.py:18
+msgid "works"
+msgstr "ações recorrentes"
+
+#: views/project.py:31
+msgid "User Name"
+msgstr "Nome do voluntário"
+
+#: views/project.py:31
+msgid "User Email"
+msgstr "Email do voluntário"
+
+#: views/project.py:31
+msgid "User Phone"
+msgstr "Telefone do voluntário"
+
+#: views/project.py:31
+msgid "Applied At"
+msgstr "Aplicado em"
+
+#: views/project.py:31
+#, fuzzy
+#| msgid "Role name"
+msgid "Role"
+msgstr "Nome do cargo"
+
+#: views/project.py:31
+msgid "Status"
+msgstr "Status"
+
+#: views/project.py:100
+msgid "Applied Users"
+msgstr "Usuários cadastrados"
+
+#: core.Cause/name:1
+msgid "Treinamento Profissional"
+msgstr ""
+
+#: core.Cause/name:2
+msgid "Combate à Pobreza"
+msgstr ""
+
+#: core.Cause/name:3
+msgid "Consumo Consciente"
+msgstr ""
+
+#: core.Cause/name:4
+msgid "Cultura e Arte"
+msgstr ""
+
+#: core.Cause/name:5
+msgid "Direitos Humanos"
+msgstr ""
+
+#: core.Cause/name:6 core.Skill/name:5
+msgid "Educação"
+msgstr ""
+
+#: core.Cause/name:7
+msgid "Crianças"
+msgstr ""
+
+#: core.Cause/name:8
+msgid "Idosos"
+msgstr ""
+
+#: core.Cause/name:9
+msgid "Meio Ambiente"
+msgstr ""
+
+#: core.Cause/name:10
+msgid "Cidadania"
+msgstr ""
+
+#: core.Cause/name:11
+msgid "Proteção Animal"
+msgstr ""
+
+#: core.Cause/name:12 core.Skill/name:11
+msgid "Saúde"
+msgstr ""
+
+#: core.Cause/name:13
+msgid "Pessoas com Deficiência"
+msgstr ""
+
+#: core.Cause/name:27
+msgid "Política"
+msgstr ""
+
+#: core.Cause/name:32
+msgid "Jovens"
+msgstr ""
+
+#: core.Cause/name:33
+msgid "Mulheres"
+msgstr ""
+
+#: core.Cause/name:34 core.Skill/name:6
+msgid "Esportes"
+msgstr ""
+
+#: core.Cause/name:35
+msgid "Refugiados"
+msgstr ""
+
+#: core.Cause/name:36
+msgid "LGBTQ+"
+msgstr ""
+
+#: core.Cause/name:50
+msgid "Combate às alterações climáticas"
+msgstr ""
+
+#: core.Cause/name:51
+msgid "Consumo e produção responsáveis"
+msgstr ""
+
+#: core.Cause/name:52
+msgid "Redução das desigualdades"
+msgstr ""
+
+#: core.Cause/name:53
+msgid "Educação de qualidade"
+msgstr ""
+
+#: core.Cause/name:54
+msgid "Boa saúde e bem-estar"
+msgstr ""
+
+#: core.Cause/name:55
+msgid "Fome Zero"
+msgstr ""
+
+#: core.Cause/name:56
+msgid "Professional Training"
+msgstr ""
+
+#: core.Cause/name:57
+msgid "Fight Poverty"
+msgstr ""
+
+#: core.Cause/name:58
+msgid "Conscious consumption"
+msgstr ""
+
+#: core.Cause/name:59
+msgid "Culture, Sport and Art"
+msgstr ""
+
+#: core.Cause/name:60
+msgid "Human Rights"
+msgstr ""
+
+#: core.Cause/name:61 core.Skill/name:31
+msgid "Education"
+msgstr ""
+
+#: core.Cause/name:62
+msgid "Youth"
+msgstr ""
+
+#: core.Cause/name:63
+msgid "Elders"
+msgstr ""
+
+#: core.Cause/name:64
+msgid "Environment"
+msgstr ""
+
+#: core.Cause/name:65
+msgid "Citizen Participation"
+msgstr ""
+
+#: core.Cause/name:66
+msgid "Animal Protection"
+msgstr ""
+
+#: core.Cause/name:67 core.Skill/name:37
+msgid "Health"
+msgstr ""
+
+#: core.Cause/name:68
+msgid "People with disabilities"
+msgstr ""
+
+#: core.Cause/name:82
+msgid "Sustentabilidade"
+msgstr ""
+
+#: core.Skill/name:1
+msgid "Artes/Trabalho manual"
+msgstr ""
+
+#: core.Skill/name:2
+msgid "Comunicação"
+msgstr ""
+
+#: core.Skill/name:3
+msgid "Dança/Música"
+msgstr ""
+
+#: core.Skill/name:4
+msgid "Direito"
+msgstr ""
+
+#: core.Skill/name:7
+msgid "Cozinha"
+msgstr ""
+
+#: core.Skill/name:8
+msgid "Gerenciamento"
+msgstr ""
+
+#: core.Skill/name:9
+msgid "Idiomas"
+msgstr ""
+
+#: core.Skill/name:10
+msgid "Computadores/Tecnologia"
+msgstr ""
+
+#: core.Skill/name:12
+msgid "Outros"
+msgstr ""
+
+#: core.Skill/name:27
+msgid "Arts/Handcrafting"
+msgstr ""
+
+#: core.Skill/name:28
+#, fuzzy
+#| msgid "organization"
+msgid "Communication"
+msgstr "organização"
+
+#: core.Skill/name:29
+msgid "Dance/Music"
+msgstr ""
+
+#: core.Skill/name:30
+msgid "Law"
+msgstr ""
+
+#: core.Skill/name:32
+msgid "Sports"
+msgstr ""
+
+#: core.Skill/name:33
+msgid "Cooking"
+msgstr ""
+
+#: core.Skill/name:34
+msgid "Management"
+msgstr ""
+
+#: core.Skill/name:35
+msgid "Idioms"
+msgstr ""
+
+#: core.Skill/name:36
+msgid "Computers/Technology"
+msgstr ""
+
+#: core.Skill/name:38
+msgid "Others"
+msgstr ""
+
+#: core.Skill/name:39
+#, fuzzy
+#| msgid "Organization"
+msgid "Organização"
+msgstr "Organização"
+
+#: core.Skill/name:40
+msgid "Agilidade"
+msgstr ""
+
+msgid "edit"
+msgstr "alterar"
+
+msgid "Edit dates"
+msgstr "alterar datas"

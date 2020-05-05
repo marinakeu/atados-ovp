@@ -1,0 +1,266 @@
+[
+    {
+        "model": "core.addresscomponenttype",
+        "pk": 1,
+        "fields": {
+            "channel": 1,
+            "name": "street_number"
+        }
+    },
+    {
+        "model": "core.addresscomponenttype",
+        "pk": 2,
+        "fields": {
+            "channel": 1,
+            "name": "route"
+        }
+    },
+    {
+        "model": "core.addresscomponenttype",
+        "pk": 3,
+        "fields": {
+            "channel": 1,
+            "name": "sublocality_level_1"
+        }
+    },
+    {
+        "model": "core.addresscomponenttype",
+        "pk": 4,
+        "fields": {
+            "channel": 1,
+            "name": "sublocality"
+        }
+    },
+    {
+        "model": "core.addresscomponenttype",
+        "pk": 5,
+        "fields": {
+            "channel": 1,
+            "name": "political"
+        }
+    },
+    {
+        "model": "core.addresscomponenttype",
+        "pk": 6,
+        "fields": {
+            "channel": 1,
+            "name": "locality"
+        }
+    },
+    {
+        "model": "core.addresscomponenttype",
+        "pk": 7,
+        "fields": {
+            "channel": 1,
+            "name": "administrative_area_level_2"
+        }
+    },
+    {
+        "model": "core.addresscomponenttype",
+        "pk": 8,
+        "fields": {
+            "channel": 1,
+            "name": "administrative_area_level_1"
+        }
+    },
+    {
+        "model": "core.addresscomponenttype",
+        "pk": 9,
+        "fields": {
+            "channel": 1,
+            "name": "country"
+        }
+    },
+    {
+        "model": "core.addresscomponenttype",
+        "pk": 10,
+        "fields": {
+            "channel": 1,
+            "name": "postal_code"
+        }
+    },
+    {
+        "model": "core.addresscomponenttype",
+        "pk": 11,
+        "fields": {
+            "channel": 1,
+            "name": "administrative_area_level_4"
+        }
+    },
+    {
+        "model": "core.addresscomponenttype",
+        "pk": 12,
+        "fields": {
+            "channel": 1,
+            "name": "postal_code_prefix"
+        }
+    },
+    {
+        "model": "core.addresscomponenttype",
+        "pk": 13,
+        "fields": {
+            "channel": 1,
+            "name": "premise"
+        }
+    },
+    {
+        "model": "core.addresscomponenttype",
+        "pk": 14,
+        "fields": {
+            "channel": 1,
+            "name": "point_of_interest"
+        }
+    },
+    {
+        "model": "core.addresscomponenttype",
+        "pk": 15,
+        "fields": {
+            "channel": 1,
+            "name": "establishment"
+        }
+    },
+    {
+        "model": "core.addresscomponenttype",
+        "pk": 16,
+        "fields": {
+            "channel": 1,
+            "name": "sublocality_level_3"
+        }
+    },
+    {
+        "model": "core.addresscomponenttype",
+        "pk": 17,
+        "fields": {
+            "channel": 1,
+            "name": "sublocality_level_2"
+        }
+    },
+    {
+        "model": "core.addresscomponenttype",
+        "pk": 18,
+        "fields": {
+            "channel": 1,
+            "name": "subpremise"
+        }
+    },
+    {
+        "model": "core.addresscomponenttype",
+        "pk": 19,
+        "fields": {
+            "channel": 1,
+            "name": "natural_feature"
+        }
+    },
+    {
+        "model": "core.addresscomponenttype",
+        "pk": 20,
+        "fields": {
+            "channel": 1,
+            "name": "sublocality_level_5"
+        }
+    },
+    {
+        "model": "core.addresscomponenttype",
+        "pk": 21,
+        "fields": {
+            "channel": 1,
+            "name": "administrative_area_level_3"
+        }
+    },
+    {
+        "model": "core.addresscomponenttype",
+        "pk": 22,
+        "fields": {
+            "channel": 1,
+            "name": "colloquial_area"
+        }
+    },
+    {
+        "model": "core.addresscomponenttype",
+        "pk": 23,
+        "fields": {
+            "channel": 1,
+            "name": "neighborhood"
+        }
+    },
+    {
+        "model": "core.addresscomponenttype",
+        "pk": 24,
+        "fields": {
+            "channel": 1,
+            "name": "postal_code_suffix"
+        }
+    },
+    {
+        "model": "core.addresscomponenttype",
+        "pk": 25,
+        "fields": {
+            "channel": 1,
+            "name": "postal_town"
+        }
+    },
+    {
+        "model": "core.addresscomponenttype",
+        "pk": 26,
+        "fields": {
+            "channel": 1,
+            "name": "subway_station"
+        }
+    },
+    {
+        "model": "core.addresscomponenttype",
+        "pk": 27,
+        "fields": {
+            "channel": 1,
+            "name": "train_station"
+        }
+    },
+    {
+        "model": "core.addresscomponenttype",
+        "pk": 28,
+        "fields": {
+            "channel": 1,
+            "name": "transit_station"
+        }
+    },
+    {
+        "model": "core.addresscomponenttype",
+        "pk": 29,
+        "fields": {
+            "channel": 1,
+            "name": "park"
+        }
+    },
+    {
+        "model": "core.addresscomponenttype",
+        "pk": 30,
+        "fields": {
+            "channel": 1,
+            "name": "floor"
+        }
+    },
+    {
+        "model": "core.addresscomponenttype",
+        "pk": 31,
+        "fields": {
+            "channel": 1,
+            "name": "airport"
+        }
+    },
+    {
+        "model": "core.addresscomponenttype",
+        "pk": 32,
+        "fields": {
+            "channel": 1,
+            "name": "bus_station"
+        }
+    },
+    {
+        "model": "core.addresscomponenttype",
+        "pk": 33,
+        "fields": {
+            "channel": 1,
+            "name": "tourist_attraction"
+        }
+    }
+]

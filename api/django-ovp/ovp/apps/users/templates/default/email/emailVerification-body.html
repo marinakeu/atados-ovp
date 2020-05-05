@@ -1,0 +1,6 @@
+{% extends extend.html %}
+
+{% block content %}
+  Hello, you're receiving this email because you registered at OVP.<br>
+  To verify your email, please go to <a href="{{token.token}}">{{token.token}}</a>. This link is valid for 24 hours.<br>
+{% endblock %}

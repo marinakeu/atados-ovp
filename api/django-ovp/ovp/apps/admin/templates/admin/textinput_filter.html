@@ -1,0 +1,64 @@
+{% load i18n admin_static %}
+<h3>{% blocktrans with filter_title=title %} By {{ filter_title }} {% endblocktrans %}</h3>
+<script>
+    var addUrlParam = function(search, key, val){
+      var newParam = key + '=' + val,
+          params = '?' + newParam;
+
+      // If the "search" string exists, then build params from it
+      if (search) {
+        // Try to replace an existance instance
+        params = search.replace(new RegExp('([?&])' + key + '[^&]*'), '$1' + newParam);
+
+        // If nothing was replaced, then add the new param to the end
+        if (params === search) {
+          params += '&' + newParam;
+        }
+      }
+
+      return params;
+    };
+    function textfilter_apply(event, qs_name, form_name) {
+        event.preventDefault();
+        var query_string = django.jQuery('input#'+qs_name).val();
+        var form_data = django.jQuery('#'+form_name).serialize();
+        var fields = form_data.split("=");
+        window.location = window.location.pathname + addUrlParam(document.location.search, fields[0], fields[1])
+    }
+    function textfilter_reset(qs_name, form_name) {
+        var query_string = django.jQuery('input#'+qs_name).val();
+        var form_data = django.jQuery('#'+form_name).serialize();
+        var fields = form_data.split("=");
+        window.location = window.location.pathname + addUrlParam(document.location.search, fields[0], "")
+    }
+</script>
+<div class="changelist-filter-popup admintextfilter">
+    <input class="changelist-filter-popup-toggle" type="text" value="{% blocktrans with filter_title=title %} By {{ filter_title }} {% endblocktrans %}" readonly>
+    <div class="changelist-filter-popup-content">
+        <form method="GET" action="." id="{{ choices.0.parameter_name }}-form">
+            <fieldset class="module aligned">
+              <div class="form-row {{ field.id }}" style="width: 152px;">
+                    <div>
+                      <input type="text" value="{% if choices.0.current_value %}{{ choices.0.current_value }}{% endif %}" name="{{ choices.0.parameter_name }}" placeholder="{% blocktrans with filter_title=title %} By {{ filter_title }} {% endblocktrans %}" style="width: 142px;">
+                    </div>
+                </div>
+            </fieldset>
+            {% for choice in choices %}
+                <input type="hidden" id="{{ choice.parameter_name }}-query-string" value="{{ choice.query_string }}">
+            {% endfor %}
+            <div class="controls" style="padding: 0 0 15px 15px;">
+                <input type="button" value="{% trans "Search" %}" onclick="textfilter_apply(event, '{{ choices.0.parameter_name }}-query-string', '{{ choices.0.parameter_name }}-form')">
+                <input type="reset" class="button" value="{% trans "Reset" %}" onclick="textfilter_reset('{{ choices.0.parameter_name }}-query-string', '{{ choices.0.parameter_name }}-form')">
+            </div>
+        </form>
+    </div>
+</div>
+
+<style>
+.form-row {
+  width: 152px !important;
+}
+.form-row input {
+  width: 152px !important;
+}
+</style>

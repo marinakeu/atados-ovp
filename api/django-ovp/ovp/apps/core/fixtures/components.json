@@ -1,0 +1,107 @@
+[
+    {
+        "model": "core.addresscomponent",
+        "pk": 1,
+        "fields": {
+            "channel": 1,
+            "long_name": "Botafogo",
+            "short_name": "Botafogo",
+            "types": [
+                3,
+                4,
+                5
+            ]
+        }
+    },
+    {
+        "model": "core.addresscomponent",
+        "pk": 2,
+        "fields": {
+            "channel": 1,
+            "long_name": "Rio de Janeiro",
+            "short_name": "Rio de Janeiro",
+            "types": [
+                5,
+                6
+            ]
+        }
+    },
+    {
+        "model": "core.addresscomponent",
+        "pk": 3,
+        "fields": {
+            "channel": 1,
+            "long_name": "Rio de Janeiro",
+            "short_name": "Rio de Janeiro",
+            "types": [
+                5,
+                7
+            ]
+        }
+    },
+    {
+        "model": "core.addresscomponent",
+        "pk": 4,
+        "fields": {
+            "channel": 1,
+            "long_name": "Rio de Janeiro",
+            "short_name": "RJ",
+            "types": [
+                5,
+                8
+            ]
+        }
+    },
+    {
+        "model": "core.addresscomponent",
+        "pk": 5,
+        "fields": {
+            "channel": 1,
+            "long_name": "Brasil",
+            "short_name": "BR",
+            "types": [
+                5,
+                9
+            ]
+        }
+    },
+    {
+        "model": "core.addresscomponent",
+        "pk": 6,
+        "fields": {
+            "channel": 1,
+            "long_name": "S\u00e3o Paulo",
+            "short_name": "S\u00e3o Paulo",
+            "types": [
+                5,
+                6
+            ]
+        }
+    },
+    {
+        "model": "core.addresscomponent",
+        "pk": 7,
+        "fields": {
+            "channel": 1,
+            "long_name": "S\u00e3o Paulo",
+            "short_name": "S\u00e3o Paulo",
+            "types": [
+                5,
+                7
+            ]
+        }
+    },
+    {
+        "model": "core.addresscomponent",
+        "pk": 8,
+        "fields": {
+            "channel": 1,
+            "long_name": "S\u00e3o Paulo",
+            "short_name": "SP",
+            "types": [
+                5,
+                8
+            ]
+        }
+    }
+]

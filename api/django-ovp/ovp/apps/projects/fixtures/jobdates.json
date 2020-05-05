@@ -1,0 +1,244 @@
+[
+  {
+    "model": "projects.jobdate",
+    "pk": 1,
+    "fields": {
+      "channel": 1,
+      "name": "Dia da ação",
+      "start_date": "2025-03-21T12:00:00Z",
+      "end_date": "2025-03-21T15:00:00Z",
+      "job": 1
+    }
+  },
+  {
+    "model": "projects.jobdate",
+    "pk": 2,
+    "fields": {
+      "channel": 1,
+      "name": "Dia da ação",
+      "start_date": "2025-03-21T12:00:00Z",
+      "end_date": "2025-03-21T15:00:00Z",
+      "job": 2
+    }
+  },
+  {
+    "model": "projects.jobdate",
+    "pk": 3,
+    "fields": {
+      "channel": 1,
+      "name": "Dia da ação",
+      "start_date": "2025-03-21T12:00:00Z",
+      "end_date": "2025-03-21T15:00:00Z",
+      "job": 3
+    }
+  },
+  {
+    "model": "projects.jobdate",
+    "pk": 4,
+    "fields": {
+      "channel": 1,
+      "name": "Dia da ação",
+      "start_date": "2025-03-21T12:00:00Z",
+      "end_date": "2025-03-21T15:00:00Z",
+      "job": 4
+    }
+  },
+  {
+    "model": "projects.jobdate",
+    "pk": 5,
+    "fields": {
+      "channel": 1,
+      "name": "Dia da ação",
+      "start_date": "2025-03-21T12:00:00Z",
+      "end_date": "2025-03-21T15:00:00Z",
+      "job": 5
+    }
+  },
+  {
+    "model": "projects.jobdate",
+    "pk": 6,
+    "fields": {
+      "channel": 1,
+      "name": "Dia da ação",
+      "start_date": "2025-03-21T12:00:00Z",
+      "end_date": "2025-03-21T15:00:00Z",
+      "job": 6
+    }
+  },
+  {
+    "model": "projects.jobdate",
+    "pk": 7,
+    "fields": {
+      "channel": 1,
+      "name": "Dia da ação",
+      "start_date": "2025-03-21T12:00:00Z",
+      "end_date": "2025-03-21T15:00:00Z",
+      "job": 7
+    }
+  },
+  {
+    "model": "projects.jobdate",
+    "pk": 8,
+    "fields": {
+      "channel": 1,
+      "name": "Dia da ação",
+      "start_date": "2025-03-21T12:00:00Z",
+      "end_date": "2025-03-21T15:00:00Z",
+      "job": 8
+    }
+  },
+  {
+    "model": "projects.jobdate",
+    "pk": 9,
+    "fields": {
+      "channel": 1,
+      "name": "Dia da ação",
+      "start_date": "2025-03-21T12:00:00Z",
+      "end_date": "2025-03-21T15:00:00Z",
+      "job": 9
+    }
+  },
+  {
+    "model": "projects.jobdate",
+    "pk": 10,
+    "fields": {
+      "channel": 1,
+      "name": "Dia da ação",
+      "start_date": "2025-03-21T12:00:00Z",
+      "end_date": "2025-03-21T15:00:00Z",
+      "job": 10
+    }
+  },
+  {
+    "model": "projects.jobdate",
+    "pk": 11,
+    "fields": {
+      "channel": 1,
+      "name": "Dia da ação",
+      "start_date": "2025-03-21T12:00:00Z",
+      "end_date": "2025-03-21T15:00:00Z",
+      "job": 11
+    }
+  },
+  {
+    "model": "projects.jobdate",
+    "pk": 12,
+    "fields": {
+      "channel": 1,
+      "name": "Dia da ação",
+      "start_date": "2025-03-21T12:00:00Z",
+      "end_date": "2025-03-21T15:00:00Z",
+      "job": 12
+    }
+  },
+  {
+    "model": "projects.jobdate",
+    "pk": 13,
+    "fields": {
+      "channel": 1,
+      "name": "Dia da ação",
+      "start_date": "2025-03-21T12:00:00Z",
+      "end_date": "2025-03-21T15:00:00Z",
+      "job": 13
+    }
+  },
+  {
+    "model": "projects.jobdate",
+    "pk": 14,
+    "fields": {
+      "channel": 1,
+      "name": "Dia da ação",
+      "start_date": "2025-03-21T12:00:00Z",
+      "end_date": "2025-03-21T15:00:00Z",
+      "job": 14
+    }
+  },
+  {
+    "model": "projects.jobdate",
+    "pk": 15,
+    "fields": {
+      "channel": 1,
+      "name": "Dia da ação",
+      "start_date": "2025-03-21T12:00:00Z",
+      "end_date": "2025-03-21T15:00:00Z",
+      "job": 15
+    }
+  },
+  {
+    "model": "projects.jobdate",
+    "pk": 16,
+    "fields": {
+      "channel": 1,
+      "name": "Dia da ação",
+      "start_date": "2025-03-21T12:00:00Z",
+      "end_date": "2025-03-21T15:00:00Z",
+      "job": 16
+    }
+  },
+  {
+    "model": "projects.jobdate",
+    "pk": 17,
+    "fields": {
+      "channel": 1,
+      "name": "Dia da ação",
+      "start_date": "2025-03-21T12:00:00Z",
+      "end_date": "2025-03-21T15:00:00Z",
+      "job": 17
+    }
+  },
+  {
+    "model": "projects.jobdate",
+    "pk": 18,
+    "fields": {
+      "channel": 1,
+      "name": "Dia da ação",
+      "start_date": "2025-03-21T12:00:00Z",
+      "end_date": "2025-03-21T15:00:00Z",
+      "job": 18
+    }
+  },
+  {
+    "model": "projects.jobdate",
+    "pk": 19,
+    "fields": {
+      "channel": 1,
+      "name": "Dia da ação",
+      "start_date": "2025-03-21T12:00:00Z",
+      "end_date": "2025-03-21T15:00:00Z",
+      "job": 19
+    }
+  },
+  {
+    "model": "projects.jobdate",
+    "pk": 20,
+    "fields": {
+      "channel": 1,
+      "name": "Dia da ação",
+      "start_date": "2025-03-21T12:00:00Z",
+      "end_date": "2025-03-21T15:00:00Z",
+      "job": 20
+    }
+  },
+  {
+    "model": "projects.jobdate",
+    "pk": 21,
+    "fields": {
+      "channel": 1,
+      "name": "Dia da ação",
+      "start_date": "2025-03-21T12:00:00Z",
+      "end_date": "2025-03-21T15:00:00Z",
+      "job": 21
+    }
+  },
+  {
+    "model": "projects.jobdate",
+    "pk": 22,
+    "fields": {
+      "channel": 1,
+      "name": "Dia da ação",
+      "start_date": "2025-03-21T12:00:00Z",
+      "end_date": "2025-03-21T15:00:00Z",
+      "job": 22
+    }
+  }
+]

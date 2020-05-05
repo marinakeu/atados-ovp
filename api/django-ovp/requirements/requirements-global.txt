@@ -1,0 +1,21 @@
+-r requirements-dev.txt
+django-git-submodules
+django-debug-toolbar
+dj-database-url
+elasticsearch==7.6.0
+django-email-log
+django-inlinecss
+rollbar==0.15.0
+Markdown==3.2.1
+celery
+amqp==2.5.2
+django-oauth-toolkit==1.3.2
+conda==4.3.16
+flex
+swagger_spec_validator
+pytest
+pytest-django
+pytest-pythonpath
+sentry-sdk==0.10.2
+django-gcloud-storage==0.4.0
+psycopg2-binary==2.8.3

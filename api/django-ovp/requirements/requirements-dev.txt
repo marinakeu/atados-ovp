@@ -1,0 +1,12 @@
+-r requirements-project.txt
+django==2.2
+pudb
+django-extensions
+coverage
+codecov
+tblib
+mock
+sphinx
+sphinx_rtd_theme
+drf-yasg
+dj-database-url

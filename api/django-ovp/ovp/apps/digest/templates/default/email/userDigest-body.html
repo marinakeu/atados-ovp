@@ -1,0 +1,10 @@
+{% extends extend.html %}
+
+{% block content %}
+  <p>Example newsletter message</p>
+  {% for project in projects %}
+    <img src="{{ project.image }}" alt="">
+    {{ project.name }}
+    {{ project.description }}
+  {% endfor %}
+{% endblock %}

@@ -1,0 +1,596 @@
+[
+    {
+        "model": "faq.faq",
+        "pk": 1,
+        "fields": {
+            "channel": 1,
+            "question": "Quem somos/ O que fazemos",
+            "answer": "<p><strong>Quem somos?</strong></p>\r\n\r\n<p>O Atados &eacute; uma plataforma social online que conecta pessoas &agrave; oportunidades de voluntariado em causas sociais.</p>\r\n\r\n<p><strong>Como funcionamos?</strong></p>\r\n\r\n<p>Organiza&ccedil;&otilde;es, movimentos e coletivos sociais anunciam vagas de voluntariado para uma rede de milhares de pessoas interessadas em fortalecer suas a&ccedil;&otilde;es.</p>\r\n\r\n<p><strong>Como existimos?</strong></p>\r\n\r\n<p>O Atados tem o prop&oacute;sito de mobilizar pessoas, articular solu&ccedil;&otilde;es e recursos para impulsionar transforma&ccedil;&otilde;es e fortalecer a atua&ccedil;&atilde;o de organiza&ccedil;&otilde;es em diversas causas sociais.</p>\r\n\r\n<p>O Atados tamb&eacute;m promove cursos e encontros sobre o universo do Terceiro Setor e realiza a&ccedil;&otilde;es e eventos de voluntariado.</p>\r\n\r\n<p>Para disponibilizar suas ferramentas gratuitamente &agrave; rede de volunt&aacute;rios e organiza&ccedil;&otilde;es sociais, o Atados<a href=\"http://empresas.atados.com.br/\" rel=\"noopener noreferrer\" target=\"_blank\">&nbsp;oferece servi&ccedil;os&nbsp;</a>de voluntariado empresarial, gest&atilde;o e consultoria em responsabilidade social.</p>\r\n\r\n<p><strong>Onde atuamos?</strong></p>\r\n\r\n<p>Presencialmente, o Atados atua na regi&atilde;o metropolitana de S&atilde;o Paulo (SP), Grande Rio de Janeiro (RJ), Bras&iacute;lia (DF) e Grande Florian&oacute;polis (SC). E no Brasil inteiro com vagas de trabalho volunt&aacute;rio remoto.</p>\r\n\r\n<p>D&aacute; uma olhada nesse v&iacute;deo curto que&nbsp;explica um pouco como funcionamos:</p>\r\n\r\n<p><a href=\"https://www.youtube.com/watch?v=0zNMcNDBKrk\" target=\"_blank\">https://www.youtube.com/watch?v=LSju5Yvu4GY</a></p>",
+            "category": 1,
+            "language": "pt-br"
+        }
+    },
+    {
+        "model": "faq.faq",
+        "pk": 2,
+        "fields": {
+            "channel": 1,
+            "question": "Quem pode se inscrever no Atados?",
+            "answer": "<p><strong>Qualquer pessoa</strong>&nbsp;<strong>do mundo&nbsp;</strong>pode se inscrever e buscar por vagas de voluntariado no site do Atados. J&aacute; do lado das organiza&ccedil;&otilde;es, ainda temos uma atua&ccedil;&atilde;o limitada, por isso, apenas&nbsp;<strong>iniciativas</strong>&nbsp;das&nbsp;Regi&otilde;es&nbsp;Metropolitanas<strong> </strong>de&nbsp;<strong>S&atilde;o Paulo, Curitiba, Rio de Janeiro, Florian&oacute;polis&nbsp;e Bras&iacute;lia&nbsp;</strong>podem se inscrever e criar vagas presenciais. Das outras localidades apenas vagas a dist&acirc;ncia.</p>\r\n\r\n<p>Mas n&atilde;o desanime, queremos ir para sua cidade! Voc&ecirc; pode se inscrever e, quando formos para sua cidade, podemos trabalhar juntos!</p>\r\n\r\n<p>Para isso deixe seu perfil no nosso site completo</p>\r\n\r\n<p>Caso queira expandir o Atados para sua regi&atilde;o, se inscreva no form abaixo e entraremos em contato quando tivermos estruturado nosso processo: <a href=\"https://docs.google.com/a/atados.com.br/forms/d/e/1FAIpQLScSBZkwlZOU5Zt0qX-gAiXtmfcfcBlaujAswaeVfegSDOHh5A/viewform\">https://docs.google.com/a/atados.com.br/forms/d/e/1FAIpQLScSBZkwlZOU5Zt0qX-gAiXtmfcfcBlaujAswaeVfegSDOHh5A/viewform</a></p>",
+            "category": 1,
+            "language": "pt-br"
+        }
+    },
+    {
+        "model": "faq.faq",
+        "pk": 4,
+        "fields": {
+            "channel": 1,
+            "question": "Onde atuamos?",
+            "answer": "<p>Atuamos presencialmente com organiza&ccedil;&otilde;es sociais e vagas de voluntariado&nbsp;nas regi&otilde;es metropolitanas de S&atilde;o Paulo, Bras&iacute;lia, Curitiba, Florian&oacute;polis e Rio de Janeiro</p>\r\n\r\n<p>No resto do pa&iacute;s atuamos com vagas de voluntariado&nbsp;a dist&acirc;ncia.</p>\r\n\r\n<p>Abra&ccedil;os!</p>",
+            "category": 1,
+            "language": "pt-br"
+        }
+    },
+    {
+        "model": "faq.faq",
+        "pk": 5,
+        "fields": {
+            "channel": 1,
+            "question": "Quanto custa para usar o Atados?",
+            "answer": "<p>Seja volunt&aacute;rio ou ONG nosso servi&ccedil;o &eacute; totalmente gratuito.</p>",
+            "category": 1,
+            "language": "pt-br"
+        }
+    },
+    {
+        "model": "faq.faq",
+        "pk": 6,
+        "fields": {
+            "channel": 1,
+            "question": "Como cadastrar minha ONG?",
+            "answer": "<ul>\r\n\t<li>Acesse&nbsp;<a href=\"http://www.atados.com.br/\" target=\"_blank\">atados.com.br</a></li>\r\n\t<li>Clique em Entrar</li>\r\n\t<li>Clique no link &quot;Sou uma ONG&rdquo; ou no link:&nbsp;<a href=\"https://www.atados.com.br/sou-uma-ong/cadastro\">https://www.atados.com.br/sou-uma-ong/cadastro</a></li>\r\n\t<li>Preencha todos os campos</li>\r\n\t<li>Clique em &ldquo;Finalizar Cadastro&rdquo;</li>\r\n</ul>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>IMPORTANTE: Fa&ccedil;a seu cadastro com carinho!</p>\r\n\r\n<ul>\r\n\t<li>Explique qual o trabalho da organiza&ccedil;&atilde;o e a import&acirc;ncia dele.</li>\r\n\t<li>Qual o p&uacute;blico atendido,</li>\r\n\t<li>Quais programas e atividades voc&ecirc;s desenvolvem</li>\r\n\t<li>Coloque uma foto bonita de capa, que represente o trabalho de voc&ecirc;s.</li>\r\n</ul>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Pronto! Agora &eacute; s&oacute; esperar a gente avaliar seu perfil, se estiver tudo ok j&aacute; publicamos no site.</p>\r\n\r\n<p>&nbsp;Voc&ecirc; tamb&eacute;m pode aproveitar para j&aacute; criar&nbsp;<a href=\"https://atadoshelp.zendesk.com/hc/pt-br/articles/218074277\" target=\"_blank\">vagas de voluntariado</a></p>",
+            "category": 2,
+            "language": "pt-br"
+        }
+    },
+    {
+        "model": "faq.faq",
+        "pk": 7,
+        "fields": {
+            "channel": 1,
+            "question": "Como criar uma vaga de voluntariado?",
+            "answer": "<ul>\r\n\t<li>Fa&ccedil;a login no perfil da ONG em &quot;Entrar&quot;&nbsp;</li>\r\n\t<li>Clique no canto superior direito em cima de &quot;Minha ONG&quot;</li>\r\n\t<li>Clique em &quot;Criar Vaga&quot;</li>\r\n\t<li>No formul&aacute;rio B&aacute;sico - Preencha todos os campos</li>\r\n\t<li>Escolha entre &quot;pontual&quot; se for um evento &uacute;nico ou &quot;recorrente&quot; se for algum tipo de trabalho que exija um comprometimento cont&iacute;nuo.</li>\r\n\t<li>Clique em &ldquo;Salvar altera&ccedil;&otilde;es&rdquo; e v&aacute; para os &quot;Cargos&quot;.</li>\r\n\t<li>Em &quot;Cargos&quot; voc&ecirc; precisa obrigatoriamente cadastrar ao menos um.&nbsp;</li>\r\n\t<li>Escreva: Nome; fun&ccedil;&atilde;o; Pr&eacute;-Requisitos e N&ordm; de Vagas.&nbsp;</li>\r\n</ul>\r\n\r\n<ul>\r\n\t<li>Clique em &ldquo;Salvar altera&ccedil;&otilde;es&rdquo; e v&aacute; para o &quot;Sobre&quot;.</li>\r\n</ul>\r\n\r\n<p>Lembre-se, o primeiro passo para conseguir volunt&aacute;rias(os) &eacute; com um ato atrativo! Fa&ccedil;a ele com carinho! Com informa&ccedil;&otilde;es completas:&nbsp;</p>\r\n\r\n<ul>\r\n\t<li>Qual atividade a(o) volunt&aacute;ria(o) ir&aacute; realizar</li>\r\n\t<li>Qual a import&acirc;ncia desse trabalho</li>\r\n\t<li>Vai haver uma capacita&ccedil;&atilde;o pr&eacute;via?</li>\r\n\t<li>Qual o p&uacute;blico que ele ir&aacute; atender</li>\r\n\t<li>Que habilidades a pessoa deve ter</li>\r\n\t<li>Quais dias da semana e hor&aacute;rios ela precisa estar dispon&iacute;vel</li>\r\n\t<li>Outras informa&ccedil;&otilde;es relativas ao trabalho.</li>\r\n</ul>\r\n\r\n<p>&nbsp;Pronto! Agora &eacute; s&oacute; esperar n&oacute;s&nbsp;<strong>avaliamos&nbsp;</strong>as informa&ccedil;&otilde;es e, se estiver tudo ok, publicamos o ato e j&aacute; come&ccedil;amos a&nbsp;<strong>mobilizar&nbsp;</strong>pessoas para sua causa</p>",
+            "category": 2,
+            "language": "pt-br"
+        }
+    },
+    {
+        "model": "faq.faq",
+        "pk": 8,
+        "fields": {
+            "channel": 1,
+            "question": "Em quanto tempo minha vaga \u00e9 publicada?",
+            "answer": "<p>Em no m&aacute;ximo 2 dias sua vaga&nbsp;ser&aacute; publicada, se faltar alguma informa&ccedil;&atilde;o enviaremos um e-mail pedindo para voc&ecirc; completar sua vaga de voluntariado</p>",
+            "category": 2,
+            "language": "pt-br"
+        }
+    },
+    {
+        "model": "faq.faq",
+        "pk": 9,
+        "fields": {
+            "channel": 1,
+            "question": "Como editar uma vaga de voluntariado",
+            "answer": "<ul>\r\n\t<li>Fa&ccedil;a login no perfil da ONG em &quot;Entrar&quot;&nbsp;</li>\r\n\t<li>Clique no canto superior direito em cima de &quot;Minha ONG&quot;</li>\r\n\t<li>Em &quot;Gerenciar Vaga&quot; voc&ecirc; pode buscar sua vaga pelo nome.</li>\r\n\t<li>Na coluna da direita do painel de controle clique em cima&nbsp;do bot&atilde;o &quot;Editar&quot; na vaga que deseja editar.</li>\r\n\t<li>Altere o camposa&nbsp;que julgue necess&aacute;rio</li>\r\n\t<li>Clique em &ldquo;Salvar altera&ccedil;&otilde;es&rdquo;</li>\r\n</ul>",
+            "category": 2,
+            "language": "pt-br"
+        }
+    },
+    {
+        "model": "faq.faq",
+        "pk": 10,
+        "fields": {
+            "channel": 1,
+            "question": "Como puxar os dados das(os) volunt\u00e1rias(os) inscritos?",
+            "answer": "<ul>\r\n\t<li>Fa&ccedil;a login no perfil da ONG em &quot;Entrar&quot;&nbsp;</li>\r\n\t<li>Clique no canto superior direito em cima de &quot;Minha ONG&quot;</li>\r\n\t<li>Em &quot;Gerenciar Vaga&quot; voc&ecirc; pode buscar sua vaga pelo nome.</li>\r\n\t<li>Na coluna da direita do painel de controle clique em cima do nome da vaga que deseja baixar a planilha com nome, email e telefone das(os) volunt&aacute;rias(os) cadastrados.</li>\r\n\t<li>Clique em &ldquo;exportar lista como planilha&rdquo;, no canto superior da planilha com os dados das(os) volunt&aacute;rias(os) inscritas(os).&nbsp;</li>\r\n</ul>\r\n\r\n<p>Pronto, agora voc&ecirc; tem no seu computador um excel ou outro software com todos os dados de quem&nbsp;se cadastrou no seu ato.</p>",
+            "category": 2,
+            "language": "pt-br"
+        }
+    },
+    {
+        "model": "faq.faq",
+        "pk": 11,
+        "fields": {
+            "channel": 1,
+            "question": "Como fechar uma vaga",
+            "answer": "<ul>\r\n\t<li>Fa&ccedil;a login no perfil da ONG em &quot;Entrar&quot;&nbsp;</li>\r\n\t<li>Clique no canto superior direito em cima do link &quot;Minha ONG&quot;</li>\r\n\t<li>Em &quot;Gerenciar Vaga&quot; voc&ecirc; pode buscar sua vaga pelo nome.</li>\r\n\t<li>Nas vagas a direita, selecione as que voc&ecirc; deseja fechar e&nbsp;clique&nbsp;no bot&atilde;o&nbsp;&quot;Encerrar&quot;.</li>\r\n</ul>\r\n\r\n<p>IMPORTANTE. Com as inscri&ccedil;&otilde;es fechadas, ningu&eacute;m&nbsp;poder&aacute; mais se candidatar na vaga. Mas se for o caso voc&ecirc; pode duplicar essa vaga antiga.</p>",
+            "category": 2,
+            "language": "pt-br"
+        }
+    },
+    {
+        "model": "faq.faq",
+        "pk": 12,
+        "fields": {
+            "channel": 1,
+            "question": "Porque duplicar uma vaga antiga",
+            "answer": "<p>Se voc&ecirc; precisa de mais volunt&aacute;rias(os) para uma vaga antiga voc&ecirc; pode:</p>\r\n\r\n<p>1 - Duplicar a&nbsp;vaga. Voc&ecirc; ter&aacute; uma segunda&nbsp;vaga, igual a&nbsp;primeira mas sem ningu&eacute;m inscrita(o). Assim voc&ecirc; garante uma nova leva de volunt&aacute;rias(os).&nbsp;</p>\r\n\r\n<ul>\r\n\t<li>Fa&ccedil;a login no perfil da ONG em &quot;Entrar&quot;&nbsp;</li>\r\n\t<li>Clique no canto superior direito em cima do link &quot;Minha ONG&quot;</li>\r\n\t<li>Em &quot;Gerenciar Vaga&quot; voc&ecirc; pode buscar sua vaga pelo nome.</li>\r\n\t<li>Nas vagas a direita&nbsp;clique no bot&atilde;o&nbsp;&quot;duplicar&quot;.</li>\r\n</ul>\r\n\r\n<p>2 - S&oacute; reabrimos a&nbsp;mesma&nbsp;vaga com pouca inscri&ccedil;&otilde;es, envie um e-mail solicitando esse processo&nbsp;para contato@atados.com.br&nbsp;</p>",
+            "category": 2,
+            "language": "pt-br"
+        }
+    },
+    {
+        "model": "faq.faq",
+        "pk": 13,
+        "fields": {
+            "channel": 1,
+            "question": "Esqueci o e-mail de login da minha ONG",
+            "answer": "<ul>\r\n\t<li>Acesse o site do Atados (www.atados.com.br)</li>\r\n\t<li>Procure o perfil da sua ONG</li>\r\n\t<li>O email divulgado no perfil geralmente&nbsp;&eacute; o mesmo de login.</li>\r\n\t<li>Se n&atilde;o, envie um e-mail para contato@atados.com.br</li>\r\n</ul>",
+            "category": 2,
+            "language": "pt-br"
+        }
+    },
+    {
+        "model": "faq.faq",
+        "pk": 14,
+        "fields": {
+            "channel": 1,
+            "question": "Como mudo o e-mail da minha ONG?",
+            "answer": "<ul>\r\n\t<li>Para muda o e-mail de login - envie um e-mail para:&nbsp;<a href=\"mailto:contato@atados.com.br\">contato@atados.com.br</a></li>\r\n</ul>\r\n\r\n<ul>\r\n\t<li>Para mudar o e-mail da sua organiza&ccedil;&atilde;o:\r\n\t<ul>\r\n\t\t<li>Acesse o Site</li>\r\n\t\t<li>Clique em &quot;Entrar&quot;</li>\r\n\t\t<li>Depois em &quot;Minha ONG&quot;</li>\r\n\t\t<li>&quot;Editar o perfil da minha ONG&quot;</li>\r\n\t\t<li>Troque o email e clique em &quot;Salvar altera&ccedil;&otilde;es&quot;</li>\r\n\t</ul>\r\n\t</li>\r\n</ul>",
+            "category": 2,
+            "language": "pt-br"
+        }
+    },
+    {
+        "model": "faq.faq",
+        "pk": 15,
+        "fields": {
+            "channel": 1,
+            "question": "Esqueci a senha da minha ONG",
+            "answer": "<ul>\r\n\t<li>Acesse o site</li>\r\n\t<li>No canto superior direito clique em cima do link &quot;Entrar&quot;</li>\r\n\t<li>Clique em &quot;Esqueceu sua senha?&quot;</li>\r\n\t<li>Envie informa&ccedil;&otilde;es para o seu e-mail de Login.</li>\r\n\t<li>Crie sua nova senha no formul&aacute;rio.</li>\r\n\t<li>Clique em &quot;salvar&quot;</li>\r\n\t<li>Pronto senha nova salva.</li>\r\n</ul>",
+            "category": 2,
+            "language": "pt-br"
+        }
+    },
+    {
+        "model": "faq.faq",
+        "pk": 16,
+        "fields": {
+            "channel": 1,
+            "question": "Como alterar a senha da minha ONG?",
+            "answer": "<ul>\r\n\t<li>No canto superior direito clique em cima do link &quot;Entrar&quot;</li>\r\n\t<li>Clique em &quot;Esqueceu sua senha?&quot;</li>\r\n\t<li>Envie informa&ccedil;&otilde;es para o seu e-mail de Login.</li>\r\n\t<li>Crie sua nova senha no formul&aacute;rio.</li>\r\n\t<li>Clique em &quot;salvar&quot;</li>\r\n\t<li>Pronto senha nova salva.</li>\r\n</ul>",
+            "category": 2,
+            "language": "pt-br"
+        }
+    },
+    {
+        "model": "faq.faq",
+        "pk": 17,
+        "fields": {
+            "channel": 1,
+            "question": "Como editar minhas informa\u00e7\u00f5es",
+            "answer": "<ul>\r\n\t<li>Fa&ccedil;a login em &quot;Entrar&quot;&nbsp;com o email cadastrado pela organiza&ccedil;&atilde;o Se voc&ecirc; n&atilde;o lembra qual o email cadastrado basta entrar no perfil da ONG no nosso site, o email que aparece no perfil &eacute; o mesmo de login.</li>\r\n\t<li>No canto superior direito clique em cima de &quot;Minha ONG&quot;</li>\r\n\t<li>Clique em &ldquo;editar perfil da ONG&rdquo;</li>\r\n\t<li>Altere os campos que julgar necess&aacute;rio</li>\r\n\t<li>Clique em &ldquo;salvar&rdquo;&nbsp;</li>\r\n</ul>\r\n\r\n<p>Agora &eacute; s&oacute; curtir o perfil bonit&atilde;o.</p>",
+            "category": 2,
+            "language": "pt-br"
+        }
+    },
+    {
+        "model": "faq.faq",
+        "pk": 18,
+        "fields": {
+            "channel": 1,
+            "question": "Como conseguir volunt\u00e1rias(os)?",
+            "answer": "<p>Pode deixar a&nbsp;<strong>divulga&ccedil;&atilde;o com a gente</strong>! A cada 10 vagas que s&atilde;o publicados no nosso site, 9 tem pessoas inscritas.</p>\r\n\r\n<p>Mas para&nbsp;<strong>atrair essas(es) volunt&aacute;rias(os)</strong>&nbsp;&eacute; importante que voc&ecirc; deixe sua vaga&nbsp;<strong>CLARA, COMPLETA e ATRATIVA!</strong>&nbsp;(Detalhes no item: Como criar uma vaga).</p>\r\n\r\n<p><strong>Manter e engajar essas(es) volunt&aacute;rias(os)</strong>&nbsp;&eacute; com voc&ecirc;. E como?</p>\r\n\r\n<ul>\r\n\t<li>Tendo uma comunica&ccedil;&atilde;o r&aacute;pida e constante com elas(es)</li>\r\n\t<li>Apresentando a organiza&ccedil;&atilde;o, equipe e benefici&aacute;rias(os)</li>\r\n\t<li>Acolhendo e fazendo ela(e) se sentir parte da equipe</li>\r\n\t<li>Constante feedback, mostrar a import&acirc;ncia do trabalho dela(e) para a institui&ccedil;&atilde;o.</li>\r\n</ul>",
+            "category": 2,
+            "language": "pt-br"
+        }
+    },
+    {
+        "model": "faq.faq",
+        "pk": 19,
+        "fields": {
+            "channel": 1,
+            "question": "Como fa\u00e7o para me inscrever no Atados?",
+            "answer": "<p>Acesse www.atados.com.br<br />\r\nClique em&nbsp;&quot;Cadastrar-se&quot; no topo da p&aacute;gina<br />\r\n<br />\r\nA&iacute; voc&ecirc; pode escolher:</p>\r\n\r\n<p>1) Criar um nome de usu&aacute;rio, informar email e senha</p>\r\n\r\n<p>2) Usar o login do Facebook ou Google, clique em &ldquo;Criar conta com Facebook&rdquo; ou &quot;Criar conta com Google&quot;</p>\r\n\r\n<p>Clique em &ldquo;Cadastre-se&rdquo;</p>\r\n\r\n<p>Pronto! Agora basta confirmar o seu email e navegar pelas vagas das organiza&ccedil;&otilde;es cadastradas :-)</p>",
+            "category": 3,
+            "language": "pt-br"
+        }
+    },
+    {
+        "model": "faq.faq",
+        "pk": 20,
+        "fields": {
+            "channel": 1,
+            "question": "Quero ser volunt\u00e1ria(o):",
+            "answer": "<p>OPA! Voc&ecirc; est&aacute; no lugar certo :)</p>\r\n\r\n<p>Temos diversas vagas de trabalho volunt&aacute;rio no site do Atados! Elas est&atilde;o divididas por causas e localiza&ccedil;&atilde;o. Procure na se&ccedil;&atilde;o &ldquo;Buscar vagas de voluntariado...&rdquo; ou clique aqui:&nbsp;<a href=\"https://www.atados.com.br/explore\">https://www.atados.com.br/vagas</a></p>",
+            "category": 3,
+            "language": "pt-br"
+        }
+    },
+    {
+        "model": "faq.faq",
+        "pk": 21,
+        "fields": {
+            "channel": 1,
+            "question": "Como me cadastrar em uma vaga?",
+            "answer": "<p>- Primeiro voc&ecirc; precisa se cadastrar no site do Atados&nbsp;<br />\r\n- Se voc&ecirc; j&aacute; se cadastrou basta voc&ecirc; clicar na vaga&nbsp;que tem interesse em participar como volunt&aacute;ria(o).<br />\r\n- Clicar no bot&atilde;o &ldquo;INSCREVER-SE&rdquo;.<br />\r\n- Voc&ecirc; vai receber um e-mail confirmando sua inscri&ccedil;&atilde;o e com os dados da ONG para entrar em contato com eles.</p>",
+            "category": 3,
+            "language": "pt-br"
+        }
+    },
+    {
+        "model": "faq.faq",
+        "pk": 22,
+        "fields": {
+            "channel": 1,
+            "question": "Como sei se me candidatei em uma vaga",
+            "answer": "<p>Voc&ecirc; receber&aacute; um e-mail confirmando sua inscri&ccedil;&atilde;o e com os dados da ONG.</p>\r\n\r\n<p>&nbsp;Caso n&atilde;o tenha recebido o email:</p>\r\n\r\n<ul>\r\n\t<li>Acesse novamente o link da vaga</li>\r\n\t<li>Se voc&ecirc; n&atilde;o estiver inscrito o bot&atilde;o do lado direito vai estar escrito &ldquo;INSCREVER-SE&rdquo;. Neste caso clique novamente nele.</li>\r\n\t<li>Se voc&ecirc; j&aacute; estiver inscrito vai estar escrito &ldquo;DESISNCREVER-SE&rdquo;, neste caso procure o email na sua caixa de spam e verifique se voc&ecirc; est&aacute; olhando a caixa de entrada do email cadastrado no Atados.</li>\r\n</ul>",
+            "category": 3,
+            "language": "pt-br"
+        }
+    },
+    {
+        "model": "faq.faq",
+        "pk": 23,
+        "fields": {
+            "channel": 1,
+            "question": "N\u00e3o recebi o contato da organiza\u00e7\u00e3o.",
+            "answer": "<ul>\r\n\t<li>Assim que voc&ecirc; se cadastrou na vaga voc&ecirc; recebeu um email com o contato da ONG n&eacute;? Que tal mandar um email para eles ou mesmo ligar para pedir as pr&oacute;ximas instru&ccedil;&otilde;es</li>\r\n\t<li>Se a ONG n&atilde;o respondeu o seu email responda esse form: (<a href=\"https://docs.google.com/a/atados.com.br/forms/d/1qvjfIuJ0mHhK1icLwEveBVkv-bawvmIhg4Uiv3FuO10/edit?usp=drive_web\">https://docs.google.com/forms/d/1qvjfIuJ0mHhK1icLwEveBVkv-bawvmIhg4Uiv3FuO10/edit?uiv=1</a>) que iremos falar com a ONG.</li>\r\n</ul>",
+            "category": 3,
+            "language": "pt-br"
+        }
+    },
+    {
+        "model": "faq.faq",
+        "pk": 24,
+        "fields": {
+            "channel": 1,
+            "question": "N\u00e3o recebi o email de confirma\u00e7\u00e3o de cadastro.",
+            "answer": "<p>Se voc&ecirc; se cadastrou pelo Facebook o email foi enviado para o email cadastrado no Facebook, verifique nele.</p>\r\n\r\n<p>O email pode ter sido arquivado na sua lixeira / spam.</p>\r\n\r\n<p>Se ainda n&atilde;o encontrar mande um email para: contato@atados.com.br</p>",
+            "category": 3,
+            "language": "pt-br"
+        }
+    },
+    {
+        "model": "faq.faq",
+        "pk": 25,
+        "fields": {
+            "channel": 1,
+            "question": "Volunt\u00e1ria(o) menor de idade pode se cadastrar?",
+            "answer": "<p>N&atilde;o &eacute; preciso ser maior de idade para realizar um trabalho volunt&aacute;rio, mas isso depende da pol&iacute;tica de voluntariado da Organiza&ccedil;&atilde;o em que voc&ecirc; vai se inscrever, e provavelmente voc&ecirc; precisar&aacute; de uma autoriza&ccedil;&atilde;o de algum respons&aacute;vel.&nbsp;</p>",
+            "category": 3,
+            "language": "pt-br"
+        }
+    },
+    {
+        "model": "faq.faq",
+        "pk": 26,
+        "fields": {
+            "channel": 1,
+            "question": "Esqueci a senha do meu perfil de volunt\u00e1ria(o)",
+            "answer": "<p>Para recuperar sua senha basta clicar em &ldquo;ENTRAR&rdquo; e em seguida em &ldquo;ESQUECEU&nbsp;SUA&nbsp;SENHA?&rdquo;. Vai abrir um campo para voc&ecirc; colocar seu e-mail e voc&ecirc; receber&aacute; uma nova senha em seu e-mail.</p>",
+            "category": 3,
+            "language": "pt-br"
+        }
+    },
+    {
+        "model": "faq.faq",
+        "pk": 27,
+        "fields": {
+            "channel": 1,
+            "question": "Tenho d\u00favidas sobre uma vaga.",
+            "answer": "<p>Em d&uacute;vidas espec&iacute;ficas sobre vagas, recomendamos que entre em contato diretamente com a institui&ccedil;&atilde;o respons&aacute;vel. Para isso entre na vaga&nbsp;selecione o cargo&nbsp;e clique em &quot;Inscrever-se&quot;, vai abrir uma aba para voc&ecirc; escrever um recado para a ONG. Tire suas d&uacute;vidas por l&aacute;</p>",
+            "category": 3,
+            "language": "pt-br"
+        }
+    },
+    {
+        "model": "faq.faq",
+        "pk": 28,
+        "fields": {
+            "channel": 1,
+            "question": "N\u00e3o acho ONGs em minha cidade, como posso ser volunt\u00e1ria(o)? (trabalho \u00e0 dist\u00e2ncia)",
+            "answer": "<p>Hoje&nbsp;atuamos apenas em S&atilde;o Paulo, Rio de Janeiro, Bras&iacute;lia e Curitiba, mas voc&ecirc; pode encontrar trabalhos volunt&aacute;rios que podem ser realizados &agrave; dist&acirc;ncia.</p>",
+            "category": 3,
+            "language": "pt-br"
+        }
+    },
+    {
+        "model": "faq.faq",
+        "pk": 30,
+        "fields": {
+            "channel": 6,
+            "question": "Quem somos/ O que fazemos",
+            "answer": "<p><strong>Quem somos?</strong></p>\r\n\r\n<p>O Atados &eacute; uma plataforma social online que conecta pessoas &agrave; oportunidades de voluntariado em causas sociais.</p>\r\n\r\n<p><strong>Como funcionamos?</strong></p>\r\n\r\n<p>Organiza&ccedil;&otilde;es, movimentos e coletivos sociais anunciam vagas de voluntariado para uma rede de milhares de pessoas interessadas em fortalecer suas a&ccedil;&otilde;es.</p>\r\n\r\n<p><strong>Como existimos?</strong></p>\r\n\r\n<p>O Atados tem o prop&oacute;sito de mobilizar pessoas, articular solu&ccedil;&otilde;es e recursos para impulsionar transforma&ccedil;&otilde;es e fortalecer a atua&ccedil;&atilde;o de organiza&ccedil;&otilde;es em diversas causas sociais.</p>\r\n\r\n<p>O Atados tamb&eacute;m promove cursos e encontros sobre o universo do Terceiro Setor e realiza a&ccedil;&otilde;es e eventos de voluntariado.</p>\r\n\r\n<p>Para disponibilizar suas ferramentas gratuitamente &agrave; rede de volunt&aacute;rios e organiza&ccedil;&otilde;es sociais, o Atados<a href=\"http://empresas.atados.com.br/\" rel=\"noopener noreferrer\" target=\"_blank\">&nbsp;oferece servi&ccedil;os&nbsp;</a>de voluntariado empresarial, gest&atilde;o e consultoria em responsabilidade social.</p>\r\n\r\n<p><strong>Onde atuamos?</strong></p>\r\n\r\n<p>Presencialmente, o Atados atua na regi&atilde;o metropolitana de S&atilde;o Paulo (SP), Grande Rio de Janeiro (RJ), Bras&iacute;lia (DF) e Grande Florian&oacute;polis (SC). E no Brasil inteiro com vagas de trabalho volunt&aacute;rio remoto.</p>\r\n\r\n<p>D&aacute; uma olhada nesse v&iacute;deo curto que&nbsp;explica um pouco como funcionamos:</p>\r\n\r\n<p><a href=\"https://www.youtube.com/watch?v=0zNMcNDBKrk\" target=\"_blank\">https://www.youtube.com/watch?v=LSju5Yvu4GY</a></p>",
+            "category": 1,
+            "language": "pt-br"
+        }
+    },
+    {
+        "model": "faq.faq",
+        "pk": 31,
+        "fields": {
+            "channel": 6,
+            "question": "Como fechar uma vaga",
+            "answer": "<ul>\r\n\t<li>Fa&ccedil;a login no perfil da ONG em &quot;Entrar&quot;&nbsp;</li>\r\n\t<li>Clique no canto superior direito em cima do link &quot;Minha ONG&quot;</li>\r\n\t<li>Em &quot;Gerenciar Vaga&quot; voc&ecirc; pode buscar sua vaga pelo nome.</li>\r\n\t<li>Nas vagas a direita, selecione as que voc&ecirc; deseja fechar e&nbsp;clique&nbsp;no bot&atilde;o&nbsp;&quot;Encerrar&quot;.</li>\r\n</ul>\r\n\r\n<p>IMPORTANTE. Com as inscri&ccedil;&otilde;es fechadas, ningu&eacute;m&nbsp;poder&aacute; mais se candidatar na vaga. Mas se for o caso voc&ecirc; pode duplicar essa vaga antiga.</p>",
+            "category": 2,
+            "language": "pt-br"
+        }
+    },
+    {
+        "model": "faq.faq",
+        "pk": 32,
+        "fields": {
+            "channel": 6,
+            "question": "Como puxar os dados das(os) volunt\u00e1rias(os) inscritos?",
+            "answer": "<ul>\r\n\t<li>Fa&ccedil;a login no perfil da ONG em &quot;Entrar&quot;&nbsp;</li>\r\n\t<li>Clique no canto superior direito em cima de &quot;Minha ONG&quot;</li>\r\n\t<li>Em &quot;Gerenciar Vaga&quot; voc&ecirc; pode buscar sua vaga pelo nome.</li>\r\n\t<li>Na coluna da direita do painel de controle clique em cima do nome da vaga que deseja baixar a planilha com nome, email e telefone das(os) volunt&aacute;rias(os) cadastrados.</li>\r\n\t<li>Clique em &ldquo;exportar lista como planilha&rdquo;, no canto superior da planilha com os dados das(os) volunt&aacute;rias(os) inscritas(os).&nbsp;</li>\r\n</ul>\r\n\r\n<p>Pronto, agora voc&ecirc; tem no seu computador um excel ou outro software com todos os dados de quem&nbsp;se cadastrou no seu ato.</p>",
+            "category": 2,
+            "language": "pt-br"
+        }
+    },
+    {
+        "model": "faq.faq",
+        "pk": 33,
+        "fields": {
+            "channel": 6,
+            "question": "Como editar uma vaga de voluntariado",
+            "answer": "<ul>\r\n\t<li>Fa&ccedil;a login no perfil da ONG em &quot;Entrar&quot;&nbsp;</li>\r\n\t<li>Clique no canto superior direito em cima de &quot;Minha ONG&quot;</li>\r\n\t<li>Em &quot;Gerenciar Vaga&quot; voc&ecirc; pode buscar sua vaga pelo nome.</li>\r\n\t<li>Na coluna da direita do painel de controle clique em cima&nbsp;do bot&atilde;o &quot;Editar&quot; na vaga que deseja editar.</li>\r\n\t<li>Altere o camposa&nbsp;que julgue necess&aacute;rio</li>\r\n\t<li>Clique em &ldquo;Salvar altera&ccedil;&otilde;es&rdquo;</li>\r\n</ul>",
+            "category": 2,
+            "language": "pt-br"
+        }
+    },
+    {
+        "model": "faq.faq",
+        "pk": 34,
+        "fields": {
+            "channel": 6,
+            "question": "Em quanto tempo minha vaga \u00e9 publicada?",
+            "answer": "<p>Em no m&aacute;ximo 2 dias sua vaga&nbsp;ser&aacute; publicada, se faltar alguma informa&ccedil;&atilde;o enviaremos um e-mail pedindo para voc&ecirc; completar sua vaga de voluntariado</p>",
+            "category": 2,
+            "language": "pt-br"
+        }
+    },
+    {
+        "model": "faq.faq",
+        "pk": 35,
+        "fields": {
+            "channel": 6,
+            "question": "Como cadastrar minha ONG?",
+            "answer": "<ul>\r\n\t<li>Acesse&nbsp;<a href=\"http://www.atados.com.br/\" target=\"_blank\">atados.com.br</a></li>\r\n\t<li>Clique em Entrar</li>\r\n\t<li>Clique no link &quot;Sou uma ONG&rdquo; ou no link:&nbsp;<a href=\"https://www.atados.com.br/sou-uma-ong/cadastro\">https://www.atados.com.br/sou-uma-ong/cadastro</a></li>\r\n\t<li>Preencha todos os campos</li>\r\n\t<li>Clique em &ldquo;Finalizar Cadastro&rdquo;</li>\r\n</ul>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>IMPORTANTE: Fa&ccedil;a seu cadastro com carinho!</p>\r\n\r\n<ul>\r\n\t<li>Explique qual o trabalho da organiza&ccedil;&atilde;o e a import&acirc;ncia dele.</li>\r\n\t<li>Qual o p&uacute;blico atendido,</li>\r\n\t<li>Quais programas e atividades voc&ecirc;s desenvolvem</li>\r\n\t<li>Coloque uma foto bonita de capa, que represente o trabalho de voc&ecirc;s.</li>\r\n</ul>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Pronto! Agora &eacute; s&oacute; esperar a gente avaliar seu perfil, se estiver tudo ok j&aacute; publicamos no site.</p>\r\n\r\n<p>&nbsp;Voc&ecirc; tamb&eacute;m pode aproveitar para j&aacute; criar&nbsp;<a href=\"https://atadoshelp.zendesk.com/hc/pt-br/articles/218074277\" target=\"_blank\">vagas de voluntariado</a></p>",
+            "category": 2,
+            "language": "pt-br"
+        }
+    },
+    {
+        "model": "faq.faq",
+        "pk": 36,
+        "fields": {
+            "channel": 6,
+            "question": "Quanto custa para usar o Atados?",
+            "answer": "<p>Seja volunt&aacute;rio ou ONG nosso servi&ccedil;o &eacute; totalmente gratuito.</p>",
+            "category": 1,
+            "language": "pt-br"
+        }
+    },
+    {
+        "model": "faq.faq",
+        "pk": 37,
+        "fields": {
+            "channel": 6,
+            "question": "Onde atuamos?",
+            "answer": "<p>Atuamos presencialmente com organiza&ccedil;&otilde;es sociais e vagas de voluntariado&nbsp;nas regi&otilde;es metropolitanas de S&atilde;o Paulo, Bras&iacute;lia, Curitiba, Florian&oacute;polis e Rio de Janeiro</p>\r\n\r\n<p>No resto do pa&iacute;s atuamos com vagas de voluntariado&nbsp;a dist&acirc;ncia.</p>\r\n\r\n<p>Abra&ccedil;os!</p>",
+            "category": 1,
+            "language": "pt-br"
+        }
+    },
+    {
+        "model": "faq.faq",
+        "pk": 38,
+        "fields": {
+            "channel": 6,
+            "question": "N\u00e3o recebi o email de confirma\u00e7\u00e3o de cadastro.",
+            "answer": "<p>Se voc&ecirc; se cadastrou pelo Facebook o email foi enviado para o email cadastrado no Facebook, verifique nele.</p>\r\n\r\n<p>O email pode ter sido arquivado na sua lixeira / spam.</p>\r\n\r\n<p>Se ainda n&atilde;o encontrar mande um email para: contato@atados.com.br</p>",
+            "category": 3,
+            "language": "pt-br"
+        }
+    },
+    {
+        "model": "faq.faq",
+        "pk": 39,
+        "fields": {
+            "channel": 6,
+            "question": "Esqueci a senha do meu perfil de volunt\u00e1ria(o)",
+            "answer": "<p>Para recuperar sua senha basta clicar em &ldquo;ENTRAR&rdquo; e em seguida em &ldquo;ESQUECEU&nbsp;SUA&nbsp;SENHA?&rdquo;. Vai abrir um campo para voc&ecirc; colocar seu e-mail e voc&ecirc; receber&aacute; uma nova senha em seu e-mail.</p>",
+            "category": 3,
+            "language": "pt-br"
+        }
+    },
+    {
+        "model": "faq.faq",
+        "pk": 40,
+        "fields": {
+            "channel": 6,
+            "question": "Volunt\u00e1ria(o) menor de idade pode se cadastrar?",
+            "answer": "<p>N&atilde;o &eacute; preciso ser maior de idade para realizar um trabalho volunt&aacute;rio, mas isso depende da pol&iacute;tica de voluntariado da Organiza&ccedil;&atilde;o em que voc&ecirc; vai se inscrever, e provavelmente voc&ecirc; precisar&aacute; de uma autoriza&ccedil;&atilde;o de algum respons&aacute;vel.&nbsp;</p>",
+            "category": 3,
+            "language": "pt-br"
+        }
+    },
+    {
+        "model": "faq.faq",
+        "pk": 41,
+        "fields": {
+            "channel": 6,
+            "question": "N\u00e3o recebi o contato da organiza\u00e7\u00e3o.",
+            "answer": "<ul>\r\n\t<li>Assim que voc&ecirc; se cadastrou na vaga voc&ecirc; recebeu um email com o contato da ONG n&eacute;? Que tal mandar um email para eles ou mesmo ligar para pedir as pr&oacute;ximas instru&ccedil;&otilde;es</li>\r\n\t<li>Se a ONG n&atilde;o respondeu o seu email responda esse form: (<a href=\"https://docs.google.com/a/atados.com.br/forms/d/1qvjfIuJ0mHhK1icLwEveBVkv-bawvmIhg4Uiv3FuO10/edit?usp=drive_web\">https://docs.google.com/forms/d/1qvjfIuJ0mHhK1icLwEveBVkv-bawvmIhg4Uiv3FuO10/edit?uiv=1</a>) que iremos falar com a ONG.</li>\r\n</ul>",
+            "category": 3,
+            "language": "pt-br"
+        }
+    },
+    {
+        "model": "faq.faq",
+        "pk": 42,
+        "fields": {
+            "channel": 6,
+            "question": "Como sei se me candidatei em uma vaga",
+            "answer": "<p>Voc&ecirc; receber&aacute; um e-mail confirmando sua inscri&ccedil;&atilde;o e com os dados da ONG.</p>\r\n\r\n<p>&nbsp;Caso n&atilde;o tenha recebido o email:</p>\r\n\r\n<ul>\r\n\t<li>Acesse novamente o link da vaga</li>\r\n\t<li>Se voc&ecirc; n&atilde;o estiver inscrito o bot&atilde;o do lado direito vai estar escrito &ldquo;INSCREVER-SE&rdquo;. Neste caso clique novamente nele.</li>\r\n\t<li>Se voc&ecirc; j&aacute; estiver inscrito vai estar escrito &ldquo;DESISNCREVER-SE&rdquo;, neste caso procure o email na sua caixa de spam e verifique se voc&ecirc; est&aacute; olhando a caixa de entrada do email cadastrado no Atados.</li>\r\n</ul>",
+            "category": 3,
+            "language": "pt-br"
+        }
+    },
+    {
+        "model": "faq.faq",
+        "pk": 43,
+        "fields": {
+            "channel": 6,
+            "question": "Como me cadastrar em uma vaga?",
+            "answer": "<p>- Primeiro voc&ecirc; precisa se cadastrar no site do Atados&nbsp;<br />\r\n- Se voc&ecirc; j&aacute; se cadastrou basta voc&ecirc; clicar na vaga&nbsp;que tem interesse em participar como volunt&aacute;ria(o).<br />\r\n- Clicar no bot&atilde;o &ldquo;INSCREVER-SE&rdquo;.<br />\r\n- Voc&ecirc; vai receber um e-mail confirmando sua inscri&ccedil;&atilde;o e com os dados da ONG para entrar em contato com eles.</p>",
+            "category": 3,
+            "language": "pt-br"
+        }
+    },
+    {
+        "model": "faq.faq",
+        "pk": 44,
+        "fields": {
+            "channel": 6,
+            "question": "Quero ser volunt\u00e1ria(o):",
+            "answer": "<p>OPA! Voc&ecirc; est&aacute; no lugar certo :)</p>\r\n\r\n<p>Temos diversas vagas de trabalho volunt&aacute;rio no site do Atados! Elas est&atilde;o divididas por causas e localiza&ccedil;&atilde;o. Procure na se&ccedil;&atilde;o &ldquo;Buscar vagas de voluntariado...&rdquo; ou clique aqui:&nbsp;<a href=\"https://www.atados.com.br/explore\">https://www.atados.com.br/vagas</a></p>",
+            "category": 3,
+            "language": "pt-br"
+        }
+    },
+    {
+        "model": "faq.faq",
+        "pk": 45,
+        "fields": {
+            "channel": 6,
+            "question": "Como fa\u00e7o para me inscrever no Atados?",
+            "answer": "<p>Acesse www.atados.com.br<br />\r\nClique em&nbsp;&quot;Cadastrar-se&quot; no topo da p&aacute;gina<br />\r\n<br />\r\nA&iacute; voc&ecirc; pode escolher:</p>\r\n\r\n<p>1) Criar um nome de usu&aacute;rio, informar email e senha</p>\r\n\r\n<p>2) Usar o login do Facebook ou Google, clique em &ldquo;Criar conta com Facebook&rdquo; ou &quot;Criar conta com Google&quot;</p>\r\n\r\n<p>Clique em &ldquo;Cadastre-se&rdquo;</p>\r\n\r\n<p>Pronto! Agora basta confirmar o seu email e navegar pelas vagas das organiza&ccedil;&otilde;es cadastradas :-)</p>",
+            "category": 3,
+            "language": "pt-br"
+        }
+    },
+    {
+        "model": "faq.faq",
+        "pk": 46,
+        "fields": {
+            "channel": 6,
+            "question": "Como conseguir volunt\u00e1rias(os)?",
+            "answer": "<p>Pode deixar a&nbsp;<strong>divulga&ccedil;&atilde;o com a gente</strong>! A cada 10 vagas que s&atilde;o publicados no nosso site, 9 tem pessoas inscritas.</p>\r\n\r\n<p>Mas para&nbsp;<strong>atrair essas(es) volunt&aacute;rias(os)</strong>&nbsp;&eacute; importante que voc&ecirc; deixe sua vaga&nbsp;<strong>CLARA, COMPLETA e ATRATIVA!</strong>&nbsp;(Detalhes no item: Como criar uma vaga).</p>\r\n\r\n<p><strong>Manter e engajar essas(es) volunt&aacute;rias(os)</strong>&nbsp;&eacute; com voc&ecirc;. E como?</p>\r\n\r\n<ul>\r\n\t<li>Tendo uma comunica&ccedil;&atilde;o r&aacute;pida e constante com elas(es)</li>\r\n\t<li>Apresentando a organiza&ccedil;&atilde;o, equipe e benefici&aacute;rias(os)</li>\r\n\t<li>Acolhendo e fazendo ela(e) se sentir parte da equipe</li>\r\n\t<li>Constante feedback, mostrar a import&acirc;ncia do trabalho dela(e) para a institui&ccedil;&atilde;o.</li>\r\n</ul>",
+            "category": 2,
+            "language": "pt-br"
+        }
+    },
+    {
+        "model": "faq.faq",
+        "pk": 47,
+        "fields": {
+            "channel": 6,
+            "question": "Como editar minhas informa\u00e7\u00f5es",
+            "answer": "<ul>\r\n\t<li>Fa&ccedil;a login em &quot;Entrar&quot;&nbsp;com o email cadastrado pela organiza&ccedil;&atilde;o Se voc&ecirc; n&atilde;o lembra qual o email cadastrado basta entrar no perfil da ONG no nosso site, o email que aparece no perfil &eacute; o mesmo de login.</li>\r\n\t<li>No canto superior direito clique em cima de &quot;Minha ONG&quot;</li>\r\n\t<li>Clique em &ldquo;editar perfil da ONG&rdquo;</li>\r\n\t<li>Altere os campos que julgar necess&aacute;rio</li>\r\n\t<li>Clique em &ldquo;salvar&rdquo;&nbsp;</li>\r\n</ul>\r\n\r\n<p>Agora &eacute; s&oacute; curtir o perfil bonit&atilde;o.</p>",
+            "category": 2,
+            "language": "pt-br"
+        }
+    },
+    {
+        "model": "faq.faq",
+        "pk": 48,
+        "fields": {
+            "channel": 6,
+            "question": "Como alterar a senha da minha ONG?",
+            "answer": "<ul>\r\n\t<li>No canto superior direito clique em cima do link &quot;Entrar&quot;</li>\r\n\t<li>Clique em &quot;Esqueceu sua senha?&quot;</li>\r\n\t<li>Envie informa&ccedil;&otilde;es para o seu e-mail de Login.</li>\r\n\t<li>Crie sua nova senha no formul&aacute;rio.</li>\r\n\t<li>Clique em &quot;salvar&quot;</li>\r\n\t<li>Pronto senha nova salva.</li>\r\n</ul>",
+            "category": 2,
+            "language": "pt-br"
+        }
+    },
+    {
+        "model": "faq.faq",
+        "pk": 49,
+        "fields": {
+            "channel": 6,
+            "question": "Esqueci a senha da minha ONG",
+            "answer": "<ul>\r\n\t<li>Acesse o site</li>\r\n\t<li>No canto superior direito clique em cima do link &quot;Entrar&quot;</li>\r\n\t<li>Clique em &quot;Esqueceu sua senha?&quot;</li>\r\n\t<li>Envie informa&ccedil;&otilde;es para o seu e-mail de Login.</li>\r\n\t<li>Crie sua nova senha no formul&aacute;rio.</li>\r\n\t<li>Clique em &quot;salvar&quot;</li>\r\n\t<li>Pronto senha nova salva.</li>\r\n</ul>",
+            "category": 2,
+            "language": "pt-br"
+        }
+    },
+    {
+        "model": "faq.faq",
+        "pk": 50,
+        "fields": {
+            "channel": 6,
+            "question": "Como mudo o e-mail da minha ONG?",
+            "answer": "<ul>\r\n\t<li>Para muda o e-mail de login - envie um e-mail para:&nbsp;<a href=\"mailto:contato@atados.com.br\">contato@atados.com.br</a></li>\r\n</ul>\r\n\r\n<ul>\r\n\t<li>Para mudar o e-mail da sua organiza&ccedil;&atilde;o:\r\n\t<ul>\r\n\t\t<li>Acesse o Site</li>\r\n\t\t<li>Clique em &quot;Entrar&quot;</li>\r\n\t\t<li>Depois em &quot;Minha ONG&quot;</li>\r\n\t\t<li>&quot;Editar o perfil da minha ONG&quot;</li>\r\n\t\t<li>Troque o email e clique em &quot;Salvar altera&ccedil;&otilde;es&quot;</li>\r\n\t</ul>\r\n\t</li>\r\n</ul>",
+            "category": 2,
+            "language": "pt-br"
+        }
+    },
+    {
+        "model": "faq.faq",
+        "pk": 51,
+        "fields": {
+            "channel": 6,
+            "question": "Esqueci o e-mail de login da minha ONG",
+            "answer": "<ul>\r\n\t<li>Acesse o site do Atados (www.atados.com.br)</li>\r\n\t<li>Procure o perfil da sua ONG</li>\r\n\t<li>O email divulgado no perfil geralmente&nbsp;&eacute; o mesmo de login.</li>\r\n\t<li>Se n&atilde;o, envie um e-mail para contato@atados.com.br</li>\r\n</ul>",
+            "category": 2,
+            "language": "pt-br"
+        }
+    },
+    {
+        "model": "faq.faq",
+        "pk": 52,
+        "fields": {
+            "channel": 6,
+            "question": "N\u00e3o acho ONGs em minha cidade, como posso ser volunt\u00e1ria(o)? (trabalho \u00e0 dist\u00e2ncia)",
+            "answer": "<p>Hoje&nbsp;atuamos apenas em S&atilde;o Paulo, Rio de Janeiro, Bras&iacute;lia e Curitiba, mas voc&ecirc; pode encontrar trabalhos volunt&aacute;rios que podem ser realizados &agrave; dist&acirc;ncia.</p>",
+            "category": 3,
+            "language": "pt-br"
+        }
+    },
+    {
+        "model": "faq.faq",
+        "pk": 53,
+        "fields": {
+            "channel": 6,
+            "question": "Tenho d\u00favidas sobre uma vaga.",
+            "answer": "<p>Em d&uacute;vidas espec&iacute;ficas sobre vagas, recomendamos que entre em contato diretamente com a institui&ccedil;&atilde;o respons&aacute;vel. Para isso entre na vaga&nbsp;selecione o cargo&nbsp;e clique em &quot;Inscrever-se&quot;, vai abrir uma aba para voc&ecirc; escrever um recado para a ONG. Tire suas d&uacute;vidas por l&aacute;</p>",
+            "category": 3,
+            "language": "pt-br"
+        }
+    },
+    {
+        "model": "faq.faq",
+        "pk": 54,
+        "fields": {
+            "channel": 6,
+            "question": "Porque duplicar uma vaga antiga",
+            "answer": "<p>Se voc&ecirc; precisa de mais volunt&aacute;rias(os) para uma vaga antiga voc&ecirc; pode:</p>\r\n\r\n<p>1 - Duplicar a&nbsp;vaga. Voc&ecirc; ter&aacute; uma segunda&nbsp;vaga, igual a&nbsp;primeira mas sem ningu&eacute;m inscrita(o). Assim voc&ecirc; garante uma nova leva de volunt&aacute;rias(os).&nbsp;</p>\r\n\r\n<ul>\r\n\t<li>Fa&ccedil;a login no perfil da ONG em &quot;Entrar&quot;&nbsp;</li>\r\n\t<li>Clique no canto superior direito em cima do link &quot;Minha ONG&quot;</li>\r\n\t<li>Em &quot;Gerenciar Vaga&quot; voc&ecirc; pode buscar sua vaga pelo nome.</li>\r\n\t<li>Nas vagas a direita&nbsp;clique no bot&atilde;o&nbsp;&quot;duplicar&quot;.</li>\r\n</ul>\r\n\r\n<p>2 - S&oacute; reabrimos a&nbsp;mesma&nbsp;vaga com pouca inscri&ccedil;&otilde;es, envie um e-mail solicitando esse processo&nbsp;para contato@atados.com.br&nbsp;</p>",
+            "category": 2,
+            "language": "pt-br"
+        }
+    },
+    {
+        "model": "faq.faq",
+        "pk": 55,
+        "fields": {
+            "channel": 6,
+            "question": "Como criar uma vaga de voluntariado?",
+            "answer": "<ul>\r\n\t<li>Fa&ccedil;a login no perfil da ONG em &quot;Entrar&quot;&nbsp;</li>\r\n\t<li>Clique no canto superior direito em cima de &quot;Minha ONG&quot;</li>\r\n\t<li>Clique em &quot;Criar Vaga&quot;</li>\r\n\t<li>No formul&aacute;rio B&aacute;sico - Preencha todos os campos</li>\r\n\t<li>Escolha entre &quot;pontual&quot; se for um evento &uacute;nico ou &quot;recorrente&quot; se for algum tipo de trabalho que exija um comprometimento cont&iacute;nuo.</li>\r\n\t<li>Clique em &ldquo;Salvar altera&ccedil;&otilde;es&rdquo; e v&aacute; para os &quot;Cargos&quot;.</li>\r\n\t<li>Em &quot;Cargos&quot; voc&ecirc; precisa obrigatoriamente cadastrar ao menos um.&nbsp;</li>\r\n\t<li>Escreva: Nome; fun&ccedil;&atilde;o; Pr&eacute;-Requisitos e N&ordm; de Vagas.&nbsp;</li>\r\n</ul>\r\n\r\n<ul>\r\n\t<li>Clique em &ldquo;Salvar altera&ccedil;&otilde;es&rdquo; e v&aacute; para o &quot;Sobre&quot;.</li>\r\n</ul>\r\n\r\n<p>Lembre-se, o primeiro passo para conseguir volunt&aacute;rias(os) &eacute; com um ato atrativo! Fa&ccedil;a ele com carinho! Com informa&ccedil;&otilde;es completas:&nbsp;</p>\r\n\r\n<ul>\r\n\t<li>Qual atividade a(o) volunt&aacute;ria(o) ir&aacute; realizar</li>\r\n\t<li>Qual a import&acirc;ncia desse trabalho</li>\r\n\t<li>Vai haver uma capacita&ccedil;&atilde;o pr&eacute;via?</li>\r\n\t<li>Qual o p&uacute;blico que ele ir&aacute; atender</li>\r\n\t<li>Que habilidades a pessoa deve ter</li>\r\n\t<li>Quais dias da semana e hor&aacute;rios ela precisa estar dispon&iacute;vel</li>\r\n\t<li>Outras informa&ccedil;&otilde;es relativas ao trabalho.</li>\r\n</ul>\r\n\r\n<p>&nbsp;Pronto! Agora &eacute; s&oacute; esperar n&oacute;s&nbsp;<strong>avaliamos&nbsp;</strong>as informa&ccedil;&otilde;es e, se estiver tudo ok, publicamos o ato e j&aacute; come&ccedil;amos a&nbsp;<strong>mobilizar&nbsp;</strong>pessoas para sua causa</p>",
+            "category": 2,
+            "language": "pt-br"
+        }
+    },
+    {
+        "model": "faq.faq",
+        "pk": 56,
+        "fields": {
+            "channel": 6,
+            "question": "Quem pode se inscrever no Atados?",
+            "answer": "<p><strong>Qualquer pessoa</strong>&nbsp;<strong>do mundo&nbsp;</strong>pode se inscrever e buscar por vagas de voluntariado no site do Atados. J&aacute; do lado das organiza&ccedil;&otilde;es, ainda temos uma atua&ccedil;&atilde;o limitada, por isso, apenas&nbsp;<strong>iniciativas</strong>&nbsp;das&nbsp;Regi&otilde;es&nbsp;Metropolitanas<strong> </strong>de&nbsp;<strong>S&atilde;o Paulo, Curitiba, Rio de Janeiro, Florian&oacute;polis&nbsp;e Bras&iacute;lia&nbsp;</strong>podem se inscrever e criar vagas presenciais. Das outras localidades apenas vagas a dist&acirc;ncia.</p>\r\n\r\n<p>Mas n&atilde;o desanime, queremos ir para sua cidade! Voc&ecirc; pode se inscrever e, quando formos para sua cidade, podemos trabalhar juntos!</p>\r\n\r\n<p>Para isso deixe seu perfil no nosso site completo</p>\r\n\r\n<p>Caso queira expandir o Atados para sua regi&atilde;o, se inscreva no form abaixo e entraremos em contato quando tivermos estruturado nosso processo: <a href=\"https://docs.google.com/a/atados.com.br/forms/d/e/1FAIpQLScSBZkwlZOU5Zt0qX-gAiXtmfcfcBlaujAswaeVfegSDOHh5A/viewform\">https://docs.google.com/a/atados.com.br/forms/d/e/1FAIpQLScSBZkwlZOU5Zt0qX-gAiXtmfcfcBlaujAswaeVfegSDOHh5A/viewform</a></p>",
+            "category": 1,
+            "language": "pt-br"
+        }
+    }
+]

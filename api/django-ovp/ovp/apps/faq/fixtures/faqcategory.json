@@ -1,0 +1,26 @@
+[
+    {
+        "model": "faq.faqcategory",
+        "pk": 1,
+        "fields": {
+            "channel": 1,
+            "name": "Sobre"
+        }
+    },
+    {
+        "model": "faq.faqcategory",
+        "pk": 2,
+        "fields": {
+            "channel": 1,
+            "name": "ONGs"
+        }
+    },
+    {
+        "model": "faq.faqcategory",
+        "pk": 3,
+        "fields": {
+            "channel": 1,
+            "name": "Volunt\u00e1rios"
+        }
+    }
+]

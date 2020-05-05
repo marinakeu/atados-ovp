@@ -1,0 +1,2 @@
+You received a comment from {{user.email}}:
+{{content}}

@@ -1,0 +1,442 @@
+[
+  {
+    "model": "projects.projectbookmark",
+    "pk": 1,
+    "fields": {
+      "channel": 1,
+      "user": 1,
+      "subscription": false,
+      "project": 1
+    }
+  },
+  {
+    "model": "projects.projectbookmark",
+    "pk": 2,
+    "fields": {
+      "channel": 1,
+      "user": 2,
+      "subscription": false,
+      "project": 2
+    }
+  },
+  {
+    "model": "projects.projectbookmark",
+    "pk": 3,
+    "fields": {
+      "channel": 1,
+      "user": 3,
+      "subscription": false,
+      "project": 3
+    }
+  },
+  {
+    "model": "projects.projectbookmark",
+    "pk": 4,
+    "fields": {
+      "channel": 1,
+      "user": 4,
+      "subscription": false,
+      "project": 4
+    }
+  },
+  {
+    "model": "projects.projectbookmark",
+    "pk": 5,
+    "fields": {
+      "channel": 1,
+      "user": 5,
+      "subscription": false,
+      "project": 5
+    }
+  },
+  {
+    "model": "projects.projectbookmark",
+    "pk": 6,
+    "fields": {
+      "channel": 1,
+      "user": 6,
+      "subscription": false,
+      "project": 6
+    }
+  },
+  {
+    "model": "projects.projectbookmark",
+    "pk": 7,
+    "fields": {
+      "channel": 1,
+      "user": 7,
+      "subscription": false,
+      "project": 7
+    }
+  },
+  {
+    "model": "projects.projectbookmark",
+    "pk": 8,
+    "fields": {
+      "channel": 1,
+      "user": 8,
+      "subscription": false,
+      "project": 8
+    }
+  },
+  {
+    "model": "projects.projectbookmark",
+    "pk": 9,
+    "fields": {
+      "channel": 1,
+      "user": 9,
+      "subscription": false,
+      "project": 9
+    }
+  },
+  {
+    "model": "projects.projectbookmark",
+    "pk": 10,
+    "fields": {
+      "channel": 1,
+      "user": 10,
+      "subscription": false,
+      "project": 10
+    }
+  },
+  {
+    "model": "projects.projectbookmark",
+    "pk": 11,
+    "fields": {
+      "channel": 1,
+      "user": 11,
+      "subscription": false,
+      "project": 11
+    }
+  },
+  {
+    "model": "projects.projectbookmark",
+    "pk": 12,
+    "fields": {
+      "channel": 1,
+      "user": 12,
+      "subscription": false,
+      "project": 12
+    }
+  },
+  {
+    "model": "projects.projectbookmark",
+    "pk": 13,
+    "fields": {
+      "channel": 1,
+      "user": 13,
+      "subscription": false,
+      "project": 13
+    }
+  },
+  {
+    "model": "projects.projectbookmark",
+    "pk": 14,
+    "fields": {
+      "channel": 1,
+      "user": 14,
+      "subscription": false,
+      "project": 14
+    }
+  },
+  {
+    "model": "projects.projectbookmark",
+    "pk": 15,
+    "fields": {
+      "channel": 1,
+      "user": 15,
+      "subscription": false,
+      "project": 15
+    }
+  },
+  {
+    "model": "projects.projectbookmark",
+    "pk": 16,
+    "fields": {
+      "channel": 1,
+      "user": 16,
+      "subscription": false,
+      "project": 16
+    }
+  },
+  {
+    "model": "projects.projectbookmark",
+    "pk": 17,
+    "fields": {
+      "channel": 1,
+      "user": 17,
+      "subscription": false,
+      "project": 17
+    }
+  },
+  {
+    "model": "projects.projectbookmark",
+    "pk": 18,
+    "fields": {
+      "channel": 1,
+      "user": 18,
+      "subscription": false,
+      "project": 18
+    }
+  },
+  {
+    "model": "projects.projectbookmark",
+    "pk": 19,
+    "fields": {
+      "channel": 1,
+      "user": 19,
+      "subscription": false,
+      "project": 19
+    }
+  },
+  {
+    "model": "projects.projectbookmark",
+    "pk": 20,
+    "fields": {
+      "channel": 1,
+      "user": 20,
+      "subscription": false,
+      "project": 20
+    }
+  },
+  {
+    "model": "projects.projectbookmark",
+    "pk": 21,
+    "fields": {
+      "channel": 1,
+      "user": 21,
+      "subscription": false,
+      "project": 21
+    }
+  },
+  {
+    "model": "projects.projectbookmark",
+    "pk": 22,
+    "fields": {
+      "channel": 1,
+      "user": 22,
+      "subscription": false,
+      "project": 22
+    }
+  },
+  {
+    "model": "projects.projectbookmark",
+    "pk": 23,
+    "fields": {
+      "channel": 1,
+      "user": 23,
+      "subscription": false,
+      "project": 23
+    }
+  },
+  {
+    "model": "projects.projectbookmark",
+    "pk": 24,
+    "fields": {
+      "channel": 1,
+      "user": 24,
+      "subscription": false,
+      "project": 24
+    }
+  },
+  {
+    "model": "projects.projectbookmark",
+    "pk": 25,
+    "fields": {
+      "channel": 1,
+      "user": 25,
+      "subscription": false,
+      "project": 25
+    }
+  },
+  {
+    "model": "projects.projectbookmark",
+    "pk": 26,
+    "fields": {
+      "channel": 1,
+      "user": 26,
+      "subscription": false,
+      "project": 26
+    }
+  },
+  {
+    "model": "projects.projectbookmark",
+    "pk": 27,
+    "fields": {
+      "channel": 1,
+      "user": 27,
+      "subscription": false,
+      "project": 27
+    }
+  },
+  {
+    "model": "projects.projectbookmark",
+    "pk": 28,
+    "fields": {
+      "channel": 1,
+      "user": 28,
+      "subscription": false,
+      "project": 28
+    }
+  },
+  {
+    "model": "projects.projectbookmark",
+    "pk": 29,
+    "fields": {
+      "channel": 1,
+      "user": 29,
+      "subscription": false,
+      "project": 29
+    }
+  },
+  {
+    "model": "projects.projectbookmark",
+    "pk": 30,
+    "fields": {
+      "channel": 1,
+      "user": 30,
+      "subscription": false,
+      "project": 30
+    }
+  },
+  {
+    "model": "projects.projectbookmark",
+    "pk": 31,
+    "fields": {
+      "channel": 1,
+      "user": 31,
+      "subscription": false,
+      "project": 31
+    }
+  },
+  {
+    "model": "projects.projectbookmark",
+    "pk": 32,
+    "fields": {
+      "channel": 1,
+      "user": 32,
+      "subscription": false,
+      "project": 32
+    }
+  },
+  {
+    "model": "projects.projectbookmark",
+    "pk": 33,
+    "fields": {
+      "channel": 1,
+      "user": 33,
+      "subscription": false,
+      "project": 33
+    }
+  },
+  {
+    "model": "projects.projectbookmark",
+    "pk": 34,
+    "fields": {
+      "channel": 1,
+      "user": 34,
+      "subscription": false,
+      "project": 34
+    }
+  },
+  {
+    "model": "projects.projectbookmark",
+    "pk": 35,
+    "fields": {
+      "channel": 1,
+      "user": 35,
+      "subscription": false,
+      "project": 35
+    }
+  },
+  {
+    "model": "projects.projectbookmark",
+    "pk": 36,
+    "fields": {
+      "channel": 1,
+      "user": 36,
+      "subscription": false,
+      "project": 36
+    }
+  },
+  {
+    "model": "projects.projectbookmark",
+    "pk": 37,
+    "fields": {
+      "channel": 1,
+      "user": 37,
+      "subscription": false,
+      "project": 37
+    }
+  },
+  {
+    "model": "projects.projectbookmark",
+    "pk": 38,
+    "fields": {
+      "channel": 1,
+      "user": 38,
+      "subscription": false,
+      "project": 38
+    }
+  },
+  {
+    "model": "projects.projectbookmark",
+    "pk": 39,
+    "fields": {
+      "channel": 1,
+      "user": 39,
+      "subscription": false,
+      "project": 39
+    }
+  },
+  {
+    "model": "projects.projectbookmark",
+    "pk": 40,
+    "fields": {
+      "channel": 1,
+      "user": 40,
+      "subscription": false,
+      "project": 40
+    }
+  },
+  {
+    "model": "projects.projectbookmark",
+    "pk": 41,
+    "fields": {
+      "channel": 1,
+      "user": 41,
+      "subscription": false,
+      "project": 41
+    }
+  },
+  {
+    "model": "projects.projectbookmark",
+    "pk": 42,
+    "fields": {
+      "channel": 1,
+      "user": 42,
+      "subscription": false,
+      "project": 42
+    }
+  },
+  {
+    "model": "projects.projectbookmark",
+    "pk": 43,
+    "fields": {
+      "channel": 1,
+      "user": 43,
+      "subscription": false,
+      "project": 43
+    }
+  },
+  {
+    "model": "projects.projectbookmark",
+    "pk": 44,
+    "fields": {
+      "channel": 1,
+      "user": 44,
+      "subscription": false,
+      "project": 44
+    }
+  }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "model": "donations.seller",
+        "pk": 1,
+        "fields": {
+            "channel": 1,
+            "organization": 1,
+            "backend": "zoop",
+            "seller_id": "none",
+            "date_created": "2020-01-01T10:19:45.174Z",
+            "date_modified": "2020-01-01T10:19:45.174Z"
+        }
+    }
+]

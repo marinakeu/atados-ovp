@@ -1,0 +1,212 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-01 13:34-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: admin.py:279 admin.py:287 admin.py:295
+msgid "None"
+msgstr "Ninguno"
+
+#: admin.py:280
+msgid "Owner's Name"
+msgstr "Nombre del dueño"
+
+#: admin.py:288
+msgid "Owner's E-mail"
+msgstr "Correo electrónico del propietario"
+
+#: admin.py:296
+msgid "Owner's Phone"
+msgstr "Teléfono del propietario"
+
+#: apps.py:6
+msgid "Organizations"
+msgstr "Organizaciones"
+
+#: models/invite.py:12 models/invite.py:14
+msgid "Joined date"
+msgstr "Fecha de ingreso"
+
+#: models/invite.py:13 models/organization.py:62
+msgid "Modified date"
+msgstr "Fecha modificada"
+
+#: models/invite.py:18
+msgid "organization_invite"
+msgstr "organizacion_invite"
+
+#: models/organization.py:18
+msgid "Organization"
+msgstr "Organización"
+
+#: models/organization.py:19
+msgid "School"
+msgstr "Colegio"
+
+#: models/organization.py:20
+msgid "Company"
+msgstr "Empresa"
+
+#: models/organization.py:21
+msgid "Group of volunteers"
+msgstr "Grupo de voluntarios"
+
+#: models/organization.py:26
+msgid "owner"
+msgstr "propietario"
+
+#: models/organization.py:27
+msgid "address"
+msgstr "direcciones"
+
+#: models/organization.py:28
+msgid "image"
+msgstr "imagen"
+
+#: models/organization.py:29
+msgid "cover"
+msgstr "imagen de portada"
+
+#: models/organization.py:30
+msgid "causes"
+msgstr "causas"
+
+#: models/organization.py:31
+msgid "members"
+msgstr "miembros"
+
+#: models/organization.py:32
+msgid "galleries"
+msgstr "galerías"
+
+#: models/organization.py:33
+msgid "flairs"
+msgstr "instintos"
+
+#: models/organization.py:36
+msgid "categories"
+msgstr "categorías"
+
+#: models/organization.py:37
+msgid "Slug"
+msgstr "slug"
+
+#: models/organization.py:38
+msgid "Name"
+msgstr "Nombre"
+
+#: models/organization.py:39
+msgid "Website"
+msgstr "Sitio web"
+
+#: models/organization.py:40
+msgid "Facebook"
+msgstr "Facebook"
+
+#: models/organization.py:41
+msgid "Instagram"
+msgstr "Instagram"
+
+#: models/organization.py:42
+msgid "Type"
+msgstr "Tipo"
+
+#: models/organization.py:43
+msgid "Details"
+msgstr "Detalles"
+
+#: models/organization.py:44
+msgid "Short description"
+msgstr "Breve descripción"
+
+#: models/organization.py:45
+msgid "Hidden address"
+msgstr "Dirección oculta"
+
+#: models/organization.py:46
+msgid "Verified"
+msgstr "Verificado"
+
+#: models/organization.py:47
+msgid "CNPJ"
+msgstr "CNPJ"
+
+#: models/organization.py:51
+msgid "Responsible name"
+msgstr "Nombre del responsable"
+
+#: models/organization.py:52
+msgid "Responsible email"
+msgstr "Correo electrónico del responsable"
+
+#: models/organization.py:53
+msgid "Responsible phone"
+msgstr "Teléfono del responsable"
+
+#: models/organization.py:56
+msgid "Highlighted"
+msgstr "Resaltado"
+
+#: models/organization.py:57
+msgid "Published"
+msgstr "Publicado"
+
+#: models/organization.py:58
+msgid "Published date"
+msgstr "Fecha de Publicación"
+
+#: models/organization.py:59
+msgid "Deleted"
+msgstr "Eliminado"
+
+#: models/organization.py:60
+msgid "Deleted date"
+msgstr "Fecha eliminada"
+
+#: models/organization.py:61
+msgid "Created date"
+msgstr "Fecha de creación"
+
+#: models/organization.py:63
+msgid "Inactive"
+msgstr "Inactivo"
+
+#: models/organization.py:64
+msgid "Reminder"
+msgstr "Recordatorio"
+
+#: models/organization.py:65
+msgid "Reminder sent date"
+msgstr "Recordatorio de fecha de envío"
+
+#: models/organization.py:131
+msgid "organization"
+msgstr "organización"
+
+#: models/organization.py:132
+msgid "organizations"
+msgstr "organizaciones"
+
+msgid "Volunteers"
+msgstr "Voluntarios"
+
+msgid "Rating"
+msgstr "Clasificación"
+
+msgid "Benefited people"
+msgstr "Personas beneficiadas"

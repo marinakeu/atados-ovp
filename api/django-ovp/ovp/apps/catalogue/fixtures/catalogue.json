@@ -1,0 +1,91 @@
+[
+    {
+        "model": "catalogue.catalogue",
+        "pk": 1,
+        "fields": {
+            "channel": 1,
+            "name": "Home(atados)",
+            "slug": "home"
+        }
+    },
+    {
+        "model": "catalogue.section",
+        "pk": 1,
+        "fields": {
+            "channel": 1,
+            "catalogue": 1,
+            "name": "Vagas",
+            "slug": "vagas",
+            "amount": 8,
+            "type": "projects",
+            "order": 2,
+            "skip_address_filter": false
+        }
+    },
+    {
+        "model": "catalogue.section",
+        "pk": 2,
+        "fields": {
+            "channel": 1,
+            "catalogue": 1,
+            "name": "Movimento Atados",
+            "slug": "movimento-atados",
+            "amount": 8,
+            "type": "projects",
+            "order": 2,
+            "skip_address_filter": false
+        }
+    },
+    {
+        "model": "catalogue.section",
+        "pk": 3,
+        "fields": {
+            "channel": 1,
+            "catalogue": 1,
+            "name": "DBA 2020",
+            "slug": "dba-2020",
+            "amount": 8,
+            "type": "projects",
+            "order": 2,
+            "skip_address_filter": false
+        }
+    },
+    {
+        "model": "catalogue.sectionfilter",
+        "pk": 1,
+        "fields": {
+            "channel": 1,
+            "section": 2,
+            "type": "CATEGORY",
+            "content_type": 38,
+            "object_id": 1
+        }
+    },
+    {
+        "model": "catalogue.sectionfilter",
+        "pk": 2,
+        "fields": {
+            "channel": 1,
+            "section": 3,
+            "type": "CATEGORY",
+            "content_type": 38,
+            "object_id": 2
+        }
+    },
+    {
+        "model": "catalogue.categoryfilter",
+        "pk": 1,
+        "fields": {
+            "channel": 1,
+            "categories": [1]
+        }
+    },
+    {
+        "model": "catalogue.categoryfilter",
+        "pk": 2,
+        "fields": {
+            "channel": 1,
+            "categories": [2]
+        }
+    }
+]

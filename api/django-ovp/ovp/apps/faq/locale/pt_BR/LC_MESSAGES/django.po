@@ -1,0 +1,47 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-11-29 11:01-0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: models/category.py:7
+msgid "Name"
+msgstr "Nome"
+
+#: models/category.py:14
+msgid "faq category"
+msgstr "categoria de FAQ"
+
+#: models/category.py:15
+msgid "faq categories"
+msgstr "categorias de FAQ"
+
+#: models/faq.py:8
+msgid "Question"
+msgstr "Pergunta"
+
+#: models/faq.py:9
+msgid "Answer"
+msgstr "Resposta"
+
+#: models/faq.py:10
+msgid "Category"
+msgstr "Categoria"
+
+#: models/faq.py:14
+msgid "faq"
+msgstr "FAQ"

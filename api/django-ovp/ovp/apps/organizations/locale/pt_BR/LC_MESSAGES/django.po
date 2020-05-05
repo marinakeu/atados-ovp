@@ -1,0 +1,451 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-01 13:34-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: admin.py:279 admin.py:287 admin.py:295
+msgid "None"
+msgstr "Nenhum"
+
+#: admin.py:280
+msgid "Owner's Name"
+msgstr "Nome do Responsável"
+
+#: admin.py:288
+msgid "Owner's E-mail"
+msgstr "Email do Responsável"
+
+#: admin.py:296
+msgid "Owner's Phone"
+msgstr "Telefone do Responsável"
+
+#: admin.py:306
+msgid "Volunteers"
+msgstr "Voluntários"
+
+#: apps.py:6
+msgid "Organizations"
+msgstr "Organizações"
+
+#: models/invite.py:12 models/invite.py:14
+msgid "Joined date"
+msgstr "Criada em"
+
+#: models/invite.py:13 models/organization.py:62
+msgid "Modified date"
+msgstr "Modificada em"
+
+#: models/invite.py:18
+msgid "organization_invite"
+msgstr "convite à organização"
+
+#: models/organization.py:18
+msgid "Organization"
+msgstr "Organização"
+
+#: models/organization.py:19
+msgid "School"
+msgstr "Escola"
+
+#: models/organization.py:20
+msgid "Company"
+msgstr "Compania"
+
+#: models/organization.py:21
+msgid "Group of volunteers"
+msgstr "Grupo de voluntários"
+
+#: models/organization.py:26
+msgid "owner"
+msgstr "responsável"
+
+#: models/organization.py:27
+msgid "address"
+msgstr "endereço"
+
+#: models/organization.py:28
+msgid "image"
+msgstr "imagem"
+
+#: models/organization.py:29
+msgid "cover"
+msgstr "capa"
+
+#: models/organization.py:30
+msgid "causes"
+msgstr "causas"
+
+#: models/organization.py:31
+msgid "members"
+msgstr "membros"
+
+#: models/organization.py:32
+msgid "galleries"
+msgstr ""
+
+#: models/organization.py:33
+msgid "flairs"
+msgstr "selos"
+
+#: models/organization.py:36
+msgid "categories"
+msgstr ""
+
+#: models/organization.py:37
+msgid "Slug"
+msgstr "Slug"
+
+#: models/organization.py:38
+msgid "Name"
+msgstr "Nome"
+
+#: models/organization.py:39
+msgid "Website"
+msgstr "Site"
+
+#: models/organization.py:40
+msgid "Facebook"
+msgstr "Facebook"
+
+#: models/organization.py:41
+msgid "Instagram"
+msgstr ""
+
+#: models/organization.py:42
+msgid "Type"
+msgstr "Tipo"
+
+#: models/organization.py:43
+msgid "Details"
+msgstr "Detalhes"
+
+#: models/organization.py:44
+msgid "Short description"
+msgstr "Descrição Curta"
+
+#: models/organization.py:45
+msgid "Hidden address"
+msgstr "Endereço oculto"
+
+#: models/organization.py:46
+msgid "Verified"
+msgstr ""
+
+#: models/organization.py:47
+msgid "CNPJ"
+msgstr ""
+
+#: models/organization.py:48
+msgid "Benefited people"
+msgstr "Pessoas beneficiadas"
+
+#: models/organization.py:51
+msgid "Responsible name"
+msgstr "Nome do Responsável"
+
+#: models/organization.py:52
+msgid "Responsible email"
+msgstr "Email do Responsável"
+
+#: models/organization.py:53
+msgid "Responsible phone"
+msgstr "Telefone do Responsável"
+
+#: models/organization.py:56
+msgid "Highlighted"
+msgstr "Em destaque"
+
+#: models/organization.py:57
+msgid "Published"
+msgstr "Publicada"
+
+#: models/organization.py:58
+msgid "Published date"
+msgstr "Data de publicação"
+
+#: models/organization.py:59
+msgid "Deleted"
+msgstr "Desligada"
+
+#: models/organization.py:60
+msgid "Deleted date"
+msgstr "Data de desligamento"
+
+#: models/organization.py:61
+msgid "Created date"
+msgstr "Criada em"
+
+#: models/organization.py:63
+msgid "Inactive"
+msgstr ""
+
+#: models/organization.py:64
+msgid "Reminder"
+msgstr ""
+
+#: models/organization.py:65
+msgid "Reminder sent date"
+msgstr ""
+
+#: models/organization.py:131
+msgid "organization"
+msgstr "organização"
+
+#: models/organization.py:132
+msgid "organizations"
+msgstr "organizações"
+
+#: core.Cause/name:1
+msgid "Treinamento Profissional"
+msgstr ""
+
+#: core.Cause/name:2
+msgid "Combate à Pobreza"
+msgstr ""
+
+#: core.Cause/name:3
+msgid "Consumo Consciente"
+msgstr ""
+
+#: core.Cause/name:4
+msgid "Cultura e Arte"
+msgstr ""
+
+#: core.Cause/name:5
+msgid "Direitos Humanos"
+msgstr ""
+
+#: core.Cause/name:6 core.Skill/name:5
+msgid "Educação"
+msgstr ""
+
+#: core.Cause/name:7
+msgid "Crianças"
+msgstr ""
+
+#: core.Cause/name:8
+msgid "Idosos"
+msgstr ""
+
+#: core.Cause/name:9
+msgid "Meio Ambiente"
+msgstr ""
+
+#: core.Cause/name:10
+msgid "Cidadania"
+msgstr ""
+
+#: core.Cause/name:11
+msgid "Proteção Animal"
+msgstr ""
+
+#: core.Cause/name:12 core.Skill/name:11
+msgid "Saúde"
+msgstr ""
+
+#: core.Cause/name:13
+msgid "Pessoas com Deficiência"
+msgstr ""
+
+#: core.Cause/name:27
+msgid "Política"
+msgstr ""
+
+#: core.Cause/name:32
+msgid "Jovens"
+msgstr ""
+
+#: core.Cause/name:33
+msgid "Mulheres"
+msgstr ""
+
+#: core.Cause/name:34 core.Skill/name:6
+msgid "Esportes"
+msgstr ""
+
+#: core.Cause/name:35
+msgid "Refugiados"
+msgstr ""
+
+#: core.Cause/name:36
+msgid "LGBTQ+"
+msgstr ""
+
+#: core.Cause/name:50
+msgid "Combate às alterações climáticas"
+msgstr ""
+
+#: core.Cause/name:51
+msgid "Consumo e produção responsáveis"
+msgstr ""
+
+#: core.Cause/name:52
+msgid "Redução das desigualdades"
+msgstr ""
+
+#: core.Cause/name:53
+msgid "Educação de qualidade"
+msgstr ""
+
+#: core.Cause/name:54
+msgid "Boa saúde e bem-estar"
+msgstr ""
+
+#: core.Cause/name:55
+msgid "Fome Zero"
+msgstr ""
+
+#: core.Cause/name:56
+msgid "Professional Training"
+msgstr ""
+
+#: core.Cause/name:57
+msgid "Fight Poverty"
+msgstr ""
+
+#: core.Cause/name:58
+msgid "Conscious consumption"
+msgstr ""
+
+#: core.Cause/name:59
+msgid "Culture, Sport and Art"
+msgstr ""
+
+#: core.Cause/name:60
+msgid "Human Rights"
+msgstr ""
+
+#: core.Cause/name:61 core.Skill/name:31
+msgid "Education"
+msgstr ""
+
+#: core.Cause/name:62
+msgid "Youth"
+msgstr ""
+
+#: core.Cause/name:63
+msgid "Elders"
+msgstr ""
+
+#: core.Cause/name:64
+msgid "Environment"
+msgstr ""
+
+#: core.Cause/name:65
+msgid "Citizen Participation"
+msgstr ""
+
+#: core.Cause/name:66
+msgid "Animal Protection"
+msgstr ""
+
+#: core.Cause/name:67 core.Skill/name:37
+msgid "Health"
+msgstr ""
+
+#: core.Cause/name:68
+msgid "People with disabilities"
+msgstr ""
+
+#: core.Cause/name:82
+msgid "Sustentabilidade"
+msgstr ""
+
+#: core.Skill/name:1
+msgid "Artes/Trabalho manual"
+msgstr ""
+
+#: core.Skill/name:2
+msgid "Comunicação"
+msgstr ""
+
+#: core.Skill/name:3
+msgid "Dança/Música"
+msgstr ""
+
+#: core.Skill/name:4
+msgid "Direito"
+msgstr ""
+
+#: core.Skill/name:7
+msgid "Cozinha"
+msgstr ""
+
+#: core.Skill/name:8
+msgid "Gerenciamento"
+msgstr ""
+
+#: core.Skill/name:9
+msgid "Idiomas"
+msgstr ""
+
+#: core.Skill/name:10
+msgid "Computadores/Tecnologia"
+msgstr ""
+
+#: core.Skill/name:12
+msgid "Outros"
+msgstr ""
+
+#: core.Skill/name:27
+msgid "Arts/Handcrafting"
+msgstr ""
+
+#: core.Skill/name:28
+msgid "Communication"
+msgstr "Comunicação"
+
+#: core.Skill/name:29
+msgid "Dance/Music"
+msgstr ""
+
+#: core.Skill/name:30
+msgid "Law"
+msgstr ""
+
+#: core.Skill/name:32
+msgid "Sports"
+msgstr ""
+
+#: core.Skill/name:33
+msgid "Cooking"
+msgstr ""
+
+#: core.Skill/name:34
+msgid "Management"
+msgstr ""
+
+#: core.Skill/name:35
+msgid "Idioms"
+msgstr ""
+
+#: core.Skill/name:36
+msgid "Computers/Technology"
+msgstr ""
+
+#: core.Skill/name:38
+msgid "Others"
+msgstr ""
+
+#: core.Skill/name:39
+msgid "Organização"
+msgstr "Organização"
+
+#: core.Skill/name:40
+msgid "Agilidade"
+msgstr ""

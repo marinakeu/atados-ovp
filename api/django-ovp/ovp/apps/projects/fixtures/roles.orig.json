@@ -1,0 +1,574 @@
+[
+    {
+        "model": "projects.volunteerrole",
+        "pk": 1,
+        "fields": {
+            "channel": 1,
+            "name": "Função de exemplo",
+            "prerequisites": "Esta é apenas uma função de exemplo",
+            "details": null,
+            "vacancies": 5,
+            "project": 0,
+            "applied_count": 0
+        }
+    },
+    {
+        "model": "projects.volunteerrole",
+        "pk": 1,
+        "fields": {
+            "channel": 1,
+            "name": "Função de exemplo",
+            "prerequisites": "Esta é apenas uma função de exemplo",
+            "details": null,
+            "vacancies": 5,
+            "project": 0,
+            "applied_count": 0
+        }
+    },
+    {
+        "model": "projects.volunteerrole",
+        "pk": 1,
+        "fields": {
+            "channel": 1,
+            "name": "Função de exemplo",
+            "prerequisites": "Esta é apenas uma função de exemplo",
+            "details": null,
+            "vacancies": 5,
+            "project": 0,
+            "applied_count": 0
+        }
+    },
+    {
+        "model": "projects.volunteerrole",
+        "pk": 1,
+        "fields": {
+            "channel": 1,
+            "name": "Função de exemplo",
+            "prerequisites": "Esta é apenas uma função de exemplo",
+            "details": null,
+            "vacancies": 5,
+            "project": 0,
+            "applied_count": 0
+        }
+    },
+    {
+        "model": "projects.volunteerrole",
+        "pk": 1,
+        "fields": {
+            "channel": 1,
+            "name": "Função de exemplo",
+            "prerequisites": "Esta é apenas uma função de exemplo",
+            "details": null,
+            "vacancies": 5,
+            "project": 0,
+            "applied_count": 0
+        }
+    },
+    {
+        "model": "projects.volunteerrole",
+        "pk": 1,
+        "fields": {
+            "channel": 1,
+            "name": "Função de exemplo",
+            "prerequisites": "Esta é apenas uma função de exemplo",
+            "details": null,
+            "vacancies": 5,
+            "project": 0,
+            "applied_count": 0
+        }
+    },
+    {
+        "model": "projects.volunteerrole",
+        "pk": 1,
+        "fields": {
+            "channel": 1,
+            "name": "Função de exemplo",
+            "prerequisites": "Esta é apenas uma função de exemplo",
+            "details": null,
+            "vacancies": 5,
+            "project": 0,
+            "applied_count": 0
+        }
+    },
+    {
+        "model": "projects.volunteerrole",
+        "pk": 1,
+        "fields": {
+            "channel": 1,
+            "name": "Função de exemplo",
+            "prerequisites": "Esta é apenas uma função de exemplo",
+            "details": null,
+            "vacancies": 5,
+            "project": 0,
+            "applied_count": 0
+        }
+    },
+    {
+        "model": "projects.volunteerrole",
+        "pk": 1,
+        "fields": {
+            "channel": 1,
+            "name": "Função de exemplo",
+            "prerequisites": "Esta é apenas uma função de exemplo",
+            "details": null,
+            "vacancies": 5,
+            "project": 0,
+            "applied_count": 0
+        }
+    },
+    {
+        "model": "projects.volunteerrole",
+        "pk": 1,
+        "fields": {
+            "channel": 1,
+            "name": "Função de exemplo",
+            "prerequisites": "Esta é apenas uma função de exemplo",
+            "details": null,
+            "vacancies": 5,
+            "project": 0,
+            "applied_count": 0
+        }
+    },
+    {
+        "model": "projects.volunteerrole",
+        "pk": 1,
+        "fields": {
+            "channel": 1,
+            "name": "Função de exemplo",
+            "prerequisites": "Esta é apenas uma função de exemplo",
+            "details": null,
+            "vacancies": 5,
+            "project": 0,
+            "applied_count": 0
+        }
+    },
+    {
+        "model": "projects.volunteerrole",
+        "pk": 1,
+        "fields": {
+            "channel": 1,
+            "name": "Função de exemplo",
+            "prerequisites": "Esta é apenas uma função de exemplo",
+            "details": null,
+            "vacancies": 5,
+            "project": 0,
+            "applied_count": 0
+        }
+    },
+    {
+        "model": "projects.volunteerrole",
+        "pk": 1,
+        "fields": {
+            "channel": 1,
+            "name": "Função de exemplo",
+            "prerequisites": "Esta é apenas uma função de exemplo",
+            "details": null,
+            "vacancies": 5,
+            "project": 0,
+            "applied_count": 0
+        }
+    },
+    {
+        "model": "projects.volunteerrole",
+        "pk": 1,
+        "fields": {
+            "channel": 1,
+            "name": "Função de exemplo",
+            "prerequisites": "Esta é apenas uma função de exemplo",
+            "details": null,
+            "vacancies": 5,
+            "project": 0,
+            "applied_count": 0
+        }
+    },
+    {
+        "model": "projects.volunteerrole",
+        "pk": 1,
+        "fields": {
+            "channel": 1,
+            "name": "Função de exemplo",
+            "prerequisites": "Esta é apenas uma função de exemplo",
+            "details": null,
+            "vacancies": 5,
+            "project": 0,
+            "applied_count": 0
+        }
+    },
+    {
+        "model": "projects.volunteerrole",
+        "pk": 1,
+        "fields": {
+            "channel": 1,
+            "name": "Função de exemplo",
+            "prerequisites": "Esta é apenas uma função de exemplo",
+            "details": null,
+            "vacancies": 5,
+            "project": 0,
+            "applied_count": 0
+        }
+    },
+    {
+        "model": "projects.volunteerrole",
+        "pk": 1,
+        "fields": {
+            "channel": 1,
+            "name": "Função de exemplo",
+            "prerequisites": "Esta é apenas uma função de exemplo",
+            "details": null,
+            "vacancies": 5,
+            "project": 0,
+            "applied_count": 0
+        }
+    },
+    {
+        "model": "projects.volunteerrole",
+        "pk": 1,
+        "fields": {
+            "channel": 1,
+            "name": "Função de exemplo",
+            "prerequisites": "Esta é apenas uma função de exemplo",
+            "details": null,
+            "vacancies": 5,
+            "project": 0,
+            "applied_count": 0
+        }
+    },
+    {
+        "model": "projects.volunteerrole",
+        "pk": 1,
+        "fields": {
+            "channel": 1,
+            "name": "Função de exemplo",
+            "prerequisites": "Esta é apenas uma função de exemplo",
+            "details": null,
+            "vacancies": 5,
+            "project": 0,
+            "applied_count": 0
+        }
+    },
+    {
+        "model": "projects.volunteerrole",
+        "pk": 1,
+        "fields": {
+            "channel": 1,
+            "name": "Função de exemplo",
+            "prerequisites": "Esta é apenas uma função de exemplo",
+            "details": null,
+            "vacancies": 5,
+            "project": 0,
+            "applied_count": 0
+        }
+    },
+    {
+        "model": "projects.volunteerrole",
+        "pk": 1,
+        "fields": {
+            "channel": 1,
+            "name": "Função de exemplo",
+            "prerequisites": "Esta é apenas uma função de exemplo",
+            "details": null,
+            "vacancies": 5,
+            "project": 0,
+            "applied_count": 0
+        }
+    },
+    {
+        "model": "projects.volunteerrole",
+        "pk": 1,
+        "fields": {
+            "channel": 1,
+            "name": "Função de exemplo",
+            "prerequisites": "Esta é apenas uma função de exemplo",
+            "details": null,
+            "vacancies": 5,
+            "project": 0,
+            "applied_count": 0
+        }
+    },
+    {
+        "model": "projects.volunteerrole",
+        "pk": 1,
+        "fields": {
+            "channel": 1,
+            "name": "Função de exemplo",
+            "prerequisites": "Esta é apenas uma função de exemplo",
+            "details": null,
+            "vacancies": 5,
+            "project": 0,
+            "applied_count": 0
+        }
+    },
+    {
+        "model": "projects.volunteerrole",
+        "pk": 1,
+        "fields": {
+            "channel": 1,
+            "name": "Função de exemplo",
+            "prerequisites": "Esta é apenas uma função de exemplo",
+            "details": null,
+            "vacancies": 5,
+            "project": 0,
+            "applied_count": 0
+        }
+    },
+    {
+        "model": "projects.volunteerrole",
+        "pk": 1,
+        "fields": {
+            "channel": 1,
+            "name": "Função de exemplo",
+            "prerequisites": "Esta é apenas uma função de exemplo",
+            "details": null,
+            "vacancies": 5,
+            "project": 0,
+            "applied_count": 0
+        }
+    },
+    {
+        "model": "projects.volunteerrole",
+        "pk": 1,
+        "fields": {
+            "channel": 1,
+            "name": "Função de exemplo",
+            "prerequisites": "Esta é apenas uma função de exemplo",
+            "details": null,
+            "vacancies": 5,
+            "project": 0,
+            "applied_count": 0
+        }
+    },
+    {
+        "model": "projects.volunteerrole",
+        "pk": 1,
+        "fields": {
+            "channel": 1,
+            "name": "Função de exemplo",
+            "prerequisites": "Esta é apenas uma função de exemplo",
+            "details": null,
+            "vacancies": 5,
+            "project": 0,
+            "applied_count": 0
+        }
+    },
+    {
+        "model": "projects.volunteerrole",
+        "pk": 1,
+        "fields": {
+            "channel": 1,
+            "name": "Função de exemplo",
+            "prerequisites": "Esta é apenas uma função de exemplo",
+            "details": null,
+            "vacancies": 5,
+            "project": 0,
+            "applied_count": 0
+        }
+    },
+    {
+        "model": "projects.volunteerrole",
+        "pk": 1,
+        "fields": {
+            "channel": 1,
+            "name": "Função de exemplo",
+            "prerequisites": "Esta é apenas uma função de exemplo",
+            "details": null,
+            "vacancies": 5,
+            "project": 0,
+            "applied_count": 0
+        }
+    },
+    {
+        "model": "projects.volunteerrole",
+        "pk": 1,
+        "fields": {
+            "channel": 1,
+            "name": "Função de exemplo",
+            "prerequisites": "Esta é apenas uma função de exemplo",
+            "details": null,
+            "vacancies": 5,
+            "project": 0,
+            "applied_count": 0
+        }
+    },
+    {
+        "model": "projects.volunteerrole",
+        "pk": 1,
+        "fields": {
+            "channel": 1,
+            "name": "Função de exemplo",
+            "prerequisites": "Esta é apenas uma função de exemplo",
+            "details": null,
+            "vacancies": 5,
+            "project": 0,
+            "applied_count": 0
+        }
+    },
+    {
+        "model": "projects.volunteerrole",
+        "pk": 1,
+        "fields": {
+            "channel": 1,
+            "name": "Função de exemplo",
+            "prerequisites": "Esta é apenas uma função de exemplo",
+            "details": null,
+            "vacancies": 5,
+            "project": 0,
+            "applied_count": 0
+        }
+    },
+    {
+        "model": "projects.volunteerrole",
+        "pk": 1,
+        "fields": {
+            "channel": 1,
+            "name": "Função de exemplo",
+            "prerequisites": "Esta é apenas uma função de exemplo",
+            "details": null,
+            "vacancies": 5,
+            "project": 0,
+            "applied_count": 0
+        }
+    },
+    {
+        "model": "projects.volunteerrole",
+        "pk": 1,
+        "fields": {
+            "channel": 1,
+            "name": "Função de exemplo",
+            "prerequisites": "Esta é apenas uma função de exemplo",
+            "details": null,
+            "vacancies": 5,
+            "project": 0,
+            "applied_count": 0
+        }
+    },
+    {
+        "model": "projects.volunteerrole",
+        "pk": 1,
+        "fields": {
+            "channel": 1,
+            "name": "Função de exemplo",
+            "prerequisites": "Esta é apenas uma função de exemplo",
+            "details": null,
+            "vacancies": 5,
+            "project": 0,
+            "applied_count": 0
+        }
+    },
+    {
+        "model": "projects.volunteerrole",
+        "pk": 1,
+        "fields": {
+            "channel": 1,
+            "name": "Função de exemplo",
+            "prerequisites": "Esta é apenas uma função de exemplo",
+            "details": null,
+            "vacancies": 5,
+            "project": 0,
+            "applied_count": 0
+        }
+    },
+    {
+        "model": "projects.volunteerrole",
+        "pk": 1,
+        "fields": {
+            "channel": 1,
+            "name": "Função de exemplo",
+            "prerequisites": "Esta é apenas uma função de exemplo",
+            "details": null,
+            "vacancies": 5,
+            "project": 0,
+            "applied_count": 0
+        }
+    },
+    {
+        "model": "projects.volunteerrole",
+        "pk": 1,
+        "fields": {
+            "channel": 1,
+            "name": "Função de exemplo",
+            "prerequisites": "Esta é apenas uma função de exemplo",
+            "details": null,
+            "vacancies": 5,
+            "project": 0,
+            "applied_count": 0
+        }
+    },
+    {
+        "model": "projects.volunteerrole",
+        "pk": 1,
+        "fields": {
+            "channel": 1,
+            "name": "Função de exemplo",
+            "prerequisites": "Esta é apenas uma função de exemplo",
+            "details": null,
+            "vacancies": 5,
+            "project": 0,
+            "applied_count": 0
+        }
+    },
+    {
+        "model": "projects.volunteerrole",
+        "pk": 1,
+        "fields": {
+            "channel": 1,
+            "name": "Função de exemplo",
+            "prerequisites": "Esta é apenas uma função de exemplo",
+            "details": null,
+            "vacancies": 5,
+            "project": 0,
+            "applied_count": 0
+        }
+    },
+    {
+        "model": "projects.volunteerrole",
+        "pk": 1,
+        "fields": {
+            "channel": 1,
+            "name": "Função de exemplo",
+            "prerequisites": "Esta é apenas uma função de exemplo",
+            "details": null,
+            "vacancies": 5,
+            "project": 0,
+            "applied_count": 0
+        }
+    },
+    {
+        "model": "projects.volunteerrole",
+        "pk": 1,
+        "fields": {
+            "channel": 1,
+            "name": "Função de exemplo",
+            "prerequisites": "Esta é apenas uma função de exemplo",
+            "details": null,
+            "vacancies": 5,
+            "project": 0,
+            "applied_count": 0
+        }
+    },
+    {
+        "model": "projects.volunteerrole",
+        "pk": 1,
+        "fields": {
+            "channel": 1,
+            "name": "Função de exemplo",
+            "prerequisites": "Esta é apenas uma função de exemplo",
+            "details": null,
+            "vacancies": 5,
+            "project": 0,
+            "applied_count": 0
+        }
+    },
+    {
+        "model": "projects.volunteerrole",
+        "pk": 1,
+        "fields": {
+            "channel": 1,
+            "name": "Função de exemplo",
+            "prerequisites": "Esta é apenas uma função de exemplo",
+            "details": null,
+            "vacancies": 5,
+            "project": 0,
+            "applied_count": 0
+        }
+    }
+]

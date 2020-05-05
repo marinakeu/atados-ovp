@@ -1,0 +1,269 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>&lt;no title&gt; &mdash; django-google-address 0.1.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../genindex.html"/>
+        <link rel="search" title="Search" href="../search.html"/>
+    <link rel="top" title="django-google-address 0.1.0 documentation" href="../index.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> django-google-address
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../src/channels.html">hi</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">django-google-address</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>&lt;no title&gt;</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/raw/channels.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <p>channels are an important concept and therefore somethings must be taken into account when creating viewsets</p>
+<p>= what is a channel? =
+ovp can be implemented as a saas structure built into a single database. this essentially means a api should be able serve multiple different websites based on the concept of channels.
+By default there’s only a single channel and all requests are redirected to this channel, this is the channel ‘default’.</p>
+<p>There are 3 use cases for channels:
+* Season events/campaings such as “children days”/”good deeds day”
+* Partners who are hosted inside your main site
+* Multi-site hosting</p>
+<p>for this channels offer several features such as:
+* per channel users
+* per channel permissions
+* channel autojoin
+* cors</p>
+<p>= creating and retrieving objects =
+There two things that make channels possible. ChannelMiddleware. This middleware populates the request object with a list</p>
+<p>models
+All models should extend from ChannelRelationship. This will create an M2M field from the model to the channels</p>
+<p>channel permissions</p>
+<p>autojoin vs noautojoin</p>
+<p>channel cors
+A channel can specify its own cors settings. This a
+add cors headers middleware</p>
+<p>= how to specify a channel? =
+You can specify the channel you are working with by setting a header on your request
+X-OVP-Channel: default</p>
+<p>Your requests can also specify multiple channels, such as
+X-OVP-Channel: default;channel1</p>
+<p>= Create vs retrieve =
+You can specify multiple channels when retrieving objects but you can’t specify multiple channels when creating objects (???)</p>
+<p>pitfalls
+If you’re going to modify the object manager, extend it fron ChannelRelationshipManager instead of models.Manager
+If you’re overriding a serializer create method, you need to pass the channels object like so
+obj = Model.objects.create(*args, **kwargs, object_channel=”list”)
+or
+obj = Model(*args, **kwargs)
+obj.save(object_channel=”list”)</p>
+<p>but ideally you wont do that
+normally you will extend ChannelRelationshipSerializer and use
+obj = super(CustomSerializer, self).create(validated_data)</p>
+<p>Viewsets must be decorated
+Model should extend ChannelRelationship
+Createmodelmixin and channelrelationship should come before other objects on the hierarchy</p>
+<p>avoid doing things manually:
+self.get_queryset instead of Model.objects or self.queryset
+serializer.create() instead of model.create()</p>
+<p>don’t use force authenticate if you’re testing different channels</p>
+<p>avoid using unique on channel model, instead use unique_together (field, channel)</p>
+<p>channel settings model</p>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2017, Leonardo Arroyo.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'0.1.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

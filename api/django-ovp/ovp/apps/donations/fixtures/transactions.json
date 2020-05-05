@@ -1,0 +1,38 @@
+[
+    {
+        "model": "donations.transaction",
+        "pk": 1,
+        "fields": {
+            "channel": 1,
+            "uuid": "92e4ce40-23ac-4a4b-940d-2518e8b101de",
+            "user": 1,
+            "organization": 1,
+            "amount": 10000,
+            "status": "succeeded",
+            "message": "---",
+            "backend_transaction_id": "none",
+            "backend_transaction_number": "none",
+            "anonymous": false,
+            "date_created": "2020-01-02T10:19:45.174Z",
+            "date_modified": "2020-01-02T10:19:45.174Z"
+        }
+    },
+    {
+        "model": "donations.transaction",
+        "pk": 1,
+        "fields": {
+            "channel": 1,
+            "uuid": "9932fabf-7f8d-4c11-8fa8-f92cda21ad2a",
+            "user": 2,
+            "organization": 1,
+            "amount": 15000,
+            "status": "succeeded",
+            "message": "---",
+            "backend_transaction_id": "none",
+            "backend_transaction_number": "none",
+            "anonymous": true,
+            "date_created": "2020-01-02T10:19:45.174Z",
+            "date_modified": "2020-01-02T10:19:45.174Z"
+        }
+    }
+]

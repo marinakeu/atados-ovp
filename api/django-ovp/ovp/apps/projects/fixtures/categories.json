@@ -1,0 +1,26 @@
+[
+    {
+        "model": "projects.category",
+        "pk": 1,
+        "fields": {
+            "channel": 1,
+            "name": "Movimento Atados",
+            "slug": "movimento-atados",
+            "description": null,
+            "image": null,
+            "highlighted": true
+        }
+    },
+    {
+        "model": "projects.category",
+        "pk": 2,
+        "fields": {
+            "channel": 1,
+            "name": "DBA 2020",
+            "slug": "dba-2020",
+            "description": null,
+            "image": null,
+            "highlighted": false
+        }
+    }
+]

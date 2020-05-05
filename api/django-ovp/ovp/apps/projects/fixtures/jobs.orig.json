@@ -1,0 +1,244 @@
+[
+    {
+        "model": "projects.job",
+        "pk": 4612,
+        "fields": {
+            "channel": 1,
+            "project": 9989,
+            "start_date": "2025-03-21T12:00:00Z",
+            "end_date": "2025-03-21T15:00:00Z",
+            "can_be_done_remotely": false
+        }
+    },
+    {
+        "model": "projects.job",
+        "pk": 4612,
+        "fields": {
+            "channel": 1,
+            "project": 9989,
+            "start_date": "2025-03-21T12:00:00Z",
+            "end_date": "2025-03-21T15:00:00Z",
+            "can_be_done_remotely": false
+        }
+    },
+    {
+        "model": "projects.job",
+        "pk": 4612,
+        "fields": {
+            "channel": 1,
+            "project": 9989,
+            "start_date": "2025-03-21T12:00:00Z",
+            "end_date": "2025-03-21T15:00:00Z",
+            "can_be_done_remotely": false
+        }
+    },
+    {
+        "model": "projects.job",
+        "pk": 4612,
+        "fields": {
+            "channel": 1,
+            "project": 9989,
+            "start_date": "2025-03-21T12:00:00Z",
+            "end_date": "2025-03-21T15:00:00Z",
+            "can_be_done_remotely": false
+        }
+    },
+    {
+        "model": "projects.job",
+        "pk": 4612,
+        "fields": {
+            "channel": 1,
+            "project": 9989,
+            "start_date": "2025-03-21T12:00:00Z",
+            "end_date": "2025-03-21T15:00:00Z",
+            "can_be_done_remotely": false
+        }
+    },
+    {
+        "model": "projects.job",
+        "pk": 4612,
+        "fields": {
+            "channel": 1,
+            "project": 9989,
+            "start_date": "2025-03-21T12:00:00Z",
+            "end_date": "2025-03-21T15:00:00Z",
+            "can_be_done_remotely": false
+        }
+    },
+    {
+        "model": "projects.job",
+        "pk": 4612,
+        "fields": {
+            "channel": 1,
+            "project": 9989,
+            "start_date": "2025-03-21T12:00:00Z",
+            "end_date": "2025-03-21T15:00:00Z",
+            "can_be_done_remotely": false
+        }
+    },
+    {
+        "model": "projects.job",
+        "pk": 4612,
+        "fields": {
+            "channel": 1,
+            "project": 9989,
+            "start_date": "2025-03-21T12:00:00Z",
+            "end_date": "2025-03-21T15:00:00Z",
+            "can_be_done_remotely": false
+        }
+    },
+    {
+        "model": "projects.job",
+        "pk": 4612,
+        "fields": {
+            "channel": 1,
+            "project": 9989,
+            "start_date": "2025-03-21T12:00:00Z",
+            "end_date": "2025-03-21T15:00:00Z",
+            "can_be_done_remotely": false
+        }
+    },
+    {
+        "model": "projects.job",
+        "pk": 4612,
+        "fields": {
+            "channel": 1,
+            "project": 9989,
+            "start_date": "2025-03-21T12:00:00Z",
+            "end_date": "2025-03-21T15:00:00Z",
+            "can_be_done_remotely": false
+        }
+    },
+    {
+        "model": "projects.job",
+        "pk": 4612,
+        "fields": {
+            "channel": 1,
+            "project": 9989,
+            "start_date": "2025-03-21T12:00:00Z",
+            "end_date": "2025-03-21T15:00:00Z",
+            "can_be_done_remotely": false
+        }
+    },
+    {
+        "model": "projects.job",
+        "pk": 4612,
+        "fields": {
+            "channel": 1,
+            "project": 9989,
+            "start_date": "2025-03-21T12:00:00Z",
+            "end_date": "2025-03-21T15:00:00Z",
+            "can_be_done_remotely": false
+        }
+    },
+    {
+        "model": "projects.job",
+        "pk": 4612,
+        "fields": {
+            "channel": 1,
+            "project": 9989,
+            "start_date": "2025-03-21T12:00:00Z",
+            "end_date": "2025-03-21T15:00:00Z",
+            "can_be_done_remotely": false
+        }
+    },
+    {
+        "model": "projects.job",
+        "pk": 4612,
+        "fields": {
+            "channel": 1,
+            "project": 9989,
+            "start_date": "2025-03-21T12:00:00Z",
+            "end_date": "2025-03-21T15:00:00Z",
+            "can_be_done_remotely": false
+        }
+    },
+    {
+        "model": "projects.job",
+        "pk": 4612,
+        "fields": {
+            "channel": 1,
+            "project": 9989,
+            "start_date": "2025-03-21T12:00:00Z",
+            "end_date": "2025-03-21T15:00:00Z",
+            "can_be_done_remotely": false
+        }
+    },
+    {
+        "model": "projects.job",
+        "pk": 4612,
+        "fields": {
+            "channel": 1,
+            "project": 9989,
+            "start_date": "2025-03-21T12:00:00Z",
+            "end_date": "2025-03-21T15:00:00Z",
+            "can_be_done_remotely": false
+        }
+    },
+    {
+        "model": "projects.job",
+        "pk": 4612,
+        "fields": {
+            "channel": 1,
+            "project": 9989,
+            "start_date": "2025-03-21T12:00:00Z",
+            "end_date": "2025-03-21T15:00:00Z",
+            "can_be_done_remotely": false
+        }
+    },
+    {
+        "model": "projects.job",
+        "pk": 4612,
+        "fields": {
+            "channel": 1,
+            "project": 9989,
+            "start_date": "2025-03-21T12:00:00Z",
+            "end_date": "2025-03-21T15:00:00Z",
+            "can_be_done_remotely": false
+        }
+    },
+    {
+        "model": "projects.job",
+        "pk": 4612,
+        "fields": {
+            "channel": 1,
+            "project": 9989,
+            "start_date": "2025-03-21T12:00:00Z",
+            "end_date": "2025-03-21T15:00:00Z",
+            "can_be_done_remotely": false
+        }
+    },
+    {
+        "model": "projects.job",
+        "pk": 4612,
+        "fields": {
+            "channel": 1,
+            "project": 9989,
+            "start_date": "2025-03-21T12:00:00Z",
+            "end_date": "2025-03-21T15:00:00Z",
+            "can_be_done_remotely": false
+        }
+    },
+    {
+        "model": "projects.job",
+        "pk": 4612,
+        "fields": {
+            "channel": 1,
+            "project": 9989,
+            "start_date": "2025-03-21T12:00:00Z",
+            "end_date": "2025-03-21T15:00:00Z",
+            "can_be_done_remotely": false
+        }
+    },
+    {
+        "model": "projects.job",
+        "pk": 4612,
+        "fields": {
+            "channel": 1,
+            "project": 9989,
+            "start_date": "2025-03-21T12:00:00Z",
+            "end_date": "2025-03-21T15:00:00Z",
+            "can_be_done_remotely": false
+        }
+    }
+]

@@ -1,0 +1,281 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-01 13:57-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: models/address/google_address.py:34
+msgid "Typed address"
+msgstr "Dirección escrita"
+
+#: models/address/google_address.py:35
+msgid "Typed address 2"
+msgstr "Dirección escrita 2"
+
+#: models/address/google_address.py:36
+msgid "Address line"
+msgstr "Dirección"
+
+#: models/address/google_address.py:37
+msgid "City/state"
+msgstr "Ciudad/Estado"
+
+#: models/address/google_address.py:38
+msgid "Latitude"
+msgstr "Latitud"
+
+#: models/address/google_address.py:39
+msgid "Longitude"
+msgstr "Longitud"
+
+#: models/address/google_address.py:117
+msgid "google address"
+msgstr "dirección de google"
+
+#: models/address/google_address.py:118
+msgid "google addresses"
+msgstr "direcciones de google"
+
+#: models/availability.py:23
+msgid "Weekday"
+msgstr "Día laborable"
+
+#: models/availability.py:24
+msgid "Day period"
+msgstr "Periodo del dia"
+
+#: models/cause.py:17 models/flair.py:7 models/skill.py:17
+msgid "name"
+msgstr "nombre"
+
+#: models/cause.py:18 models/flair.py:9
+msgid "image"
+msgstr "imagen"
+
+#: models/cause.py:19 models/skill.py:18
+msgid "slug"
+msgstr "slug"
+
+#: models/cause.py:23
+msgid "cause"
+msgstr "causa"
+
+#: models/contact.py:7 models/lead.py:13
+msgid "Email"
+msgstr "Email"
+
+#: models/flair.py:8
+msgid "value"
+msgstr "valor"
+
+#: models/flair.py:13
+msgid "flair"
+msgstr "instinto"
+
+#: models/lead.py:12
+msgid "Name"
+msgstr "Nombre"
+
+#: models/lead.py:14
+msgid "Phone"
+msgstr "Teléfono"
+
+#: models/lead.py:15
+msgid "Country"
+msgstr "País"
+
+#: models/lead.py:16
+msgid "City"
+msgstr "Ciudad"
+
+#: models/lead.py:17
+msgid "Date"
+msgstr "Fecha"
+
+#: models/lead.py:18
+msgid "Type"
+msgstr "Tipo"
+
+#: models/lead.py:19
+msgid "Employee number"
+msgstr "Número de empleado"
+
+#: models/lead.py:23
+msgid "Lead"
+msgstr "Lead"
+
+#: models/lead.py:24
+msgid "Leads"
+msgstr "Leads"
+
+#: models/post.py:8
+msgid "title"
+msgstr "título"
+
+#: models/post.py:9
+msgid "content"
+msgstr "contenido"
+
+#: models/post.py:10
+msgid "user"
+msgstr "usuario"
+
+#: models/post.py:11
+msgid "reply"
+msgstr "respuesta"
+
+#: models/post.py:14
+msgid "Created date"
+msgstr "Fecha de creación"
+
+#: models/post.py:15
+msgid "Modified date"
+msgstr "Fecha modificada"
+
+#: models/post.py:16
+msgid "Deleted date"
+msgstr "Fecha eliminada"
+
+#: models/post.py:17
+msgid "gallery"
+msgstr "galería"
+
+#: models/skill.py:22
+msgid "skill"
+msgstr "habilidad"
+
+#: core.Cause/name:4
+msgid "Culture and Art"
+msgstr "Cultura y Arte"
+
+#: core.Cause/name:35
+msgid "Refugees"
+msgstr "Refugiados"
+
+#: core.Cause/name:36
+msgid "LGBTQ+"
+msgstr "LGBTQ+"
+
+#: core.Cause/name:56
+msgid "Professional Training"
+msgstr "Entrenamiento Profesional"
+
+#: core.Cause/name:57
+msgid "Fight Poverty"
+msgstr "Lucha contra la pobreza"
+
+#: core.Cause/name:58
+msgid "Conscious consumption"
+msgstr "Consumo Consciente"
+
+#: core.Cause/name:59
+msgid "Culture, Sport and Art"
+msgstr "Cultura, Deporte y Arte"
+
+#: core.Cause/name:60
+msgid "Human Rights"
+msgstr "Derechos Humanos"
+
+#: core.Cause/name:61 core.Skill/name:31
+msgid "Education"
+msgstr "Educación"
+
+#: core.Cause/name:62
+msgid "Youth"
+msgstr "Juventud"
+
+#: core.Cause/name:63
+msgid "Elders"
+msgstr "Ancianos"
+
+#: core.Cause/name:64
+msgid "Environment"
+msgstr "Medio Ambiente"
+
+#: core.Cause/name:65
+msgid "Citizen Participation"
+msgstr "Participación Ciudadana"
+
+#: core.Cause/name:66
+msgid "Animal Protection"
+msgstr "Protección Animal"
+
+#: core.Cause/name:67 core.Skill/name:37
+msgid "Health"
+msgstr "Salud"
+
+#: core.Cause/name:68
+msgid "People with disabilities"
+msgstr "Personas com discapacidad"
+
+#: core.Cause/name:82
+msgid "Sustainability"
+msgstr "Sostenibilidad"
+
+#: core.Skill/name:9
+msgid "Idioms"
+msgstr "Idiomas"
+
+#: core.Skill/name:10
+msgid "Computers/Technology"
+msgstr "Ordenadores/Tecnología"
+
+#: core.Skill/name:27
+msgid "Arts/Handcrafting"
+msgstr "Arte/Artesania"
+
+#: core.Skill/name:28
+msgid "Communication"
+msgstr "Comunicación"
+
+#: core.Skill/name:29
+msgid "Dance/Music"
+msgstr "Danza/Música"
+
+#: core.Skill/name:30
+msgid "Law"
+msgstr "Derecho"
+
+#: core.Skill/name:32
+msgid "Sports"
+msgstr "Deportes"
+
+#: core.Skill/name:33
+msgid "Cooking"
+msgstr "Cocina"
+
+#: core.Skill/name:34
+msgid "Management"
+msgstr "Administración"
+
+#: core.Skill/name:38
+msgid "Other"
+msgstr "otro"
+
+msgid "others"
+msgstr "otros"
+
+msgid "Politics"
+msgstr "Politica"
+
+msgid "Children"
+msgstr "Niños y Niñas"
+
+msgid "Citizenship"
+msgstr "Ciudadania"
+
+msgid "Women"
+msgstr "Mujeres"
+

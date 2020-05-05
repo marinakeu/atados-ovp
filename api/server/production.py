@@ -27,7 +27,7 @@ ALLOWED_HOSTS = [
     '.admin.atados.com.br',
     '.admin.voluntariadotransforma.com.br',
     '.admin.rederealpanorama.com.br',
-] + env.list('DJANGO_ALLOWED_HOSTS', default=['localhost'], cast=str)
+] + (os.getenv('DJANGO_ALLOWED_HOSTS') or 'localhost').split(',')
 
 # Cors
 CORS_ORIGIN_WHITELIST = [

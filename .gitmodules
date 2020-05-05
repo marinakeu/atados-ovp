@@ -1,3 +1,3 @@
-[submodule "api/django-ovp"]
+[submodule "django-ovp"]
 	path = api/django-ovp
-	url = https://github.com/atados/django-open-volunteering-platform.git
+	url = https://source.developers.google.com/p/atados/r/github_django-open-volunteering-platform

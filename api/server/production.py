@@ -19,7 +19,6 @@ DEBUG = False
 
 # Allowed hosts
 ALLOWED_HOSTS = [
-    env.list('DJANGO_ALLOWED_HOSTS', default=['localhost'], cast=str),
     'api.beta.atados.com.br',
     'localhost:8000',
     'localhost:8080',
@@ -28,7 +27,7 @@ ALLOWED_HOSTS = [
     '.admin.atados.com.br',
     '.admin.voluntariadotransforma.com.br',
     '.admin.rederealpanorama.com.br',
-]
+] + env.list('DJANGO_ALLOWED_HOSTS', default=['localhost'], cast=str)
 
 # Cors
 CORS_ORIGIN_WHITELIST = [

@@ -11,7 +11,7 @@ steps:
     args:
       - 'build'
       - '-t'
-      - 'gcr.io/${PROJECT_ID}/pipeline:${COMMIT_SHA}'
+      - 'gcr.io/${PROJECT_ID}/atados-ovp:${COMMIT_SHA}'
       - '.'
 images:
   - gcr.io/${PROJECT_ID}/pipeline:${COMMIT_SHA}

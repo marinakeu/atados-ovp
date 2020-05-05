@@ -8,4 +8,5 @@ urlpatterns = [
     url("^contact/$", views.contact, name="contact"),
     url("^lead/$", views.record_lead, name="lead"),
     url("^footprint/$", views.footprint, name="footprint"),
+    url("^ready/$", views.ready, name="ready"),
 ]

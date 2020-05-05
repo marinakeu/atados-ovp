@@ -2,6 +2,7 @@ import os
 import dj_database_url
 import sentry_sdk
 from sentry_sdk.integrations.django import DjangoIntegration
+from socket import gethostname, gethostbyname
 
 # Sentry
 sentry_dsn = os.environ.get('SENTRY_DSN', None)
@@ -27,6 +28,8 @@ ALLOWED_HOSTS = [
     '.admin.atados.com.br',
     '.admin.voluntariadotransforma.com.br',
     '.admin.rederealpanorama.com.br',
+    gethostname(),
+    gethostbyname(gethostname())
 ] + (os.getenv('DJANGO_ALLOWED_HOSTS') or 'localhost').split(',')
 
 # Cors

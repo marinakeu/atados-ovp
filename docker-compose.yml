@@ -23,8 +23,8 @@ services:
     environment:
       - 'DATABASE_URL=postgres://atd:atd@db:5432/ovp'
       - 'DJANGO_SECRET_KEY=abc'
-      - 'RABBITMQ_URL=amqp://rabbitmq'
-      - 'HS_SEARCH_ENDPOINT=ovp-es2:9200'
+      - 'RABBITMQ_URL=amqp://rabbitemq'
+      - 'HS_SEARCH_ENDPOINT=ovp-eees2:9200'
       - 'PUDB_RDB_HOST=0.0.0.0'
       - 'PUDB_RDB_PORT=6900'
     volumes:

@@ -16,6 +16,8 @@ from drf_yasg.utils import swagger_auto_schema
 from django.shortcuts import render
 from django.utils import translation
 from django.utils import timezone
+from django.http.response import HttpResponse
+
 
 
 @swagger_auto_schema(methods=["GET"],
@@ -121,3 +123,7 @@ def footprint(request):
         'projects': projects,
     }
     return render(request, 'footprint.html', ctx)
+
+@swagger_auto_schema(responses={200: 'OK'})
+def ready(request):
+    return HttpResponse(status=200)

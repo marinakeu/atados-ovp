@@ -1,23 +1,26 @@
-{% extends extend.html %}
+{% extends extend.html %} {% block content %}
 
-{% block content %}
+<h1>Obrigado por se interessar por esta vaga {{apply.project.name}}</h1>
 
-  <h1>Você se inscreveu em uma vaga :)</h1>
+<p>
+  A instituição responsável pela oportunidade já recebeu sua mensagem e agora
+  entrará em contato com você. Se quiser se comunicar diretamente com eles,
+  seguem abaixo os dados:
+</p>
 
-  <p>Ebaaa! Caiu pra gente aqui que você se inscreveu na vaga {{apply.project.name}} :)</p>
+<p><b>Nome:</b> {{apply.project.owner.name}}</p>
+<p><b>Email:</b> {{apply.project.owner.email}}</p>
+{% if apply.project.organization.contact_phone %}
+<p><b>Telefone:</b> {{apply.project.organization.contact_phone}}</p>
+{% else %}
+<p><b>Telefone:</b> {{apply.project.owner.phone}}</p>
+{% endif %}
 
-  <p>O pessoal responsável já recebeu sua mensagem e agora eles devem entrar em contato com você. Mas, se tiver afim de já ir adiantando as coisas, seguem abaixo os dados deles:</p>
-
-  <p><b>Nome:</b> {{apply.project.owner.name}}</p>
-  <p><b>Email:</b> {{apply.project.owner.email}}</p>
-  {% if apply.project.organization.contact_phone %}
-  	<p><b>Telefone:</b> {{apply.project.organization.contact_phone}}</p>
-  {% else %}
-  	<p><b>Telefone:</b> {{apply.project.owner.phone}}</p>
-  {% endif %}
-
-  <h2>RECADO IMPORTANTÍSSIMO!</h2>
-  <p>Não precisamos nem te lembrar da importância do seu comprometimento daqui pra frente, né? Voluntariado é muito legal, mas não é bagunça. Responda o pessoal direitinho e não esqueça de avisar caso não possa comparecer.</p>
-
-  <p><b>Equipe Shell</b></p>
+<h2>RECADO IMPORTANTÍSSIMO!</h2>
+<p>
+  Lembre-se que voluntariado é um compromisso assumido e a instituição contará
+  com você daqui para frente. Alinhar expectativas e estabelecer uma comunicação
+  baseada em transparência é fundamental. Depois é só aproveitar a oportunidade
+  de colaborar para causas sociais e ambientais importantes!
+</p>
 {% endblock %}

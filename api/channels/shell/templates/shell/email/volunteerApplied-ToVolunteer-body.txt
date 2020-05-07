@@ -2,11 +2,11 @@
 
 {% block content %}
 
-  Você se inscreveu em uma vaga :)
+  Obrigado por se interessar por esta vaga {{apply.project.name}}
 
-  Ebaaa! Caiu pra gente aqui que você se inscreveu na vaga {{apply.project.name}} :)
-
-  O pessoal responsável já recebeu sua mensagem e agora eles devem entrar em contato com você. Mas, se tiver afim de já ir adiantando as coisas, seguem abaixo os dados deles:
+  A instituição responsável pela oportunidade já recebeu sua mensagem e agora
+  entrará em contato com você. Se quiser se comunicar diretamente com eles,
+  seguem abaixo os dados:
 
   Nome: {{apply.project.owner.name}}
   Email: {{apply.project.owner.email}}
@@ -17,7 +17,8 @@
   {% endif %}
 
   RECADO IMPORTANTÍSSIMO!
-  Não precisamos nem te lembrar da importância do seu comprometimento daqui pra frente, né? Voluntariado é muito legal, mas não é bagunça. Responda o pessoal direitinho e não esqueça de avisar caso não possa comparecer.
-
-  Equipe Shell
+  Lembre-se que voluntariado é um compromisso assumido e a instituição contará
+  com você daqui para frente. Alinhar expectativas e estabelecer uma comunicação
+  baseada em transparência é fundamental. Depois é só aproveitar a oportunidade
+  de colaborar para causas sociais e ambientais importantes!
 {% endblock content %}

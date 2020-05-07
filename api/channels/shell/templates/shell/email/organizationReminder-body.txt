@@ -10,6 +10,4 @@ Então resolvemos dar uma passada pra te lembrar que 9 em cada 10 vagas abertas 
 Bora criar uma nova vaga?
 
 https://ovp-shell.atados.now.sh/painel/ong/{{ organization.slug }}/criar-vaga CRIE UMA NOVA VAGA
-
-Equipe Shell
 {% endblock content %}

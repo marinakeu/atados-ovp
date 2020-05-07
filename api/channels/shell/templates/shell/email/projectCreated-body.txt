@@ -4,6 +4,4 @@
   Olá, o cadastro da vaga {{project.name}} foi recebido com sucesso!
 
   Estamos analisando o conteúdo e detalhes da vaga e em até 48 horas aprovaremos a publicação na plataforma ou entraremos em contato com você.
-
-  Equipe Shell
 {% endblock content %}

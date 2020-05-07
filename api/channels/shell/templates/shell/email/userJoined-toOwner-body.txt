@@ -3,6 +3,4 @@
 {% block content %}
   Novo membro na organização
   O usuário {{user.name}}({{user.email}}) agora faz parte da organização {{organization.name}}.
-
-  Equipe Shell
 {% endblock content %}

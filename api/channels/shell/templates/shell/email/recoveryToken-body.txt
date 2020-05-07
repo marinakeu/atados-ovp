@@ -10,6 +10,4 @@
   Caso não tenha feito esta solicitação, ignore este e-mail.
 
   Qualquer dúvida, crítica ou sugestão, fale com a gente. ;)
-
-  Equipe Shell
 {% endblock content %}

@@ -10,7 +10,5 @@
   Temos diversas vagas abertas no site, você só precisa encontar a que tem mais a sua cara ;)
 
   https://ovp-shell.atados.now.sh/vagas ENCONTRE VAGAS DE VOLUNTARIADO
-
-  Equipe Shell
 {% endblock %}
 

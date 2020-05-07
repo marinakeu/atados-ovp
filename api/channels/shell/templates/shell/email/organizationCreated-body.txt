@@ -16,6 +16,4 @@
   Já no quadro "Descrição" podem falar mais, como: qual o público atendido, atividades desenvolvidas, objetivos da organização...
 
   https://ovp-shell.atados.now.sh/painel/ong/{{ organization.slug }}/editar DEIXE SEU CADASTRO “NOS CONFORMES”
-
-  Equipe Shell
 {% endblock content %}

@@ -75,6 +75,9 @@ CORS_ORIGIN_WHITELIST = [
     #
     'https://ligadobemroche.com.br',
     'https://www.ligadobemroche.com.br'
+
+    #
+    'https://ovp-shell.now.sh'
 ]
 
 CORS_ORIGIN_REGEX_WHITELIST = [

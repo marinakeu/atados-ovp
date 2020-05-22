@@ -33,6 +33,8 @@ CORS_ORIGIN_WHITELIST = [
     'http://localhost:3000',
     'https://atados.com.br',
     'https://www.atados.com.br',
+    'https://www.voluntariado.com.br',
+    'https://voluntariado.com.br',
     'https://beta.atados.com.br',
 
     #

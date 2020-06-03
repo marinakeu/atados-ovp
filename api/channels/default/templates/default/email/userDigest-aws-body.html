@@ -10,20 +10,39 @@
               <tr>
                 <td>
                   <div class="newsletter-header">
-                    <div class="newsletter-title">Tendências em Doação</div>
-                    <span class="newsletter-subtitle">PESQUISA GLOBAL</span>
+                    <div class="newsletter-title">Mês do Orgulho LGBTI+</div>
                     <p>
-                      Você já faz parte do mapeamento mundial de tendências em doação? 
+                      Você sabia que Junho é considerado o mês do Orgulho LGBTI+? Todas as conquistas em prol de direitos LGBTI+ no Brasil são muito recentes: só em 1985 o Brasil parou de considerar a homossexualidade como uma doença e a transsexualidade ainda é vista desta maneira. Já o casamento homoafetivo, só se tornou legal em 2013 e o direito a utilização do nome social, o que é essencial para pessoas trans, só passou a ser regulamentado em 2017. Viu como é tudo muito recente?
                     </p>
                     <p>
-                      Responda a uma rápida pesquisa e coloque o seu perfil no maior estudo global de tendências em doação. O Atados apresentará o resultado em um webinar no 2º semestre deste ano.
+                      Essa news é dedicada à todas as pessoas LGBTI+ e sua resistência. Lute contra o preconceito e veja abaixo como se engajar com esta causa durante todo o mês!
                     </p>
+                    <h2 style="margin-top: 40px;">1. [LIVE] Voluntariado Ativista na Causa LGBTI+ | 18/06</h2>
                     <p>
-                      <a href="bit.ly/PesquisaGlobalDoacoes" class="btn btn-primary">Quero responder!</a>
+                      No dia 18/06 o Atados, em parceria com a Aliança Nacional LGBTI+, Casinha e TODXS, realizará uma live discutindo a importância do voluntariado ativista para as organizações, projetos e coletivos que atuam na causa LGBTI+! Quer ficar atendo ao que vai rolar? Faça sua inscrição online clicando <a href="https://docs.google.com/forms/d/e/1FAIpQLScxrojJum6yXMrBBQIhvGBPrbmXK-TwUkVieBkIlBB0hwZKrA/viewform">aqui</a>!
                     </p>
+
+                    <h2 style="margin-top: 40px;">2. Kit de Diversidade e [LIVE] TODXS Conecta - LGBTI+ Entre Gerações</h2>
                     <p>
-                    Abraços,<br>
-                    <b>Equipe Atados</b>
+                    Para podermos atuar em uma causa, precisamos nos informar! Pensando nisso, a TODXS desenvolveu um kit gratuito de diversidade com: manual linguagem neutra, guia para eventos mais inclusivos, entre outros! Para ter acesso clique <a href="https://mailchi.mp/3e261af67a34/kitdiversidade">aqui</a>!<br />
+                    Além disso, a TODXS realizará seu evento TODXS Conecta 2020 com o tema “LGBTI+ entre Gerações” neste ano. Através de seu perfil no <a href="https://www.youtube.com/channel/UCgBPwHTAOWHE_hFO0Sp8T3Q">Youtube</a> e <a href="http://facebook.com/todxsbrasil">Facebook</a>, o objetivo é reunir pessoas interessadas pela causa LGBTI+ - ativistas, especialistas, artistas, estudantes e você - para discutir alguns dos temas mais importantes para a comunidade. De 6 a 28 de junho, a cada
+                    final de semana uma pauta diferente será discutida! Confira a <a href="https://www.instagram.com/p/CAtfa-0Hh0t/">programação completa</a>.
+                    </p>
+
+                    <h2 style="margin-top: 40px;">3. Grupo de Autoconhecimento PrideMind</h2>
+                    <p>
+                      A organização Pridemind está com inscrições abertas para você fazer parte dos grupos de autoconhecimento de pessoas LGBTI+! Os grupos são mediados por especialistas em saúde emocional.👩🏽‍💻🏳️‍🌈💖 Para se inscrever:
+                    </p>
+                    <p class="text-center">
+                      <a target="__blank" href="https://www.instagram.com/p/CAjHC1XBsr1/" class="btn-primary">Mulheres LBT+</a>
+                      <a target="__blank" href="https://www.instagram.com/p/CAjHLUSBHJo/" class="btn-primary">Homens GBT+</a>
+                    </p>
+                    <h2 style="margin-top: 40px;">4. Faça parte do movimento LGBTI+ por meio do voluntariado! </h2>
+                    <p>
+                      Agora que você já se informou sobre algumas iniciativas, chegou a hora de botar a mão na massa! Vem conferir as vagas de voluntariado para se engajar com a causa LGBTI+! 
+                      <div class="text-center">
+                        <a target="__blank" href="https://atados.com.br/vagas?causes=36&searchType=1&utm_source=newsletter&utm_medium=email-mkt&utm_campaign={% now "d-m-Y" %}" class="btn-primary">Conheça as vagas!</a>
+                      </div>
                     </p>
                   </div>
                 </td>
@@ -34,6 +53,53 @@
       </tr>
     </tbody>
   </table>
+
+  {% if posts %}
+  <table class="card mb-3" cellpadding="0" cellspacing="0">
+    <tbody>
+      <tr>
+        <td>
+          <table cellpadding="20" cellspacing="0" class="w-full">
+            <tbody>
+              <tr>
+                <td>
+                  <div class="newsletter-blog-header">
+                    <div class="newsletter-title">Se liga nas últimas publicações do nosso Blog</div>
+                  </div>
+
+                  <table class="w-full" cellpadding="10" cellspacing="0">
+                    <tbody style="vertical-align: top;">
+                      <tr>
+                        {% for post in posts %}
+                        <td style="width: 50%">
+                          <div class="blog-post">
+                            <a href="{{post.url}}/?utm_source=newsletter&utm_medium=email-mkt&utm_campaign={% now "d-m-Y" %}" class="blog-post-thumb-link">
+                              <img class="blog-image"
+                               src="{{post.image}}"
+                                alt="">
+                              <span class="blog-post-title">
+                                {{ post.title }}
+                              </span>
+                            </a>
+                            <span class="blog-post-description">
+                              {{ post.excerpt }}
+                            </span>
+                            <a href="{{ post.url }}/?utm_source=newsletter&utm_medium=email-mkt&utm_campaign={% now "d-m-Y" %}" class="blog-post-link">Leia mais</a>
+                          </div>
+                        </td>
+                        {% endfor %}
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  {% endif %}
 
   <table class="footer w-full">
     <tbody>

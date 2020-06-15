@@ -17,7 +17,7 @@
   {% endif %}
 
   RECADO IMPORTANTÍSSIMO!
-  Devido a atual pandemia do vírus CODIV-19, não recomendamos a realização de ações presenciais durante o mês de março! Vamos juntos nos apoiar para evitar mais casos! Se você resolver manter sua ação, separamos algumas recomendações de prevenção no nosso blog.
+  Devido a atual pandemia do vírus CODIV-19, não recomendamos a realização de ações presenciais! Vamos juntos nos apoiar para evitar mais casos! Se você resolver manter sua ação, separamos algumas recomendações de prevenção no nosso blog.
 
   Equipe Atados
 {% endblock content %}

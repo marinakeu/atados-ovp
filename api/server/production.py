@@ -54,6 +54,7 @@ CORS_ORIGIN_WHITELIST = [
     'https://www.transformazn.com.br',
     'http://35.199.70.179',  # transformazn
     'https://channel-client-base.pacheco.now.sh',
+    'https://channel-client-base.pacheco.vercel.app',
 
     #
     'https://www.ambev.com.br',
@@ -73,6 +74,13 @@ CORS_ORIGIN_WHITELIST = [
     'https://mrv.atados.now.sh',
     'https://bnp.atados.now.sh',
     'https://heineken.atados.now.sh',
+    'https://demo.atados.vercel.app',
+    'https://atados.vercel.app',
+    'https://beta.atados.vercel.app',
+    'https://jbs.atados.vercel.app',
+    'https://mrv.atados.vercel.app',
+    'https://bnp.atados.vercel.app',
+    'https://heineken.atados.vercel.app',
 
     #
     'https://ligadobemroche.com.br',
@@ -80,6 +88,7 @@ CORS_ORIGIN_WHITELIST = [
 
     #
     'https://ovp-shell.now.sh'
+    'https://ovp-shell.vercel.app'
 ]
 
 CORS_ORIGIN_REGEX_WHITELIST = [

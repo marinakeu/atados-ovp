@@ -410,6 +410,16 @@ ZOOP_PUB_KEY=os.getenv('ZOOP_PUB_KEY')
 ZOOP_SELLER_ID=os.getenv('ZOOP_SELLER_ID')
 ZOOP_STATEMENT_DESCRIPTOR=os.getenv('ZOOP_STATEMENT_DESCRIPTOR')
 
+# Salesforce
+SALESFORCE_INTEGRATION={
+    "default": {
+        "enabled": os.getenv('DEFAULT_SF_ENABLED', False),
+        "username": os.getenv('DEFAULT_SF_USERNAME', None),
+        "password": os.getenv('DEFAULT_SF_PASSWORD', None),
+        "security_token": os.getenv('DEFAULT_SF_SECURITY_TOKEN', None)
+    }
+}
+
 # OVP Test channels
 TEST_CHANNELS = ["test-channel", "channel1"]
 

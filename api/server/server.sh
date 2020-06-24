@@ -1,7 +1,9 @@
 #!/bin/bash
 
 PRJ=`pwd | rev | cut -d "/" -f3 | rev`
-celery multi stopwait worker1 --pidfile="/tmp/celery.%n.pid"
+celery multi stopwait worker1 \
+    --logfile="$HOME/api/logs/celery/%n%I.log" \
+    --pidfile="/tmp/celery.%n.pid"
 celery multi start worker1 -A server.celery_tasks \
     --logfile="$HOME/api/logs/celery/%n%I.log" \
     --pidfile="/tmp/celery.%n.pid"

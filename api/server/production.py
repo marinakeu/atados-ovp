@@ -94,7 +94,7 @@ CORS_ORIGIN_WHITELIST = [
 CORS_ORIGIN_REGEX_WHITELIST = [
     r'^https://[a-zA-Z0-9-]+\.atados\.now\.sh$',
     r'^https://[a-zA-Z0-9-]+\.atados\.vercel\.app$'
-    r'^https://ovp-client-atados-[a-zA-Z0-9-]+\.atados\.vercel\.app$'
+    r'^https://ovp-client-atados-[a-zA-Z0-9-]+\.vercel\.app$'
 ]
 
 

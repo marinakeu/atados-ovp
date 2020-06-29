@@ -10,42 +10,55 @@
               <tr>
                 <td>
                   <div class="newsletter-header">
-                    <div class="newsletter-title">Mês do Orgulho LGBTI+</div>
-                    <div class="newsletter-subtitle">Ainda não conseguiu se engajar com a causa LGBTI+? A gente te dá uma mãozinha!</div>
-                    <p>
-                      No dia 28/06 é celebrado o Dia Internacional do Orgulho LGBT+ e nós separamos diversos conteúdos para você ficar por dentro de tudo que vai rolar na nossa rede. Sem falar que nosso site tá cheio de vagas incríveis para você se voluntariar, né?
-
-                      <div class="text-center">
-                        <a target="__blank" href="https://atados.com.br/vagas?causes=36&searchType=1&utm_source=newsletter&utm_medium=email-mkt&utm_campaign={% now "d-m-Y" %}" class="btn-primary">Conheça as vagas!</a>
-                      </div>
-                    </p>
-                    <h2 style="margin-top: 40px;">1. [LIVE] Voluntariado Ativista na Causa LGBTI+ | 18/06</h2>
-                    <p>
-                      Passando pra lembrar que amanhã, às 18h30, vai rolar uma live com Atados, Aliança Nacional LGBTI+, Casinha e TODXS discutindo a importância do voluntariado ativista para os projetos que atuam na causa LGBTI+. Para participar, acesse o <a href="https://us02web.zoom.us/rec/play/7JUsIe-rpz43HYeU5ASDV_V6W9ToK_6s13cY8_oLzkewUnQDNQavNbYWM7TF8WU3Hc756epRt88g_nOP?startTime=1588615596000">Zoom</a> ou nos acompanhe pelo <a href="https://youtu.be/hV7uRDtCHas">YouTube</a>. 🌈
-                    </p>
-
-                    <h2 style="margin-top: 40px;">2. XVIII Caminhada das Mulheres Lésbicas e Bissexuais de São Paulo</h2>
-                    <p>
-                      Neste ano a Caminhada de Mulheres Lésbicas e Bisseuxais terá sua 18° edição na versão online durante os dias 25, 27 e 28 de junho! O foco é construir uma caminhada participativa em que todas possam interagir. 📣 Para saber mais, siga o perfil delas no <a href="https://www.instagram.com/caminhadalesbi.sp/">Instagram</a> e <a href="https://www.facebook.com/Caminhada.Les.Bi">Facebook</a>.
-                    </p>
-
-                    <h2 style="margin-top: 40px;">3. Lançamento Todas as Letras - LGBTI+ In Tech</h2>
-                    <p>
-                      O projeto Todas as Letras, que realiza o maior maior meetup LGBTI+ da América Latina com o objetivo de inserir a comunidade LGBTI+ em áreas de tecnologia, acabou de lançar seu <a href="https://todasasletras.netlify.app/">site</a>. 🤩 Além desse canal, você pode acompanhar o trabalho deles através das <a href="https://linktr.ee/todasasletras">redes sociais</a>.
-                    </p>
-                    <h2 style="margin-top: 40px;">4. GENTE É PRA BRILHAR 🌟</h2>
-                    <p>
-                      A ONG Pais Afetivos criou o projeto “Gente é pra brilhar” em comemoração ao mês do orgulho LGBTI+. O objetivo é trazer artistas LGBTI+ para compartilhar suas trajetórias e discutir a visibilidade da comunidade dentro do meio artístico brasileiro. Você poderá acompanhar os bate-papos que acontecerão de 23 a 27 de junho às 20:00 através do <a href="https://www.instagram.com/paisafetivos/">Instagram</a> da organização. ✨
-                    </p>
-                    <p>
-                      Por hoje é isso! Não se esqueça da live amanhã! 💙
-                    </p>
-
-                    <p>
-                      Até breve,<br />
-                      Equipe Atados.
-                    </p>
+                    <div class="newsletter-title">Veja as melhores vagas da semana</div>
+                    <span class="newsletter-subtitle">Separamos as melhores vagas da semana baseadas no seu perfil</span>
                   </div>
+                  {% templatetag openvariable %}#each projects{% templatetag closevariable %}
+                  <table class="pb-3 w-full ta-left">
+                    <tbody style="vertical-align: top;">
+                      <tr>
+                        <td width="140">
+                          <a href="https://atados.com.br/vaga/{% templatetag openvariable %}slug{% templatetag closevariable %}?utm_source=newsletter&utm_medium=email-mkt&utm_campaign={% now "d-m-Y" %}" target="__blank"
+                            style="background-image: url('{% templatetag openvariable %}image{% templatetag closevariable %}')" class="thumbnail-small">
+                          </a>
+                        </td>
+                        <td class="project-body vertical-align-top">
+                          <a href="https://atados.com.br/vaga/{% templatetag openvariable %}slug{% templatetag closevariable %}?utm_source=newsletter&utm_medium=email-mkt&utm_campaign={% now "d-m-Y" %}" target="__blank" class="project-title">
+                            {% templatetag openvariable %}name{% templatetag closevariable %}
+                          </a>
+                          
+                          <a href="https://atados.com.br/ong/{% templatetag openvariable %}organization_slug{% templatetag closevariable %}?utm_source=newsletter&utm_medium=email-mkt&utm_campaign={% now "d-m-Y" %}">
+                            <small><b>{% templatetag openvariable %}organization_name{% templatetag closevariable %}</b></small>
+                          </a>
+                          
+                          <a href="https://atados.com.br/vaga/{% templatetag openvariable %}slug{% templatetag closevariable %}?utm_source=newsletter&utm_medium=email-mkt&utm_campaign={% now "d-m-Y" %}" target="__blank" class="project-title">
+                            <div class="project-description">
+                              {% templatetag openvariable %}description{% templatetag closevariable %}
+                            </div>
+                            <div class="project-disponibility">
+                              {% templatetag openvariable %}disponibility{% templatetag closevariable %}
+                            </div>
+                          </a>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  {% templatetag openvariable %}/each{% templatetag closevariable %}
+                  <table class="w-full">
+                    <tr>
+                      <td class="relative">
+                        <table class="newsletter-projects-footer">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <a target="__blank" href="https://atados.com.br/vagas?utm_source=newsletter&utm_medium=email-mkt&utm_campaign={% now "d-m-Y" %}" class="btn-primary">Ver mais vagas</a>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
                 </td>
               </tr>
             </tbody>

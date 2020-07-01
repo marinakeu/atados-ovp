@@ -87,14 +87,15 @@ CORS_ORIGIN_WHITELIST = [
     'https://www.ligadobemroche.com.br',
 
     #
-    'https://ovp-shell.now.sh',
-    'https://ovp-shell.vercel.app'
+    'https://ovp-client-shell.now.sh',
+    'https://ovp-client-shell.vercel.app'
 ]
 
 CORS_ORIGIN_REGEX_WHITELIST = [
     r'^https://[a-zA-Z0-9-]+\.atados\.now\.sh$',
     r'^https://[a-zA-Z0-9-]+\.atados\.vercel\.app$',
-    r'^https://ovp-client-atados-[a-zA-Z0-9-]+\.vercel\.app$'
+    r'^https://ovp-client-atados-[a-zA-Z0-9-]+\.vercel\.app$',
+    r'^https://ovp-client-shell-[a-zA-Z0-9-]+\.vercel\.app$'
 ]
 
 

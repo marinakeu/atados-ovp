@@ -85,7 +85,7 @@ INSTALLED_APPS = get_core_apps() + [
 ]
 
 MIDDLEWARE = [
-    #'elasticapm.contrib.django.middleware.TracingMiddleware',
+    'ovp.apps.channels.middlewares.channel.StatsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'ovp.apps.channels.middlewares.channel.ChannelRecognizerMiddleware',

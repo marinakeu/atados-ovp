@@ -173,3 +173,13 @@ ROLLBAR = {
     'branch': 'master',
     'root': BASE_DIR,
 }
+# SF
+SALESFORCE_INTEGRATION={
+    "default": {
+        "enabled": os.getenv('DEFAULT_SF_ENABLED', False),
+        "username": os.getenv('DEFAULT_SF_USERNAME', None),
+        "password": os.getenv('DEFAULT_SF_PASSWORD', None),
+        "security_token": os.getenv('DEFAULT_SF_SECURITY_TOKEN', None),
+        "domain": None
+    }
+}
